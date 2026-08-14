@@ -1,0 +1,14 @@
+# 统一换行符：文本自动检测；脚本/YAML/JSON/JS 强制 LF（GitHub Actions ubuntu runner 兼容）
+* text=auto
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.md text eol=lf
+*.woff2 binary
+*.min.js binary
