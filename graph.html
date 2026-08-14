@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <meta name="description" content="CarbonNet 鐭ヨ瘑鍏崇郴鍥?鈥?鏉愭枡脳绛栫暐脳鏂囩尞涓夊眰鍔涘鍚戠綉缁滐紝鎺㈢储纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鐨勭爺绌跺叧鑱斻€?>
-  <title>鐭ヨ瘑鍏崇郴鍥?鈥?CarbonNet 纰崇綉鍥捐氨</title>
+  <meta name="description" content="CarbonNet 知识关系图 — 材料×策略×文献三层力导向网络，探索碳材料超级电容器三维导电网络的研究关联。">
+  <title>知识关系图 — CarbonNet 碳网图谱</title>
   <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
   <link rel="stylesheet" href="css/tokens.css?v=1">
   <link rel="stylesheet" href="css/main.css?v=1">
@@ -18,23 +18,23 @@
   <header class="nav">
     <div class="nav-inner">
       <a class="brand" href="index.html">
-        <span class="logo">猬?/span>
-        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+        <span class="logo">⬡</span>
+        <span>CarbonNet</span><span class="brand-cn">碳网图谱</span>
       </a>
-      <nav aria-label="涓诲鑸?>
+      <nav aria-label="主导航">
         <ul class="nav-links">
-          <li><a href="index.html">棣栭〉</a></li>
-          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
-          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
-          <li><a href="library.html">鏂囩尞搴?/a></li>
-          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
-          <li><a href="ai.html">AI 鍔╂墜</a></li>
-          <li><a href="about.html">鍏充簬</a></li>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="taxonomy.html">知识脉络</a></li>
+          <li><a href="graph.html">知识关系图</a></li>
+          <li><a href="library.html">文献库</a></li>
+          <li><a href="stats.html">数据面板</a></li>
+          <li><a href="ai.html">AI 助手</a></li>
+          <li><a href="about.html">关于</a></li>
         </ul>
       </nav>
       <div class="nav-right">
-        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
-        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+        <button class="icon-btn theme-toggle" aria-label="切换主题">☾</button>
+        <button class="icon-btn nav-toggle" aria-label="菜单">☰</button>
       </div>
     </div>
   </header>
@@ -43,30 +43,31 @@
     <div class="container">
       <div class="page-head enter">
         <span class="eyebrow">KNOWLEDGE GRAPH</span>
-        <h1>鐭ヨ瘑鍏崇郴鍥?/h1>
-        <p class="lead">鏉愭枡浣撶郴 鈬?鏂囩尞 鈬?鏋勭瓚绛栫暐涓夊眰鍔涘鍚戠綉缁溿€傜偣鍑绘枃鐚妭鐐硅繘鍏ヨ鏂囪鎯呴〉锛?          鐐瑰嚮鏉愭枡/绛栫暐鑺傜偣璺宠浆鏂囩尞搴撶瓫閫夛紱鎷栨嫿鑺傜偣寰皟甯冨眬锛屾粴杞缉鏀撅紝鎷栨嫿锛堜綅绉?&gt; 6px锛変笉浼氳瑙﹀鑸€?/p>
+        <h1>知识关系图</h1>
+        <p class="lead">材料体系 ⇄ 文献 ⇄ 构筑策略三层力导向网络。点击文献节点进入论文详情页，
+          点击材料/策略节点跳转文献库筛选；拖拽节点微调布局，滚轮缩放，拖拽（位移 &gt; 6px）不会误触导航。</p>
       </div>
 
       <div class="graph-wrap enter">
-        <div id="graphChart" role="img" aria-label="鏉愭枡绛栫暐鏂囩尞涓夊眰鍔涘鍚戠綉缁滃浘"></div>
+        <div id="graphChart" role="img" aria-label="材料策略文献三层力导向网络图"></div>
         <div class="graph-toolbar">
-          <button class="btn btn-soft btn-sm" id="graphReset" title="閲嶆柊甯冨眬">鉄?閲嶇疆甯冨眬</button>
-          <button class="btn btn-soft btn-sm" id="graphCenter" title="閫傚簲瑙嗗浘">鈱?閫傚簲瑙嗗浘</button>
+          <button class="btn btn-soft btn-sm" id="graphReset" title="重新布局">⟳ 重置布局</button>
+          <button class="btn btn-soft btn-sm" id="graphCenter" title="适应视图">⌖ 适应视图</button>
         </div>
-        <div class="graph-info" id="graphInfo">鈥?/div>
+        <div class="graph-info" id="graphInfo">—</div>
       </div>
       <div class="graph-legend enter">
-        <span><span class="dot" style="background:var(--chart-p1)"></span>鏉愭枡浣撶郴锛堢偣鍑?鈫?鏂囩尞搴撶瓫閫夛級</span>
-        <span><span class="dot" style="background:var(--chart-p3)"></span>鏋勭瓚绛栫暐锛堢偣鍑?鈫?鏂囩尞搴撶瓫閫夛級</span>
-        <span><span class="dot" style="background:var(--chart-p4)"></span>鏂囩尞锛堢偣鍑?鈫?璁烘枃璇︽儏锛?/span>
+        <span><span class="dot" style="background:var(--chart-p1)"></span>材料体系（点击 → 文献库筛选）</span>
+        <span><span class="dot" style="background:var(--chart-p3)"></span>构筑策略（点击 → 文献库筛选）</span>
+        <span><span class="dot" style="background:var(--chart-p4)"></span>文献（点击 → 论文详情）</span>
       </div>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
-      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+      <span>CarbonNet 碳网图谱 · 碳材料超级电容器三维导电网络文献知识站</span>
+      <span class="footer-mono">数据 © OpenAlex (CC0) · 每周自动更新 · <a href="about.html">关于</a></span>
     </div>
   </footer>
 </body>

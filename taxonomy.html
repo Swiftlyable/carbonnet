@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <meta name="description" content="CarbonNet 鐭ヨ瘑鑴夌粶 鈥?纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鐨勬潗鏂欎綋绯汇€佹瀯绛戠瓥鐣ヤ笌鍣ㄤ欢鎬ц兘 taxonomy 鏍戙€?>
-  <title>鐭ヨ瘑鑴夌粶 鈥?CarbonNet 纰崇綉鍥捐氨</title>
+  <meta name="description" content="CarbonNet 知识脉络 — 碳材料超级电容器三维导电网络的材料体系、构筑策略与器件性能 taxonomy 树。">
+  <title>知识脉络 — CarbonNet 碳网图谱</title>
   <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
   <link rel="stylesheet" href="css/tokens.css?v=1">
   <link rel="stylesheet" href="css/main.css?v=1">
@@ -18,23 +18,23 @@
   <header class="nav">
     <div class="nav-inner">
       <a class="brand" href="index.html">
-        <span class="logo">猬?/span>
-        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+        <span class="logo">⬡</span>
+        <span>CarbonNet</span><span class="brand-cn">碳网图谱</span>
       </a>
-      <nav aria-label="涓诲鑸?>
+      <nav aria-label="主导航">
         <ul class="nav-links">
-          <li><a href="index.html">棣栭〉</a></li>
-          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
-          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
-          <li><a href="library.html">鏂囩尞搴?/a></li>
-          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
-          <li><a href="ai.html">AI 鍔╂墜</a></li>
-          <li><a href="about.html">鍏充簬</a></li>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="taxonomy.html">知识脉络</a></li>
+          <li><a href="graph.html">知识关系图</a></li>
+          <li><a href="library.html">文献库</a></li>
+          <li><a href="stats.html">数据面板</a></li>
+          <li><a href="ai.html">AI 助手</a></li>
+          <li><a href="about.html">关于</a></li>
         </ul>
       </nav>
       <div class="nav-right">
-        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
-        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+        <button class="icon-btn theme-toggle" aria-label="切换主题">☾</button>
+        <button class="icon-btn nav-toggle" aria-label="菜单">☰</button>
       </div>
     </div>
   </header>
@@ -43,30 +43,31 @@
     <div class="container">
       <div class="page-head enter">
         <span class="eyebrow">TAXONOMY</span>
-        <h1>鐭ヨ瘑鑴夌粶</h1>
-        <p class="lead">鏉愭枡浣撶郴 脳 鏋勭瓚绛栫暐 脳 鍣ㄤ欢涓庢€ц兘涓夊眰鍒嗙被鏍戙€傜偣鍑昏妭鐐规煡鐪嬬粏鍒嗚鏄庝笌浠ｈ〃鏂囩尞锛?          鎷栨嫿/婊氳疆缂╂斁鐢诲竷锛岀偣绌虹櫧澶勩€佹寜 Esc 鎴?脳 鍏抽棴璇︽儏闈㈡澘銆?/p>
+        <h1>知识脉络</h1>
+        <p class="lead">材料体系 × 构筑策略 × 器件与性能三层分类树。点击节点查看细分说明与代表文献，
+          拖拽/滚轮缩放画布，点空白处、按 Esc 或 × 关闭详情面板。</p>
       </div>
 
       <div class="tax-layout enter">
         <div class="tax-chart-wrap">
-          <div id="taxChart" role="img" aria-label="鐭ヨ瘑鑴夌粶鏍戝浘"></div>
+          <div id="taxChart" role="img" aria-label="知识脉络树图"></div>
           <div class="tax-legend">
-            <span><span class="dot" style="background:var(--chart-p1)"></span>缁村害</span>
-            <span><span class="dot" style="background:var(--chart-p3)"></span>绫诲埆</span>
-            <span><span class="dot" style="background:var(--chart-p4)"></span>浠ｈ〃鏂囩尞</span>
+            <span><span class="dot" style="background:var(--chart-p1)"></span>维度</span>
+            <span><span class="dot" style="background:var(--chart-p3)"></span>类别</span>
+            <span><span class="dot" style="background:var(--chart-p4)"></span>代表文献</span>
           </div>
-          <div class="tax-hint">鐐瑰嚮鑺傜偣 鈫?璇︽儏闈㈡澘 路 婊氳疆缂╂斁 路 鎷栨嫿骞崇Щ</div>
+          <div class="tax-hint">点击节点 → 详情面板 · 滚轮缩放 · 拖拽平移</div>
         </div>
       </div>
     </div>
   </main>
 
-  <!-- 璇︽儏闈㈡澘 -->
+  <!-- 详情面板 -->
   <div class="drawer-mask" id="drawerMask"></div>
   <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-    <button class="drawer-close" id="drawerClose" aria-label="鍏抽棴闈㈡澘">鉁?/button>
-    <span class="d-eyebrow" id="drawerEyebrow">鈥?/span>
-    <h2 id="drawerTitle">鈥?/h2>
+    <button class="drawer-close" id="drawerClose" aria-label="关闭面板">✕</button>
+    <span class="d-eyebrow" id="drawerEyebrow">—</span>
+    <h2 id="drawerTitle">—</h2>
     <p class="chart-sub" id="drawerDesc"></p>
     <div class="d-meta" id="drawerMeta"></div>
     <div id="drawerBody"></div>
@@ -74,8 +75,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
-      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+      <span>CarbonNet 碳网图谱 · 碳材料超级电容器三维导电网络文献知识站</span>
+      <span class="footer-mono">数据 © OpenAlex (CC0) · 每周自动更新 · <a href="about.html">关于</a></span>
     </div>
   </footer>
 </body>

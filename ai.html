@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <meta name="description" content="CarbonNet AI 鏂囩尞鍔╂墜 鈥?BYOK 妯″紡锛氬瘑閽ヤ粎瀛樻祻瑙堝櫒 localStorage锛屾祻瑙堝櫒鐩磋繛纭呭熀娴佸姩 API銆?>
-  <title>AI 鍔╂墜 鈥?CarbonNet 纰崇綉鍥捐氨</title>
+  <meta name="description" content="CarbonNet AI 文献助手 — BYOK 模式：密钥仅存浏览器 localStorage，浏览器直连硅基流动 API。">
+  <title>AI 助手 — CarbonNet 碳网图谱</title>
   <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
   <link rel="stylesheet" href="css/tokens.css?v=1">
   <link rel="stylesheet" href="css/main.css?v=1">
@@ -18,23 +18,23 @@
   <header class="nav">
     <div class="nav-inner">
       <a class="brand" href="index.html">
-        <span class="logo">猬?/span>
-        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+        <span class="logo">⬡</span>
+        <span>CarbonNet</span><span class="brand-cn">碳网图谱</span>
       </a>
-      <nav aria-label="涓诲鑸?>
+      <nav aria-label="主导航">
         <ul class="nav-links">
-          <li><a href="index.html">棣栭〉</a></li>
-          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
-          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
-          <li><a href="library.html">鏂囩尞搴?/a></li>
-          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
-          <li><a href="ai.html">AI 鍔╂墜</a></li>
-          <li><a href="about.html">鍏充簬</a></li>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="taxonomy.html">知识脉络</a></li>
+          <li><a href="graph.html">知识关系图</a></li>
+          <li><a href="library.html">文献库</a></li>
+          <li><a href="stats.html">数据面板</a></li>
+          <li><a href="ai.html">AI 助手</a></li>
+          <li><a href="about.html">关于</a></li>
         </ul>
       </nav>
       <div class="nav-right">
-        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
-        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+        <button class="icon-btn theme-toggle" aria-label="切换主题">☾</button>
+        <button class="icon-btn nav-toggle" aria-label="菜单">☰</button>
       </div>
     </div>
   </header>
@@ -42,41 +42,42 @@
   <main class="page">
     <div class="container">
       <div class="page-head enter">
-        <span class="eyebrow">AI ASSISTANT 路 BYOK</span>
-        <h1>AI 鏂囩尞鍔╂墜</h1>
-        <p class="lead">鍥寸粫纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鎻愰棶銆侭YOK 妯″紡锛氬瘑閽ュ彧淇濆瓨鍦ㄤ綘鐨勬祻瑙堝櫒
-          localStorage锛岃姹傜敱娴忚鍣ㄧ洿杩?api.siliconflow.cn锛屾湰绔欎笉鎺ヨЕ浣犵殑瀵嗛挜涓庡璇濄€?/p>
+        <span class="eyebrow">AI ASSISTANT · BYOK</span>
+        <h1>AI 文献助手</h1>
+        <p class="lead">围绕碳材料超级电容器三维导电网络提问。BYOK 模式：密钥只保存在你的浏览器
+          localStorage，请求由浏览器直连 api.siliconflow.cn，本站不接触你的密钥与对话。</p>
       </div>
 
       <div class="ai-layout">
-        <!-- 璁剧疆 -->
+        <!-- 设置 -->
         <div class="card ai-setup enter">
-          <h3>璁剧疆</h3>
+          <h3>设置</h3>
           <div class="key-input">
-            <label for="aiKey" style="font-size:13px;color:var(--c-text-dim)">纭呭熀娴佸姩 API Key</label>
-            <input type="password" class="ctrl" id="aiKey" placeholder="sk-鈥︼紙浠呭瓨鏈祻瑙堝櫒锛? autocomplete="off">
-            <label for="aiModel" style="font-size:13px;color:var(--c-text-dim);margin-top:6px">妯″瀷</label>
+            <label for="aiKey" style="font-size:13px;color:var(--c-text-dim)">硅基流动 API Key</label>
+            <input type="password" class="ctrl" id="aiKey" placeholder="sk-…（仅存本浏览器）" autocomplete="off">
+            <label for="aiModel" style="font-size:13px;color:var(--c-text-dim);margin-top:6px">模型</label>
             <select class="ctrl" id="aiModel"></select>
           </div>
           <div style="display:flex;gap:8px">
-            <button class="btn btn-primary btn-sm" id="btnSaveKey">淇濆瓨</button>
-            <button class="btn btn-soft btn-sm" id="btnClearKey">娓呴櫎</button>
+            <button class="btn btn-primary btn-sm" id="btnSaveKey">保存</button>
+            <button class="btn btn-soft btn-sm" id="btnClearKey">清除</button>
           </div>
           <p class="ai-note" style="margin-top:14px">
-            鈻?瀵嗛挜浠呭啓鍏?localStorage锛?code>carbonnet-siliconflow-key</code>锛夛紝涓嶄細杩涘叆浠ｇ爜浠撳簱鎴栨湇鍔″櫒銆?br>
-            鈻?璇锋眰鐩磋繛 <code>https://api.siliconflow.cn/v1/chat/completions</code>锛屼笉缁忚繃鏈珯銆?br>
-            鈻?寤鸿鍦ㄧ鍩烘祦鍔ㄦ帶鍒跺彴浣跨敤棰濆害鍙楅檺鐨?Key銆?br>
-            鈻?浣跨敤銆岀煡璇嗗簱闂瓟銆嶆椂锛屼粎灏嗘墍閫夋枃鐚殑鏍囬涓庢憳瑕佸彂閫佺粰 API銆?          </p>
+            ▸ 密钥仅写入 localStorage（<code>carbonnet-siliconflow-key</code>），不会进入代码仓库或服务器。<br>
+            ▸ 请求直连 <code>https://api.siliconflow.cn/v1/chat/completions</code>，不经过本站。<br>
+            ▸ 建议在硅基流动控制台使用额度受限的 Key。<br>
+            ▸ 使用「知识库问答」时，仅将所选文献的标题与摘要发送给 API。
+          </p>
           <div id="keyState" class="footer-mono" style="margin-top:8px"></div>
         </div>
 
-        <!-- 鑱婂ぉ -->
+        <!-- 聊天 -->
         <div class="card ai-chat enter">
           <div class="ai-messages" id="aiMessages"></div>
           <div class="ai-prompt-row" id="aiPrompts"></div>
           <div class="ai-input-row">
-            <input type="text" class="ctrl" id="aiInput" placeholder="鍚?AI 鏂囩尞鍔╂墜鎻愰棶鈥? aria-label="鎻愰棶杈撳叆">
-            <button class="btn btn-primary" id="btnSend">鍙戦€?/button>
+            <input type="text" class="ctrl" id="aiInput" placeholder="向 AI 文献助手提问…" aria-label="提问输入">
+            <button class="btn btn-primary" id="btnSend">发送</button>
           </div>
         </div>
       </div>
@@ -85,8 +86,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
-      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+      <span>CarbonNet 碳网图谱 · 碳材料超级电容器三维导电网络文献知识站</span>
+      <span class="footer-mono">数据 © OpenAlex (CC0) · 每周自动更新 · <a href="about.html">关于</a></span>
     </div>
   </footer>
 </body>
