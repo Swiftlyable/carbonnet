@@ -43,7 +43,7 @@
         }
         else if (k === 'dataset') Object.assign(node.dataset, v);
         else if (k === 'style') Object.assign(node.style, v);
-        else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
+        else if (k.startsWith('on') && typeof v === 'function') node.addEventListener(k.slice(2), v);
         else node.setAttribute(k, String(v));
       }
     }
@@ -279,8 +279,8 @@
   function downloadCsv(filename, rows) {
     const esc = (v) => {
       let s = v == null ? '' : String(v);
-      /* 防 CSV 公式注入：以 = + - @ 开头的前置单引号 */
-      if (/^[=+\-@\t]/.test(s)) s = "'" + s;
+      /* 防 CSV 公式注入：trim 后以 = + - @ 开头的前置单引号（表格软件会 trim 单元格） */
+      if (/^[=+\-@\t]/.test(s.trim())) s = "'" + s.trimStart();
       if (/[",\n\r]/.test(s)) s = '"' + s.replace(/"/g, '""') + '"';
       return s;
     };

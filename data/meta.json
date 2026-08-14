@@ -3,6 +3,5 @@
   "source": "OpenAlex API",
   "license": "CC0 (OpenAlex)",
   "works": 420,
-  "query_count": 10,
-  "mailto": "carbonnet@example.com"
+  "query_count": 10
 }

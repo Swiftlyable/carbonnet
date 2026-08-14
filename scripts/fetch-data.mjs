@@ -337,7 +337,7 @@ async function main() {
     license: 'CC0 (OpenAlex)',
     works: works.length,
     query_count: 10,
-    mailto: MAILTO,
+    /* 注意：不写入 CONTACT_EMAIL（可能来自 secrets，禁止随数据提交公开） */
   };
   writeFileSync(join(DATA_DIR, 'works.json'), JSON.stringify(works), 'utf8');
   writeFileSync(join(DATA_DIR, 'taxonomy.json'), JSON.stringify(taxonomy), 'utf8');
