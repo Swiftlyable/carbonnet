@@ -62,6 +62,11 @@ python -m http.server 8000     # 或 npx serve
 5. **AI 助手 BYOK**：密钥只存浏览器 localStorage，浏览器直连
    `https://api.siliconflow.cn`，密钥绝不进代码仓库、不引第三方脚本。
 6. **push 前先 `git fetch` + `rebase origin/main`**（本地与 workflow 同样遵守）。
+7. **编码纪律（重要）**：全仓库文件一律 UTF-8。在 Windows 上严禁用 PowerShell
+   的 `Get-Content`/`Set-Content` 默认编码处理含中文的文件（GBK 读入再按 UTF-8
+   写回会造成双重编码乱码——2026-08-14 已因此返工重写全部 HTML）。改文件请用
+   编辑器或 Node 脚本；必须用 PowerShell 时显式 `-Encoding UTF8` 且先确认输入
+   编码。改完可跑 `node scripts/verify.mjs` 自查。
 
 ## 目录结构
 
