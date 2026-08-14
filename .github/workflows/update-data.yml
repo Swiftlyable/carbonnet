@@ -55,7 +55,7 @@ jobs:
         run: |
           # 仅打包站点运行所需文件，scripts/README 等不进 Pages
           mkdir -p _site
-          cp -r css js assets data _site/
+          cp -r css js assets data fonts _site/
           cp *.html .nojekyll _site/
 
       - name: Setup Pages
