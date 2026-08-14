@@ -51,13 +51,20 @@ jobs:
             git push origin HEAD:main
           fi
 
+      - name: Prepare site payload
+        run: |
+          # 仅打包站点运行所需文件，scripts/README 等不进 Pages
+          mkdir -p _site
+          cp -r css js assets data _site/
+          cp *.html .nojekyll _site/
+
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
-          path: '.'
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
