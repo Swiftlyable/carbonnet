@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CarbonNet 纰崇綉鍥捐氨 鈥?纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔欍€傛暟鎹潵鑷?OpenAlex锛屾瘡鍛ㄨ嚜鍔ㄦ洿鏂般€?>
+  <title>CarbonNet 纰崇綉鍥捐氨 鈥?纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶</title>
+  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css?v=1">
+  <link rel="stylesheet" href="css/main.css?v=1">
+  <link rel="stylesheet" href="css/pages.css?v=1">
+  <script defer src="js/vendor/echarts.min.js?v=1"></script>
+  <script defer src="js/common.js?v=3"></script>
+  <script defer src="js/index.js?v=1"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">猬?/span>
+        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+      </a>
+      <nav aria-label="涓诲鑸?>
+        <ul class="nav-links">
+          <li><a href="index.html">棣栭〉</a></li>
+          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
+          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
+          <li><a href="library.html">鏂囩尞搴?/a></li>
+          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
+          <li><a href="ai.html">AI 鍔╂墜</a></li>
+          <li><a href="about.html">鍏充簬</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
+        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- Hero锛氱矑瀛愮敾甯?+ 澶у瓧鏍囪 -->
+    <section class="hero">
+      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="container hero-inner">
+        <p class="hero-eyebrow enter">CARBON MATERIALS 路 SUPERCAPACITORS 路 3D CONDUCTIVE NETWORKS</p>
+        <h1 class="enter">纰虫潗鏂欒秴绾х數瀹瑰櫒<br><span class="glow">涓夌淮瀵肩數缃戠粶</span> 鏂囩尞鐭ヨ瘑绔?/h1>
+        <p class="lead enter">浠?OpenAlex 鏂囩尞鏁版嵁涓洪鏋讹紝鐢ㄦ潗鏂欎綋绯汇€佹瀯绛戠瓥鐣ヤ笌鍣ㄤ欢鎬ц兘涓夊眰鐭ヨ瘑缃戠粶锛?          姊崇悊鐭冲ⅷ鐑€佺⒊绾崇背绠°€佸瀛旂⒊绛夌⒊鏉愭枡鍦ㄨ秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶涓殑鐮旂┒鑴夌粶銆?/p>
+        <div class="hero-actions enter">
+          <a class="btn btn-primary" href="graph.html">鎺㈢储鐭ヨ瘑鍏崇郴鍥?鈫?/a>
+          <a class="btn btn-ghost" href="taxonomy.html">娴忚鐭ヨ瘑鑴夌粶</a>
+          <a class="btn btn-soft" href="library.html">杩涘叆鏂囩尞搴?/a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 澶у瓧鏍囪甯?-->
+    <div class="marquee-band" aria-hidden="true">
+      <div class="marquee" id="marquee"></div>
+    </div>
+
+    <div class="container">
+      <!-- KPI -->
+      <section class="sec-head"><h2>棰嗗煙姒傝</h2><span class="sec-more" id="kpiUpdated"></span></section>
+      <div class="kpi-grid" data-stagger>
+        <div class="card kpi enter"><div class="kpi-num" id="kpiWorks">鈥?/div><div class="kpi-label">鏀跺綍鏂囩尞</div></div>
+        <div class="card kpi enter"><div class="kpi-num" id="kpiCited">鈥?/div><div class="kpi-label">绱琚紩</div></div>
+        <div class="card kpi enter"><div class="kpi-num" id="kpiVenues">鈥?/div><div class="kpi-label">瑕嗙洊鏈熷垔</div></div>
+        <div class="card kpi enter"><div class="kpi-num" id="kpiYears">鈥?/div><div class="kpi-label">鏃堕棿璺ㄥ害锛堝勾锛?/div></div>
+      </div>
+
+      <!-- 鍔熻兘鍏ュ彛 -->
+      <section class="sec-head"><h2>鎺㈢储鍏ュ彛</h2></section>
+      <div class="grid-3" data-stagger>
+        <a class="card card-hover feature-card enter" href="taxonomy.html">
+          <div class="fc-icon">鈱?/div>
+          <p class="fc-title">鐭ヨ瘑鑴夌粶</p>
+          <p class="fc-desc">鏉愭枡浣撶郴 脳 鏋勭瓚绛栫暐 脳 鍣ㄤ欢鎬ц兘鐨?taxonomy 鏍戯紝鐐瑰嚮鑺傜偣鏌ョ湅缁嗗垎涓庝唬琛ㄦ枃鐚€?/p>
+        </a>
+        <a class="card card-hover feature-card enter" href="graph.html">
+          <div class="fc-icon">猬?/div>
+          <p class="fc-title">鐭ヨ瘑鍏崇郴鍥?/p>
+          <p class="fc-desc">鏉愭枡鈥旂瓥鐣モ€旀枃鐚笁灞傚姏瀵煎悜缃戠粶锛屼竴鐪肩湅绌跨爺绌剁儹鐐逛笌浜ゅ弶鍦板甫銆?/p>
+        </a>
+        <a class="card card-hover feature-card enter" href="stats.html">
+          <div class="fc-icon">鈻?/div>
+          <p class="fc-title">鏁版嵁闈㈡澘</p>
+          <p class="fc-desc">骞村害瓒嬪娍銆佹湡鍒婂垎甯冦€佹潗鏂櫭楃瓥鐣ョ儹鍔涘浘涓庢瘮鐢靛鎬ц兘鍒嗗竷銆?/p>
+        </a>
+      </div>
+
+      <!-- 鏈€鏂版枃鐚?-->
+      <section class="sec-head">
+        <h2>鏈€鏂版枃鐚?/h2>
+        <a class="sec-more" href="library.html?sort=date">鍏ㄩ儴鏂囩尞 鈫?/a>
+      </section>
+      <div class="paper-list" id="latestList" data-stagger></div>
+
+      <!-- 鐑棬鏍囩浜?-->
+      <section class="sec-head">
+        <h2>鐑棬鏍囩</h2>
+        <a class="sec-more" href="library.html">鍦ㄦ枃鐚簱涓瓫閫?鈫?/a>
+      </section>
+      <div class="tag-cloud card enter" id="tagCloud" style="padding:18px 20px"></div>
+
+      <!-- 绮鹃€?/ 缁忓吀鏂囩尞 -->
+      <section class="sec-head">
+        <h2>绮鹃€?路 缁忓吀鏂囩尞</h2>
+        <span class="sec-more">鎸夎寮曢噺鎺掑簭</span>
+      </section>
+      <div class="classic-grid" id="classicGrid" data-stagger></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
+      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+    </div>
+  </footer>
+</body>
+</html>

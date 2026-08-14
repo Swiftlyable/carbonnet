@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CarbonNet 鐭ヨ瘑鑴夌粶 鈥?纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鐨勬潗鏂欎綋绯汇€佹瀯绛戠瓥鐣ヤ笌鍣ㄤ欢鎬ц兘 taxonomy 鏍戙€?>
+  <title>鐭ヨ瘑鑴夌粶 鈥?CarbonNet 纰崇綉鍥捐氨</title>
+  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css?v=1">
+  <link rel="stylesheet" href="css/main.css?v=1">
+  <link rel="stylesheet" href="css/pages.css?v=1">
+  <script defer src="js/vendor/echarts.min.js?v=1"></script>
+  <script defer src="js/common.js?v=3"></script>
+  <script defer src="js/taxonomy.js?v=1"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">猬?/span>
+        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+      </a>
+      <nav aria-label="涓诲鑸?>
+        <ul class="nav-links">
+          <li><a href="index.html">棣栭〉</a></li>
+          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
+          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
+          <li><a href="library.html">鏂囩尞搴?/a></li>
+          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
+          <li><a href="ai.html">AI 鍔╂墜</a></li>
+          <li><a href="about.html">鍏充簬</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
+        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-head enter">
+        <span class="eyebrow">TAXONOMY</span>
+        <h1>鐭ヨ瘑鑴夌粶</h1>
+        <p class="lead">鏉愭枡浣撶郴 脳 鏋勭瓚绛栫暐 脳 鍣ㄤ欢涓庢€ц兘涓夊眰鍒嗙被鏍戙€傜偣鍑昏妭鐐规煡鐪嬬粏鍒嗚鏄庝笌浠ｈ〃鏂囩尞锛?          鎷栨嫿/婊氳疆缂╂斁鐢诲竷锛岀偣绌虹櫧澶勩€佹寜 Esc 鎴?脳 鍏抽棴璇︽儏闈㈡澘銆?/p>
+      </div>
+
+      <div class="tax-layout enter">
+        <div class="tax-chart-wrap">
+          <div id="taxChart" role="img" aria-label="鐭ヨ瘑鑴夌粶鏍戝浘"></div>
+          <div class="tax-legend">
+            <span><span class="dot" style="background:var(--chart-p1)"></span>缁村害</span>
+            <span><span class="dot" style="background:var(--chart-p3)"></span>绫诲埆</span>
+            <span><span class="dot" style="background:var(--chart-p4)"></span>浠ｈ〃鏂囩尞</span>
+          </div>
+          <div class="tax-hint">鐐瑰嚮鑺傜偣 鈫?璇︽儏闈㈡澘 路 婊氳疆缂╂斁 路 鎷栨嫿骞崇Щ</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 璇︽儏闈㈡澘 -->
+  <div class="drawer-mask" id="drawerMask"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <button class="drawer-close" id="drawerClose" aria-label="鍏抽棴闈㈡澘">鉁?/button>
+    <span class="d-eyebrow" id="drawerEyebrow">鈥?/span>
+    <h2 id="drawerTitle">鈥?/h2>
+    <p class="chart-sub" id="drawerDesc"></p>
+    <div class="d-meta" id="drawerMeta"></div>
+    <div id="drawerBody"></div>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
+      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+    </div>
+  </footer>
+</body>
+</html>

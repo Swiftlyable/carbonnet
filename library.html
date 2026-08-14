@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CarbonNet 鏂囩尞搴?鈥?纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐨勬悳绱€佸缁寸瓫閫夈€丆SV 瀵煎嚭涓庡垎椤垫祻瑙堛€?>
+  <title>鏂囩尞搴?鈥?CarbonNet 纰崇綉鍥捐氨</title>
+  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css?v=1">
+  <link rel="stylesheet" href="css/main.css?v=1">
+  <link rel="stylesheet" href="css/pages.css?v=1">
+  <script defer src="js/vendor/echarts.min.js?v=1"></script>
+  <script defer src="js/common.js?v=3"></script>
+  <script defer src="js/library.js?v=1"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">猬?/span>
+        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+      </a>
+      <nav aria-label="涓诲鑸?>
+        <ul class="nav-links">
+          <li><a href="index.html">棣栭〉</a></li>
+          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
+          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
+          <li><a href="library.html">鏂囩尞搴?/a></li>
+          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
+          <li><a href="ai.html">AI 鍔╂墜</a></li>
+          <li><a href="about.html">鍏充簬</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
+        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-head enter">
+        <span class="eyebrow">LIBRARY</span>
+        <h1>鏂囩尞搴?/h1>
+        <p class="lead">鎼滅储涓庡缁寸瓫閫夌⒊鏉愭枡瓒呯骇鐢靛鍣ㄤ笁缁村鐢电綉缁滄枃鐚紝鏀寔 CSV 瀵煎嚭銆?          鐐瑰嚮琛屾爣棰樿繘鍏ヨ鏂囪鎯呴〉銆?/p>
+      </div>
+
+      <!-- 绛涢€夋爮 -->
+      <div class="filter-bar enter">
+        <input type="search" class="ctrl" id="fQ" placeholder="鎼滅储鏍囬 / 浣滆€?/ 鏈熷垔 / 鎽樿鈥? aria-label="鎼滅储">
+        <select class="ctrl" id="fMat" aria-label="鏉愭枡绛涢€?><option value="">鍏ㄩ儴鏉愭枡</option></select>
+        <select class="ctrl" id="fStr" aria-label="绛栫暐绛涢€?><option value="">鍏ㄩ儴绛栫暐</option></select>
+        <select class="ctrl" id="fType" aria-label="绫诲瀷绛涢€?>
+          <option value="">鍏ㄩ儴绫诲瀷</option>
+          <option value="article">article</option>
+          <option value="review">review</option>
+        </select>
+        <select class="ctrl" id="fOA" aria-label="寮€鏀捐幏鍙栫瓫閫?>
+          <option value="">鍏ㄩ儴 OA</option>
+          <option value="gold">gold</option>
+          <option value="green">green</option>
+          <option value="hybrid">hybrid</option>
+          <option value="bronze">bronze</option>
+          <option value="closed">closed</option>
+        </select>
+        <select class="ctrl" id="fYear" aria-label="骞翠唤绛涢€?><option value="">鍏ㄩ儴骞翠唤</option></select>
+        <select class="ctrl" id="fSort" aria-label="鎺掑簭">
+          <option value="cited">鎸夎寮?鈫?/option>
+          <option value="date">鎸夊彂琛ㄦ棩鏈?鈫?/option>
+          <option value="year">鎸夊勾浠?鈫?/option>
+          <option value="title">鎸夋爣棰?A-Z</option>
+        </select>
+        <div class="spacer"></div>
+        <button class="btn btn-primary btn-sm" id="btnCsv">猬?瀵煎嚭 CSV</button>
+      </div>
+
+      <!-- 娲诲姩绛涢€?chips -->
+      <div class="tag-cloud enter" id="activeFilters" style="margin-bottom:14px"></div>
+
+      <!-- 缁撴灉璁℃暟 -->
+      <div class="lib-head enter">
+        <span class="lib-count" id="libCount">鈥?/span>
+      </div>
+
+      <!-- 琛ㄦ牸 -->
+      <div class="table-wrap enter">
+        <table class="papers" id="papersTable">
+          <thead>
+            <tr>
+              <th data-sort="title">鏍囬</th>
+              <th data-sort="year" style="width:64px">骞翠唤</th>
+              <th data-sort="venue">鏈熷垔</th>
+              <th data-sort="type" style="width:90px">绫诲瀷</th>
+              <th data-sort="oa" style="width:70px">OA</th>
+              <th data-sort="cited" style="width:80px">琚紩</th>
+              <th>浣滆€?/th>
+            </tr>
+          </thead>
+          <tbody id="papersBody"></tbody>
+        </table>
+        <div class="state-note" id="tableState" style="display:none"></div>
+      </div>
+
+      <!-- 鍒嗛〉 -->
+      <div class="pager" id="pager"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
+      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+    </div>
+  </footer>
+</body>
+</html>

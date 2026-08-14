@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CarbonNet 鏁版嵁闈㈡澘 鈥?纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鐮旂┒鐨勫勾搴﹁秼鍔裤€佹湡鍒婂垎甯冦€佹潗鏂櫭楃瓥鐣ョ儹鍔涘浘涓庢€ц兘鍒嗗竷銆?>
+  <title>鏁版嵁闈㈡澘 鈥?CarbonNet 纰崇綉鍥捐氨</title>
+  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css?v=1">
+  <link rel="stylesheet" href="css/main.css?v=1">
+  <link rel="stylesheet" href="css/pages.css?v=1">
+  <script defer src="js/vendor/echarts.min.js?v=1"></script>
+  <script defer src="js/common.js?v=3"></script>
+  <script defer src="js/stats.js?v=1"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">猬?/span>
+        <span>CarbonNet</span><span class="brand-cn">纰崇綉鍥捐氨</span>
+      </a>
+      <nav aria-label="涓诲鑸?>
+        <ul class="nav-links">
+          <li><a href="index.html">棣栭〉</a></li>
+          <li><a href="taxonomy.html">鐭ヨ瘑鑴夌粶</a></li>
+          <li><a href="graph.html">鐭ヨ瘑鍏崇郴鍥?/a></li>
+          <li><a href="library.html">鏂囩尞搴?/a></li>
+          <li><a href="stats.html">鏁版嵁闈㈡澘</a></li>
+          <li><a href="ai.html">AI 鍔╂墜</a></li>
+          <li><a href="about.html">鍏充簬</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <button class="icon-btn theme-toggle" aria-label="鍒囨崲涓婚">鈽?/button>
+        <button class="icon-btn nav-toggle" aria-label="鑿滃崟">鈽?/button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-head enter">
+        <span class="eyebrow">DASHBOARD</span>
+        <h1>鏁版嵁闈㈡澘</h1>
+        <p class="lead">鍩轰簬 OpenAlex 鍏冩暟鎹殑棰嗗煙鍏ㄦ櫙锛氬勾搴﹁秼鍔裤€佹湡鍒婂垎甯冦€佹潗鏂櫭楃瓥鐣ョ儹鍔涘浘銆?          寮曠敤缁撴瀯涓庢瘮鐢靛鎬ц兘鍒嗗竷銆?/p>
+      </div>
+
+      <div class="chart-grid" data-stagger>
+        <div class="card chart-card enter">
+          <h3>骞村害鍙戞枃瓒嬪娍</h3>
+          <p class="chart-sub">姣忓勾鏀跺綍鏂囩尞鏁帮紙鏌憋級涓庣疮璁¤寮曪紙绾匡級</p>
+          <div class="chart-box" id="chartYearly"></div>
+        </div>
+        <div class="card chart-card enter">
+          <h3>鏈熷垔鍒嗗竷 Top 12</h3>
+          <p class="chart-sub">鎸夋敹褰曟枃鐚暟</p>
+          <div class="chart-box" id="chartVenues"></div>
+        </div>
+        <div class="card chart-card enter">
+          <h3>鏉愭枡 脳 绛栫暐鐑姏鍥?/h3>
+          <p class="chart-sub">鏂囩尞浜ゅ弶鍒嗗竷锛堟牸鍊?= 鏂囩尞鏁帮級</p>
+          <div class="chart-box tall" id="chartHeat"></div>
+        </div>
+        <div class="card chart-card enter">
+          <h3>寮曠敤鍒嗗竷鐩存柟鍥?/h3>
+          <p class="chart-sub">鎸夎寮曟鏁板尯闂?/p>
+          <div class="chart-box" id="chartCited"></div>
+        </div>
+        <div class="card chart-card enter">
+          <h3>姣旂數瀹规€ц兘鍒嗗竷</h3>
+          <p class="chart-sub">浠庢憳瑕佹彁鍙栫殑 F g鈦宦?鏁板€硷紙鏍峰搧 <span id="capN">0</span> 涓級</p>
+          <div class="chart-box" id="chartCap"></div>
+        </div>
+        <div class="card chart-card enter">
+          <h3>绫诲瀷涓庡紑鏀捐幏鍙?/h3>
+          <p class="chart-sub">鏂囩尞绫诲瀷涓?OA 鐘舵€佸崰姣?/p>
+          <div class="chart-box" id="chartPie"></div>
+        </div>
+      </div>
+
+      <section class="sec-head enter"><h2>楂樿寮曟枃鐚?Top 10</h2></section>
+      <div class="paper-list" id="topList" data-stagger></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>CarbonNet 纰崇綉鍥捐氨 路 纰虫潗鏂欒秴绾х數瀹瑰櫒涓夌淮瀵肩數缃戠粶鏂囩尞鐭ヨ瘑绔?/span>
+      <span class="footer-mono">鏁版嵁 漏 OpenAlex (CC0) 路 姣忓懆鑷姩鏇存柊 路 <a href="about.html">鍏充簬</a></span>
+    </div>
+  </footer>
+</body>
+</html>

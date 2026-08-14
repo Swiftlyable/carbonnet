@@ -1,0 +1,155 @@
+/* ============================================================
+   CarbonNet 碳网图谱 — 页面样式 (pages.css)
+   依赖 tokens.css + main.css。颜色一律取自变量。
+   铁律提醒：本文件每次改动后，引用它的 HTML 中 ?v=N 必须 +1。
+   ============================================================ */
+
+/* ================= 首页 ================= */
+.hero {
+  position: relative; margin-top: calc(-1 * (var(--nav-h) + 28px));
+  padding-top: calc(var(--nav-h) + 60px); padding-bottom: 70px; overflow: hidden;
+}
+.hero-canvas { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.hero-inner { position: relative; z-index: 1; }
+.hero-eyebrow { font-family: var(--font-mono); font-size: 13px; letter-spacing: .22em; text-transform: uppercase; color: var(--c-accent); }
+.hero h1 {
+  font-size: clamp(2.3rem, 6vw, 4.3rem); font-weight: 600; letter-spacing: -.01em;
+  line-height: 1.08; margin: 14px 0 18px; max-width: 900px;
+}
+.hero h1 .glow { color: var(--c-accent); text-shadow: 0 0 34px var(--c-accent-soft); }
+.hero .lead { color: var(--c-text-dim); font-size: clamp(1rem, 1.6vw, 1.13rem); max-width: 680px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+
+.marquee-band {
+  margin: 8px 0 6px; overflow: hidden; border-block: 1px solid var(--c-border);
+  background: var(--c-bg-soft); padding: 13px 0; position: relative;
+}
+.marquee-band::before, .marquee-band::after {
+  content: ""; position: absolute; top: 0; bottom: 0; width: 90px; z-index: 2; pointer-events: none;
+}
+.marquee-band::before { left: 0; background: linear-gradient(to right, var(--c-bg-soft), transparent); }
+.marquee-band::after { right: 0; background: linear-gradient(to left, var(--c-bg-soft), transparent); }
+.marquee { display: flex; gap: 44px; white-space: nowrap; width: max-content; animation: marquee 42s linear infinite; }
+.marquee span { font-family: var(--font-mono); font-size: 13.5px; letter-spacing: .06em; color: var(--c-text-dim); }
+.marquee span b { color: var(--c-accent); font-weight: 500; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.marquee-band:hover .marquee { animation-play-state: paused; }
+
+.feature-card { display: block; color: inherit; }
+.feature-card:hover { text-decoration: none; }
+.feature-card .fc-title { font-size: 1rem; font-weight: 600; color: var(--c-heading); margin: 0 0 6px; }
+.feature-card .fc-desc { color: var(--c-text-dim); font-size: 13.5px; margin: 0; }
+.feature-card .fc-icon {
+  width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center;
+  background: var(--c-accent-soft); color: var(--c-accent); font-size: 17px; margin-bottom: 12px;
+  border: 1px solid var(--c-accent-line);
+}
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+
+.classic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+
+/* ================= 知识脉络 ================= */
+.tax-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.tax-chart-wrap {
+  border: 1px solid var(--c-border); border-radius: var(--radius-lg);
+  background: var(--c-bg-raised); padding: 10px; position: relative;
+}
+#taxChart { width: 100%; height: min(74vh, 760px); }
+.tax-legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 4px 12px 12px; font-size: 12.5px; color: var(--c-text-dim); font-family: var(--font-mono); }
+.tax-legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+.tax-hint { position: absolute; left: 18px; bottom: 12px; font-size: 12px; color: var(--c-text-faint); font-family: var(--font-mono); pointer-events: none; }
+
+/* ================= 知识关系图 ================= */
+.graph-wrap {
+  position: relative; border: 1px solid var(--c-border); border-radius: var(--radius-lg);
+  background: var(--c-bg-raised); padding: 10px;
+}
+#graphChart { width: 100%; height: min(76vh, 780px); }
+.graph-toolbar { position: absolute; top: 18px; right: 18px; z-index: 10; display: flex; flex-direction: column; gap: 6px; }
+.graph-toolbar .btn { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.graph-info { position: absolute; left: 18px; top: 18px; z-index: 10; font-family: var(--font-mono); font-size: 12px; color: var(--c-text-faint); pointer-events: none; }
+.graph-legend { display: flex; flex-wrap: wrap; gap: 16px; padding: 4px 12px 12px; font-size: 12.5px; color: var(--c-text-dim); font-family: var(--font-mono); }
+.graph-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+
+/* ================= 文献库 ================= */
+.lib-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.lib-count { font-family: var(--font-mono); font-size: 13px; color: var(--c-text-faint); }
+.filter-chip {
+  display: inline-flex; align-items: center; gap: 7px; padding: 5px 13px; border-radius: 999px;
+  background: var(--c-accent-soft); border: 1px solid var(--c-accent-line); color: var(--c-accent);
+  font-size: 12.5px; font-family: var(--font-mono); cursor: pointer; transition: background var(--dur-fast);
+}
+.filter-chip:hover { background: var(--c-accent-line); text-decoration: none; }
+.filter-chip::after { content: "×"; font-size: 13px; opacity: .8; }
+
+/* ================= 数据面板 ================= */
+.chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 16px; }
+.chart-card { padding: 16px 16px 10px; }
+.chart-card h3 { font-size: .95rem; margin: 0 0 4px; color: var(--c-text); font-weight: 600; }
+.chart-card .chart-sub { font-size: 12px; color: var(--c-text-faint); font-family: var(--font-mono); margin-bottom: 8px; }
+.chart-box { width: 100%; height: 300px; }
+.chart-box.tall { height: 360px; }
+
+/* ================= 论文详情 ================= */
+.paper-head-card { padding: 26px 28px; }
+.paper-head-card h1 { font-size: clamp(1.25rem, 2.4vw, 1.65rem); margin-bottom: 12px; }
+.paper-id-line { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-family: var(--font-mono); font-size: 12.5px; color: var(--c-text-faint); margin-bottom: 16px; }
+.paper-id-line .doi { color: var(--c-accent); }
+.abs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 800px) { .abs-grid { grid-template-columns: 1fr; } }
+.abs-card h3 { display: flex; align-items: center; gap: 8px; font-size: .95rem; margin-bottom: 10px; }
+.abs-card .abs-text { font-size: 14px; color: var(--c-text); line-height: 1.75; white-space: pre-wrap; }
+.abs-card .abs-text.abs-empty { color: var(--c-text-faint); font-style: italic; }
+.abs-lang { font-family: var(--font-mono); font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--c-border); color: var(--c-text-faint); }
+.meta-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.meta-table th {
+  width: 130px; text-align: left; padding: 9px 14px; vertical-align: top;
+  color: var(--c-text-faint); font-weight: 500; font-family: var(--font-mono); font-size: 12px;
+  letter-spacing: .06em; border-bottom: 1px solid var(--c-border); white-space: nowrap;
+}
+.meta-table td { padding: 9px 14px; border-bottom: 1px solid var(--c-border); color: var(--c-text); }
+.meta-table tr:last-child th, .meta-table tr:last-child td { border-bottom: none; }
+.author-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.author-chip { padding: 2px 10px; border-radius: 999px; background: var(--c-bg-soft); border: 1px solid var(--c-border); font-size: 12.5px; color: var(--c-text-dim); }
+.sim-item { display: flex; align-items: baseline; gap: 10px; padding: 10px 4px; border-bottom: 1px dashed var(--c-border); }
+.sim-item:last-child { border-bottom: none; }
+.sim-item .sim-score { font-family: var(--font-mono); font-size: 12px; color: var(--c-accent); white-space: nowrap; }
+.sim-item .sim-title { font-size: 13.5px; }
+.sim-item .sim-meta { font-family: var(--font-mono); font-size: 11.5px; color: var(--c-text-faint); white-space: nowrap; }
+
+/* ================= AI 助手 ================= */
+.ai-layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 860px) { .ai-layout { grid-template-columns: 1fr; } }
+.ai-setup { padding: 20px; position: sticky; top: calc(var(--nav-h) + 16px); }
+.ai-setup .key-input { display: flex; flex-direction: column; gap: 8px; margin: 12px 0; }
+.ai-setup .key-input input { font-family: var(--font-mono); font-size: 12.5px; }
+.ai-setup .ai-note { font-size: 12px; color: var(--c-text-faint); line-height: 1.6; }
+.ai-chat { display: flex; flex-direction: column; height: min(72vh, 720px); padding: 0; overflow: hidden; }
+.ai-messages { flex: 1; overflow-y: auto; padding: 18px; display: flex; flex-direction: column; gap: 12px; }
+.ai-msg { max-width: 82%; padding: 11px 15px; border-radius: 14px; font-size: 14px; line-height: 1.7; white-space: pre-wrap; word-break: break-word; }
+.ai-msg.user { align-self: flex-end; background: var(--c-btn); color: var(--c-btn-ink); border-bottom-right-radius: 4px; }
+.ai-msg.assistant { align-self: flex-start; background: var(--c-bg-soft); border: 1px solid var(--c-border); border-bottom-left-radius: 4px; }
+.ai-msg.assistant.error { border-color: var(--c-err); color: var(--c-err); }
+.ai-input-row { display: flex; gap: 10px; padding: 14px; border-top: 1px solid var(--c-border); background: var(--c-bg-soft); }
+.ai-input-row input { flex: 1; }
+.ai-prompt-row { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 18px 14px; }
+.ai-prompt { font-size: 12px; }
+
+/* ================= 关于 ================= */
+.about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.about-grid .card h3 { font-size: 1rem; }
+.about-grid .card p, .about-grid .card li { font-size: 13.5px; color: var(--c-text-dim); }
+.about-grid ul { margin: 0; padding-left: 18px; }
+.stack-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.stack-list .badge { font-size: 12px; padding: 4px 12px; }
+
+/* ================= 加载/错误态 ================= */
+.state-note { padding: 30px 20px; text-align: center; color: var(--c-text-faint); font-family: var(--font-mono); font-size: 13px; }
+.state-note.err { color: var(--c-err); }
+
+/* ================= 打印 ================= */
+@media print {
+  .nav, .toast-stack, .drawer, .drawer-mask, .hero-canvas, .graph-toolbar { display: none !important; }
+  .page { padding-top: 0; }
+  body { background: #fff; color: #000; }
+}
