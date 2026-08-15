@@ -1,56 +1,174 @@
-<!DOCTYPE html>
-<html lang="zh-CN" class="no-js">
+<!doctype html>
+<!-- CarbonNet · 论文详情 —— 缓存版本规则：每次改动任一 CSS/JS 后，把所有 ?v=N 统一加 1 -->
+<html lang="zh-CN" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <meta name="description" content="论文详情 — CarbonNet 碳网图谱文献详情页，完整元信息、中英摘要与相似文献推荐。">
-  <title>论文详情 — CarbonNet 碳网图谱</title>
-  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
-  <link rel="stylesheet" href="css/tokens.css?v=1">
-  <link rel="stylesheet" href="css/main.css?v=1">
-  <link rel="stylesheet" href="css/pages.css?v=1">
-  <script defer src="js/vendor/echarts.min.js?v=1"></script>
-  <script defer src="js/common.js?v=4"></script>
-  <script defer src="js/paper.js?v=1"></script>
+  <title>论文详情 · CarbonNet 碳网图谱</title>
+  <meta name="description" content="CarbonNet 论文详情：完整元信息、英文摘要、经典文献中文解读与相似文献推荐。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/tokens.css?v=1">
+  <link rel="stylesheet" href="assets/css/base.css?v=1">
+  <link rel="stylesheet" href="assets/css/components.css?v=1">
+  <link rel="stylesheet" href="assets/css/paper.css?v=1">
 </head>
-<body>
-  <header class="nav">
-    <div class="nav-inner">
-      <a class="brand" href="index.html">
-        <span class="logo">⬡</span>
-        <span>CarbonNet</span><span class="brand-cn">碳网图谱</span>
+<body data-page="library">
+  <a class="skip-link" href="#main">跳到正文</a>
+
+  <header class="site-head">
+    <div class="container head-in">
+      <a class="brand" href="index.html" aria-label="CarbonNet 首页">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <path d="M16 4l10.4 6v12L16 28 5.6 22V10L16 4z"></path>
+          <path d="M16 4v24M5.6 10l20.8 12M26.4 10L5.6 22"></path>
+          <circle cx="16" cy="16" r="3.2" fill="#7CC7FF" stroke="none"></circle>
+        </svg>
+        <span>CarbonNet</span><span class="brand-sub">碳网图谱</span>
       </a>
-      <nav aria-label="主导航">
-        <ul class="nav-links">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="taxonomy.html">知识脉络</a></li>
-          <li><a href="graph.html">知识关系图</a></li>
-          <li><a href="library.html">文献库</a></li>
-          <li><a href="stats.html">数据面板</a></li>
-          <li><a href="ai.html">AI 助手</a></li>
-          <li><a href="about.html">关于</a></li>
-        </ul>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="taxonomy.html">知识脉络</a>
+        <a href="graph.html">关系图</a>
+        <a href="library.html" aria-current="page">文献库</a>
+        <a href="dashboard.html">数据面板</a>
+        <a href="about.html">关于</a>
       </nav>
-      <div class="nav-right">
-        <button class="icon-btn theme-toggle" aria-label="切换主题">☾</button>
-        <button class="icon-btn nav-toggle" aria-label="菜单">☰</button>
+      <div class="head-actions">
+        <button class="icon-btn" id="theme-btn" aria-label="切换深色/浅色主题" title="切换主题">
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="btn btn-primary btn-sm" id="ai-btn">AI 助手</button>
+        <button class="icon-btn nav-burger" id="nav-burger" aria-label="打开菜单" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
       </div>
     </div>
   </header>
 
-  <main class="page">
-    <div class="container" id="paperMain">
-      <p class="enter"><a href="library.html">← 返回文献库</a></p>
-      <div class="state-note" id="paperState">加载中…</div>
+  <main id="main">
+    <div class="container">
+      <a class="back-link" href="library.html" data-anim="fade">← 返回文献库</a>
+
+      <div id="paper-wrap" hidden>
+        <!-- 头部 -->
+        <div class="paper-head" data-anim="rise">
+          <div class="pp-chips" id="pp-chips"></div>
+          <h1 class="pp-title" id="pp-title">—</h1>
+          <p class="pp-authors" id="pp-authors">—</p>
+          <p class="pp-meta-line" id="pp-meta-line">—</p>
+        </div>
+
+        <div class="paper-layout">
+          <!-- 主栏 -->
+          <div class="paper-main">
+            <section class="pp-section" data-anim="rise" style="animation-delay:.08s">
+              <div class="pp-sec-head">
+                <h2><span class="sec-num">01</span>摘要 <span class="en">Abstract</span></h2>
+                <button class="btn btn-sm btn-ghost" id="pp-ai-btn">AI 中文解读 →</button>
+              </div>
+              <p class="pp-abstract" id="pp-abstract">—</p>
+            </section>
+
+            <section class="pp-section" id="pp-zh-sec" hidden data-anim="rise" style="animation-delay:.12s">
+              <div class="pp-sec-head">
+                <h2><span class="sec-num">02</span>中文解读 <span class="en">Curated Summary</span></h2>
+                <span class="badge-curated">人工整理</span>
+              </div>
+              <p class="pp-abstract" id="pp-zh">—</p>
+            </section>
+
+            <section class="pp-section" data-anim="rise" style="animation-delay:.16s">
+              <div class="pp-sec-head">
+                <h2><span class="sec-num">03</span>关键词与概念 <span class="en">Keywords & Concepts</span></h2>
+              </div>
+              <div class="pp-chips-wrap" id="pp-keywords"></div>
+              <div class="pp-chips-wrap" id="pp-concepts" style="margin-top:var(--s2)"></div>
+            </section>
+          </div>
+
+          <!-- 侧栏 -->
+          <aside class="paper-side">
+            <div class="ps-card" data-anim="rise" style="animation-delay:.2s">
+              <h4>影响力</h4>
+              <div class="ps-cite" id="pp-citations">—</div>
+              <p class="ps-note">被引次数（OpenAlex）</p>
+            </div>
+            <div class="ps-card" data-anim="rise" style="animation-delay:.24s">
+              <h4>外部链接</h4>
+              <p class="ps-links" id="pp-links"></p>
+            </div>
+            <div class="ps-card" data-anim="rise" style="animation-delay:.28s">
+              <h4>脉络标签</h4>
+              <div class="pp-chips-wrap" id="pp-tags"></div>
+            </div>
+            <div class="ps-card" data-anim="rise" style="animation-delay:.32s">
+              <h4>作者</h4>
+              <ul class="ps-authors" id="pp-author-list"></ul>
+            </div>
+          </aside>
+        </div>
+
+        <!-- 相似文献 -->
+        <section class="pp-section" data-anim="rise" style="animation-delay:.2s; margin-top:var(--s6)">
+          <div class="pp-sec-head">
+            <h2><span class="sec-num">04</span>相似文献 <span class="en">Similar Works</span></h2>
+            <span class="sec-more" style="color:var(--text-3)">按共享概念/关键词加权</span>
+          </div>
+          <div class="paper-grid" id="pp-similar"></div>
+        </section>
+      </div>
+
+      <div class="empty-state" id="paper-empty" hidden data-anim="fade">
+        <div class="es-ico">∅ NOT FOUND</div>
+        <p id="pp-err-msg">未找到对应文献。请检查 ?id= 或 ?doi= 参数。</p>
+        <p style="margin-top:var(--s3)"><a class="btn btn-primary" href="library.html">进入文献库查找</a></p>
+      </div>
     </div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-foot">
     <div class="container">
-      <span>CarbonNet 碳网图谱 · 碳材料超级电容器三维导电网络文献知识站</span>
-      <span class="footer-mono">数据 © OpenAlex (CC0) · 每周自动更新 · <a href="about.html">关于</a></span>
+      <div class="foot-grid">
+        <div>
+          <div class="foot-brand">CarbonNet <span style="color:var(--accent)">碳网图谱</span></div>
+          <p class="foot-tag">碳材料超级电容器三维导电网络 · 文献知识站</p>
+          <p class="foot-tag">数据：OpenAlex · 每周自动更新 · 零第三方请求</p>
+        </div>
+        <div class="foot-col">
+          <h4>知识站</h4>
+          <a href="index.html">首页</a>
+          <a href="taxonomy.html">知识脉络</a>
+          <a href="graph.html">知识关系图</a>
+          <a href="about.html">关于</a>
+        </div>
+        <div class="foot-col">
+          <h4>文献</h4>
+          <a href="library.html">文献库</a>
+          <a href="dashboard.html">数据面板</a>
+          <a href="library.html?sort=date">最新收录</a>
+        </div>
+        <div class="foot-col">
+          <h4>数据与隐私</h4>
+          <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex ↗</a>
+          <a href="about.html#byok">AI BYOK 说明</a>
+          <a href="about.html#rules">工程铁律</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2025 CarbonNet · 数据来自 OpenAlex（CC0）</span>
+        <span class="dot">●</span>
+        <span>无构建 · 零第三方请求 · 密钥不出本机</span>
+      </div>
     </div>
   </footer>
+
+  <script src="data/papers.js?v=1"></script>
+  <script src="data/taxonomy.js?v=1"></script>
+  <script src="assets/js/data.js?v=1"></script>
+  <script src="assets/js/core.js?v=1"></script>
+  <script src="assets/js/ai.js?v=1"></script>
+  <script src="assets/js/paper.js?v=1"></script>
 </body>
 </html>

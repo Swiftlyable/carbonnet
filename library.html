@@ -1,119 +1,189 @@
-<!DOCTYPE html>
-<html lang="zh-CN" class="no-js">
+<!doctype html>
+<!-- CarbonNet · 文献库 —— 缓存版本规则：每次改动任一 CSS/JS 后，把所有 ?v=N 统一加 1 -->
+<html lang="zh-CN" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <meta name="description" content="CarbonNet 文献库 — 碳材料超级电容器三维导电网络文献的搜索、多维筛选、CSV 导出与分页浏览。">
-  <title>文献库 — CarbonNet 碳网图谱</title>
-  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
-  <link rel="stylesheet" href="css/tokens.css?v=1">
-  <link rel="stylesheet" href="css/main.css?v=1">
-  <link rel="stylesheet" href="css/pages.css?v=1">
-  <script defer src="js/vendor/echarts.min.js?v=1"></script>
-  <script defer src="js/common.js?v=4"></script>
-  <script defer src="js/library.js?v=1"></script>
+  <title>文献库 · CarbonNet 碳网图谱</title>
+  <meta name="description" content="CarbonNet 文献库：全文检索、多维筛选（材料/策略/年份/期刊）、CSV 导出与分页浏览。数据来自 OpenAlex。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/tokens.css?v=1">
+  <link rel="stylesheet" href="assets/css/base.css?v=1">
+  <link rel="stylesheet" href="assets/css/components.css?v=1">
+  <link rel="stylesheet" href="assets/css/library.css?v=1">
 </head>
-<body>
-  <header class="nav">
-    <div class="nav-inner">
-      <a class="brand" href="index.html">
-        <span class="logo">⬡</span>
-        <span>CarbonNet</span><span class="brand-cn">碳网图谱</span>
+<body data-page="library">
+  <a class="skip-link" href="#main">跳到正文</a>
+
+  <header class="site-head">
+    <div class="container head-in">
+      <a class="brand" href="index.html" aria-label="CarbonNet 首页">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <path d="M16 4l10.4 6v12L16 28 5.6 22V10L16 4z"></path>
+          <path d="M16 4v24M5.6 10l20.8 12M26.4 10L5.6 22"></path>
+          <circle cx="16" cy="16" r="3.2" fill="#7CC7FF" stroke="none"></circle>
+        </svg>
+        <span>CarbonNet</span><span class="brand-sub">碳网图谱</span>
       </a>
-      <nav aria-label="主导航">
-        <ul class="nav-links">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="taxonomy.html">知识脉络</a></li>
-          <li><a href="graph.html">知识关系图</a></li>
-          <li><a href="library.html">文献库</a></li>
-          <li><a href="stats.html">数据面板</a></li>
-          <li><a href="ai.html">AI 助手</a></li>
-          <li><a href="about.html">关于</a></li>
-        </ul>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="taxonomy.html">知识脉络</a>
+        <a href="graph.html">关系图</a>
+        <a href="library.html" aria-current="page">文献库</a>
+        <a href="dashboard.html">数据面板</a>
+        <a href="about.html">关于</a>
       </nav>
-      <div class="nav-right">
-        <button class="icon-btn theme-toggle" aria-label="切换主题">☾</button>
-        <button class="icon-btn nav-toggle" aria-label="菜单">☰</button>
+      <div class="head-actions">
+        <button class="icon-btn" id="theme-btn" aria-label="切换深色/浅色主题" title="切换主题">
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="btn btn-primary btn-sm" id="ai-btn">AI 助手</button>
+        <button class="icon-btn nav-burger" id="nav-burger" aria-label="打开菜单" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
       </div>
     </div>
   </header>
 
-  <main class="page">
+  <main id="main">
     <div class="container">
-      <div class="page-head enter">
-        <span class="eyebrow">LIBRARY</span>
-        <h1>文献库</h1>
-        <p class="lead">搜索与多维筛选碳材料超级电容器三维导电网络文献，支持 CSV 导出。
-          点击行标题进入论文详情页。</p>
+      <div class="page-head">
+        <p class="eyebrow" data-anim="fade">LITERATURE LIBRARY · OPENALEX</p>
+        <h1 class="page-title" data-anim="rise">文献库 <span class="en">Library</span></h1>
+        <p class="lede" data-anim="rise" style="animation-delay:.08s">
+          全文检索与多维筛选，支持 CSV 导出。点击行进入论文详情，点击标签反向筛选。
+        </p>
       </div>
 
-      <!-- 筛选栏 -->
-      <div class="filter-bar enter">
-        <input type="search" class="ctrl" id="fQ" placeholder="搜索标题 / 作者 / 期刊 / 摘要…" aria-label="搜索">
-        <select class="ctrl" id="fMat" aria-label="材料筛选"><option value="">全部材料</option></select>
-        <select class="ctrl" id="fStr" aria-label="策略筛选"><option value="">全部策略</option></select>
-        <select class="ctrl" id="fType" aria-label="类型筛选">
-          <option value="">全部类型</option>
-          <option value="article">article</option>
-          <option value="review">review</option>
-        </select>
-        <select class="ctrl" id="fOA" aria-label="开放获取筛选">
-          <option value="">全部 OA</option>
-          <option value="gold">gold</option>
-          <option value="green">green</option>
-          <option value="hybrid">hybrid</option>
-          <option value="bronze">bronze</option>
-          <option value="closed">closed</option>
-        </select>
-        <select class="ctrl" id="fYear" aria-label="年份筛选"><option value="">全部年份</option></select>
-        <select class="ctrl" id="fSort" aria-label="排序">
-          <option value="cited">按被引 ↓</option>
-          <option value="date">按发表日期 ↓</option>
-          <option value="year">按年份 ↓</option>
-          <option value="title">按标题 A-Z</option>
-        </select>
-        <div class="spacer"></div>
-        <button class="btn btn-primary btn-sm" id="btnCsv">⬇ 导出 CSV</button>
+      <!-- 筛选区 -->
+      <div class="filter-bar" data-anim="rise" style="animation-delay:.16s">
+        <div class="filter-row">
+          <div class="field">
+            <label for="f-q">搜索</label>
+            <input class="input" id="f-q" type="search" placeholder="标题 / 关键词 / 作者 / 摘要 / 期刊…" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="f-material">碳材料</label>
+            <select class="select" id="f-material"></select>
+          </div>
+          <div class="field">
+            <label for="f-strategy">构建策略</label>
+            <select class="select" id="f-strategy"></select>
+          </div>
+          <div class="field">
+            <label for="f-sort">排序</label>
+            <select class="select" id="f-sort">
+              <option value="citations">被引最多</option>
+              <option value="date">最新收录</option>
+              <option value="year">年份新 → 旧</option>
+              <option value="title">标题 A → Z</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter-row-2">
+          <div class="field">
+            <label for="f-year-from">年份起</label>
+            <select class="select" id="f-year-from"></select>
+          </div>
+          <div class="field">
+            <label for="f-year-to">年份止</label>
+            <select class="select" id="f-year-to"></select>
+          </div>
+          <div class="field">
+            <label for="f-journal">期刊</label>
+            <select class="select" id="f-journal"></select>
+          </div>
+          <div class="field">
+            <label for="f-per">每页</label>
+            <select class="select" id="f-per">
+              <option value="10">10 篇</option>
+              <option value="20" selected>20 篇</option>
+              <option value="50">50 篇</option>
+            </select>
+          </div>
+          <button class="btn btn-ghost" id="f-reset">重置</button>
+        </div>
+        <div class="active-filters" id="active-filters"></div>
       </div>
 
-      <!-- 活动筛选 chips -->
-      <div class="tag-cloud enter" id="activeFilters" style="margin-bottom:14px"></div>
-
-      <!-- 结果计数 -->
-      <div class="lib-head enter">
-        <span class="lib-count" id="libCount">—</span>
+      <!-- 工具条 -->
+      <div class="lib-toolbar" data-anim="fade" style="animation-delay:.2s">
+        <p class="lib-count" id="lib-count">—</p>
+        <button class="btn btn-sm btn-ghost" id="btn-csv" title="导出当前筛选结果为 CSV">导出 CSV</button>
       </div>
 
       <!-- 表格 -->
-      <div class="table-wrap enter">
-        <table class="papers" id="papersTable">
+      <div class="lib-table-wrap" data-anim="rise" style="animation-delay:.24s">
+        <table class="lib-table">
           <thead>
             <tr>
-              <th data-sort="title">标题</th>
-              <th data-sort="year" style="width:64px">年份</th>
-              <th data-sort="venue">期刊</th>
-              <th data-sort="type" style="width:90px">类型</th>
-              <th data-sort="oa" style="width:70px">OA</th>
-              <th data-sort="cited" style="width:80px">被引</th>
-              <th>作者</th>
+              <th style="width:44px">#</th>
+              <th>标题 / 摘要</th>
+              <th style="width:64px">年份</th>
+              <th style="width:170px">期刊</th>
+              <th style="width:190px">作者</th>
+              <th style="width:70px">被引</th>
+              <th style="width:70px">OA</th>
+              <th style="width:190px">脉络标签</th>
             </tr>
           </thead>
-          <tbody id="papersBody"></tbody>
+          <tbody id="lib-tbody"></tbody>
         </table>
-        <div class="state-note" id="tableState" style="display:none"></div>
+      </div>
+
+      <div class="empty-state" id="lib-empty" style="display:none; margin-top:var(--s4)">
+        <div class="es-ico">∅ NO RESULTS</div>
+        <p>没有匹配的文献，试试放宽筛选条件或清空搜索词。</p>
       </div>
 
       <!-- 分页 -->
-      <div class="pager" id="pager"></div>
+      <div class="pagination" id="lib-pagination" style="margin-top:var(--s5)"></div>
     </div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-foot">
     <div class="container">
-      <span>CarbonNet 碳网图谱 · 碳材料超级电容器三维导电网络文献知识站</span>
-      <span class="footer-mono">数据 © OpenAlex (CC0) · 每周自动更新 · <a href="about.html">关于</a></span>
+      <div class="foot-grid">
+        <div>
+          <div class="foot-brand">CarbonNet <span style="color:var(--accent)">碳网图谱</span></div>
+          <p class="foot-tag">碳材料超级电容器三维导电网络 · 文献知识站</p>
+          <p class="foot-tag">数据：OpenAlex · 每周自动更新 · 零第三方请求</p>
+        </div>
+        <div class="foot-col">
+          <h4>知识站</h4>
+          <a href="index.html">首页</a>
+          <a href="taxonomy.html">知识脉络</a>
+          <a href="graph.html">知识关系图</a>
+          <a href="about.html">关于</a>
+        </div>
+        <div class="foot-col">
+          <h4>文献</h4>
+          <a href="library.html">文献库</a>
+          <a href="dashboard.html">数据面板</a>
+          <a href="library.html?sort=date">最新收录</a>
+        </div>
+        <div class="foot-col">
+          <h4>数据与隐私</h4>
+          <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex ↗</a>
+          <a href="about.html#byok">AI BYOK 说明</a>
+          <a href="about.html#rules">工程铁律</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2025 CarbonNet · 数据来自 OpenAlex（CC0）</span>
+        <span class="dot">●</span>
+        <span>无构建 · 零第三方请求 · 密钥不出本机</span>
+      </div>
     </div>
   </footer>
+
+  <script src="data/papers.js?v=1"></script>
+  <script src="data/taxonomy.js?v=1"></script>
+  <script src="assets/js/data.js?v=1"></script>
+  <script src="assets/js/core.js?v=1"></script>
+  <script src="assets/js/ai.js?v=1"></script>
+  <script src="assets/js/library.js?v=1"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 name: Update Data & Deploy
 
+# CarbonNet：每周抓取 OpenAlex → 提交（fetch + rebase 后 push）→ 打包并部署 GitHub Pages
 on:
   schedule:
-    # 每周一 02:00 UTC 自动抓取 OpenAlex 最新文献
-    - cron: '0 2 * * 1'
-  workflow_dispatch:
+    - cron: '0 2 * * 1'   # 每周一 02:00 UTC
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -16,13 +16,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch-and-deploy:
+  update-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      # 第三方 action 全部钉定到完整 commit SHA（供应链安全，防 tag 移动）
+      # 第三方 action 全部钉定完整 commit SHA（供应链安全，防 tag 移动）
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
@@ -30,10 +30,10 @@ jobs:
           node-version: 22
 
       - name: Fetch OpenAlex data
-        run: node scripts/fetch-data.mjs
+        run: node scripts/fetch-openalex.js
         env:
-          # 仅注入请求头（User-Agent），脚本不会将其写入任何数据文件
-          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          # 仅注入请求头（User-Agent/mailto），脚本不会将其写入任何数据文件
+          OPENALEX_MAILTO: ${{ secrets.CONTACT_EMAIL }}
 
       - name: Commit & push data update
         run: |
@@ -41,22 +41,21 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
-            echo "DATA_UNCHANGED=1" >> "$GITHUB_ENV"
             echo "data unchanged — skip commit"
           else
-            git commit -m "data: weekly OpenAlex update ($(date -u +%Y-%m-%d))"
-            # 铁律：push 前先 fetch + rebase origin/main，避免冲突
+            git commit -m "data: weekly OpenAlex refresh ($(date -u +%Y-%m-%d))"
+            # 铁律：push 前先 fetch + rebase origin/main
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
           fi
 
-      - name: Prepare site payload
+      - name: Prepare Pages payload
         run: |
           # 仅打包站点运行所需文件，scripts/README 等不进 Pages
           mkdir -p _site
-          cp -r css js assets data fonts _site/
-          cp *.html .nojekyll _site/
+          cp -r assets data _site/
+          cp *.html .nojekyll robots.txt _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5

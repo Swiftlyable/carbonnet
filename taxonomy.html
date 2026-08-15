@@ -1,83 +1,142 @@
-<!DOCTYPE html>
-<html lang="zh-CN" class="no-js">
+<!doctype html>
+<!-- CarbonNet · 知识脉络 —— 缓存版本规则：每次改动任一 CSS/JS 后，把所有 ?v=N 统一加 1 -->
+<html lang="zh-CN" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <meta name="description" content="CarbonNet 知识脉络 — 碳材料超级电容器三维导电网络的材料体系、构筑策略与器件性能 taxonomy 树。">
-  <title>知识脉络 — CarbonNet 碳网图谱</title>
-  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
-  <link rel="stylesheet" href="css/tokens.css?v=1">
-  <link rel="stylesheet" href="css/main.css?v=1">
-  <link rel="stylesheet" href="css/pages.css?v=1">
-  <script defer src="js/vendor/echarts.min.js?v=1"></script>
-  <script defer src="js/common.js?v=4"></script>
-  <script defer src="js/taxonomy.js?v=1"></script>
+  <title>知识脉络 · CarbonNet 碳网图谱</title>
+  <meta name="description" content="碳材料超级电容器三维导电网络的知识脉络：碳材料体系、网络构建策略、器件与性能、应用场景的体系树。点击节点查看中文解读与相关文献。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/tokens.css?v=1">
+  <link rel="stylesheet" href="assets/css/base.css?v=1">
+  <link rel="stylesheet" href="assets/css/components.css?v=1">
+  <link rel="stylesheet" href="assets/css/taxonomy.css?v=1">
 </head>
-<body>
-  <header class="nav">
-    <div class="nav-inner">
-      <a class="brand" href="index.html">
-        <span class="logo">⬡</span>
-        <span>CarbonNet</span><span class="brand-cn">碳网图谱</span>
+<body data-page="taxonomy">
+  <a class="skip-link" href="#main">跳到正文</a>
+
+  <header class="site-head">
+    <div class="container head-in">
+      <a class="brand" href="index.html" aria-label="CarbonNet 首页">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <path d="M16 4l10.4 6v12L16 28 5.6 22V10L16 4z"></path>
+          <path d="M16 4v24M5.6 10l20.8 12M26.4 10L5.6 22"></path>
+          <circle cx="16" cy="16" r="3.2" fill="#7CC7FF" stroke="none"></circle>
+        </svg>
+        <span>CarbonNet</span><span class="brand-sub">碳网图谱</span>
       </a>
-      <nav aria-label="主导航">
-        <ul class="nav-links">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="taxonomy.html">知识脉络</a></li>
-          <li><a href="graph.html">知识关系图</a></li>
-          <li><a href="library.html">文献库</a></li>
-          <li><a href="stats.html">数据面板</a></li>
-          <li><a href="ai.html">AI 助手</a></li>
-          <li><a href="about.html">关于</a></li>
-        </ul>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="taxonomy.html" aria-current="page">知识脉络</a>
+        <a href="graph.html">关系图</a>
+        <a href="library.html">文献库</a>
+        <a href="dashboard.html">数据面板</a>
+        <a href="about.html">关于</a>
       </nav>
-      <div class="nav-right">
-        <button class="icon-btn theme-toggle" aria-label="切换主题">☾</button>
-        <button class="icon-btn nav-toggle" aria-label="菜单">☰</button>
+      <div class="head-actions">
+        <button class="icon-btn" id="theme-btn" aria-label="切换深色/浅色主题" title="切换主题">
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="btn btn-primary btn-sm" id="ai-btn">AI 助手</button>
+        <button class="icon-btn nav-burger" id="nav-burger" aria-label="打开菜单" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
       </div>
     </div>
   </header>
 
-  <main class="page">
+  <main id="main">
     <div class="container">
-      <div class="page-head enter">
-        <span class="eyebrow">TAXONOMY</span>
-        <h1>知识脉络</h1>
-        <p class="lead">材料体系 × 构筑策略 × 器件与性能三层分类树。点击节点查看细分说明与代表文献，
-          拖拽/滚轮缩放画布，点空白处、按 Esc 或 × 关闭详情面板。</p>
+      <div class="page-head">
+        <p class="eyebrow" data-anim="fade">KNOWLEDGE TAXONOMY · 体系之树</p>
+        <h1 class="page-title" data-anim="rise">知识脉络 <span class="en">Taxonomy</span></h1>
+        <p class="lede" data-anim="rise" style="animation-delay:.08s">
+          碳材料体系 → 网络构建策略 → 器件与性能 → 应用场景：一棵覆盖领域全貌的体系树。
+          <strong style="color:var(--text)">点击任意节点</strong>查看中文解读与相关文献；
+          滚轮缩放、拖动平移；面板可点 ×、点空白处或按 Esc 关闭。
+        </p>
       </div>
 
-      <div class="tax-layout enter">
-        <div class="tax-chart-wrap">
-          <div id="taxChart" role="img" aria-label="知识脉络树图"></div>
-          <div class="tax-legend">
-            <span><span class="dot" style="background:var(--chart-p1)"></span>维度</span>
-            <span><span class="dot" style="background:var(--chart-p3)"></span>类别</span>
-            <span><span class="dot" style="background:var(--chart-p4)"></span>代表文献</span>
-          </div>
-          <div class="tax-hint">点击节点 → 详情面板 · 滚轮缩放 · 拖拽平移</div>
-        </div>
+      <div class="taxo-legend" data-anim="fade" style="animation-delay:.2s">
+        <span class="chip">◆ 根节点</span>
+        <span class="chip">◆ 分支</span>
+        <span class="chip">◆ 碳材料</span>
+        <span class="chip">◆ 构建策略</span>
+        <span class="chip">◆ 器件性能</span>
+        <span class="chip">◆ 应用场景</span>
+        <span class="taxo-hint">节点可点击 · 分支可折叠</span>
       </div>
+
+      <div class="chart-box" id="taxo-chart" data-anim="rise" style="animation-delay:.16s" role="img" aria-label="知识脉络树图（交互式，点击节点查看详情）"></div>
     </div>
   </main>
 
   <!-- 详情面板 -->
-  <div class="drawer-mask" id="drawerMask"></div>
-  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-    <button class="drawer-close" id="drawerClose" aria-label="关闭面板">✕</button>
-    <span class="d-eyebrow" id="drawerEyebrow">—</span>
-    <h2 id="drawerTitle">—</h2>
-    <p class="chart-sub" id="drawerDesc"></p>
-    <div class="d-meta" id="drawerMeta"></div>
-    <div id="drawerBody"></div>
+  <div class="panel-veil" id="panel-veil" aria-hidden="true"></div>
+  <aside class="detail-panel" id="detail-panel" aria-label="节点详情" role="dialog" aria-modal="false">
+    <div class="dp-head">
+      <div>
+        <div class="dp-type" id="dp-type">—</div>
+        <div class="dp-title" id="dp-title">—</div>
+        <div class="dp-en" id="dp-en">—</div>
+      </div>
+      <button class="dp-close" id="dp-close" aria-label="关闭面板">✕</button>
+    </div>
+    <div class="dp-body">
+      <h4>中文解读</h4>
+      <p class="dp-desc" id="dp-desc">—</p>
+      <h4>相关文献</h4>
+      <div class="dp-rel" id="dp-rel"></div>
+    </div>
+    <div class="dp-foot">
+      <a class="btn btn-primary" id="dp-cta" href="library.html">在文献库中查看 →</a>
+    </div>
   </aside>
 
-  <footer class="site-footer">
+  <footer class="site-foot">
     <div class="container">
-      <span>CarbonNet 碳网图谱 · 碳材料超级电容器三维导电网络文献知识站</span>
-      <span class="footer-mono">数据 © OpenAlex (CC0) · 每周自动更新 · <a href="about.html">关于</a></span>
+      <div class="foot-grid">
+        <div>
+          <div class="foot-brand">CarbonNet <span style="color:var(--accent)">碳网图谱</span></div>
+          <p class="foot-tag">碳材料超级电容器三维导电网络 · 文献知识站</p>
+          <p class="foot-tag">数据：OpenAlex · 每周自动更新 · 零第三方请求</p>
+        </div>
+        <div class="foot-col">
+          <h4>知识站</h4>
+          <a href="index.html">首页</a>
+          <a href="taxonomy.html">知识脉络</a>
+          <a href="graph.html">知识关系图</a>
+          <a href="about.html">关于</a>
+        </div>
+        <div class="foot-col">
+          <h4>文献</h4>
+          <a href="library.html">文献库</a>
+          <a href="dashboard.html">数据面板</a>
+          <a href="library.html?sort=date">最新收录</a>
+        </div>
+        <div class="foot-col">
+          <h4>数据与隐私</h4>
+          <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex ↗</a>
+          <a href="about.html#byok">AI BYOK 说明</a>
+          <a href="about.html#rules">工程铁律</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2025 CarbonNet · 数据来自 OpenAlex（CC0）</span>
+        <span class="dot">●</span>
+        <span>无构建 · 零第三方请求 · 密钥不出本机</span>
+      </div>
     </div>
   </footer>
+
+  <script src="assets/vendor/echarts/echarts.min.js?v=1"></script>
+  <script src="data/papers.js?v=1"></script>
+  <script src="data/taxonomy.js?v=1"></script>
+  <script src="assets/js/data.js?v=1"></script>
+  <script src="assets/js/core.js?v=1"></script>
+  <script src="assets/js/ai.js?v=1"></script>
+  <script src="assets/js/taxonomy.js?v=1"></script>
 </body>
 </html>

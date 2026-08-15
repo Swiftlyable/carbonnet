@@ -1,0 +1,104 @@
+/* ==========================================================================
+   CarbonNet · paper.css —— 论文详情页
+   ========================================================================== */
+
+.back-link {
+  display: inline-block;
+  margin: var(--s5) 0 var(--s4);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+  color: var(--text-2);
+}
+.back-link:hover { color: var(--accent); }
+
+.paper-head { border-bottom: var(--hairline); padding-bottom: var(--s5); }
+.pp-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: var(--s3); }
+.pp-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+.pp-authors { margin-top: var(--s4); color: var(--text-2); font-size: var(--fs-md); line-height: 1.7; }
+.pp-meta-line {
+  margin-top: var(--s2);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-3);
+  letter-spacing: 0.06em;
+}
+
+.paper-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: var(--s6);
+  margin-top: var(--s6);
+  align-items: start;
+}
+.pp-section { margin-bottom: var(--s6); }
+.pp-sec-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+  flex-wrap: wrap;
+  margin-bottom: var(--s3);
+}
+.pp-sec-head h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-lg);
+  color: var(--text);
+}
+.pp-sec-head h2 .en { color: var(--text-3); font-size: 0.7em; margin-left: 6px; font-family: var(--font-mono); letter-spacing: 0.1em; }
+.pp-abstract {
+  color: var(--text-2);
+  line-height: 1.9;
+  font-size: var(--fs-base);
+  text-align: justify;
+  max-width: 76ch;
+}
+.pp-chips-wrap { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.paper-side { display: flex; flex-direction: column; gap: var(--s4); position: sticky; top: calc(var(--head-h) + 16px); }
+.ps-card {
+  background: var(--surface);
+  border: var(--hairline);
+  border-radius: var(--radius);
+  padding: var(--s4);
+}
+.ps-card h4 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: var(--s2);
+}
+.ps-cite {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.ps-note { font-size: var(--fs-xs); color: var(--text-3); margin-top: 2px; }
+.ps-links { display: flex; flex-direction: column; gap: 6px; font-size: var(--fs-sm); }
+.ps-links a { word-break: break-all; }
+.ps-authors { display: flex; flex-direction: column; gap: 8px; font-size: var(--fs-sm); }
+.ps-authors li { color: var(--text-2); line-height: 1.5; }
+.ps-authors .aff { display: block; font-size: var(--fs-xs); color: var(--text-3); font-family: var(--font-mono); }
+.ps-authors .more { color: var(--text-3); font-family: var(--font-mono); font-size: var(--fs-xs); }
+
+.sim-card .p-title { -webkit-line-clamp: 2; }
+.sim-card .p-desc { -webkit-line-clamp: 3; }
+
+@media (max-width: 960px) {
+  .paper-layout { grid-template-columns: 1fr; }
+  .paper-side { position: static; flex-direction: row; flex-wrap: wrap; }
+  .ps-card { flex: 1 1 240px; }
+}

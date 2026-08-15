@@ -1,0 +1,34 @@
+/* ==========================================================================
+   CarbonNet · graph.css —— 知识关系图页
+   ========================================================================== */
+
+#graph-chart { height: min(72vh, 760px); min-height: 560px; }
+
+.graph-controls {
+  padding: var(--s4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  margin-bottom: var(--s4);
+}
+.ctl-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s5);
+  flex-wrap: wrap;
+}
+.ctl-row-2 {
+  justify-content: space-between;
+  border-top: var(--hairline);
+  padding-top: var(--s3);
+  gap: var(--s3);
+}
+.ctl-actions { display: flex; gap: 8px; }
+.ctl-group .chip { cursor: pointer; }
+.ctl-group .chip.off { opacity: 0.45; text-decoration: line-through; }
+
+@media (max-width: 640px) {
+  #graph-chart { height: 64vh; min-height: 460px; }
+  .ctl-row { gap: var(--s3); }
+  .ctl-group label { display: none; }
+}

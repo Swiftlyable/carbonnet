@@ -1,0 +1,119 @@
+/* ==========================================================================
+   CarbonNet 碳网图谱 · 设计令牌
+   全站唯一颜色/字体/动效来源。改这里的令牌 = 全站换肤。
+   ECharts 通过 core.js 的 chartTheme() 读取这些令牌（不要在图里写死颜色）。
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* ---- 底色与表面（蓝调近黑） ---- */
+  --bg: #0a0f14;
+  --bg-soft: #0c131b;
+  --surface: #0f1822;
+  --surface-2: #14202d;
+  --surface-3: #1a2a3a;
+  --line: rgba(124, 199, 255, 0.14);
+  --line-strong: rgba(124, 199, 255, 0.32);
+  --hairline: 1px solid var(--line);
+
+  /* ---- 文字 ---- */
+  --text: #e9f1f8;
+  --text-2: #a7bccd;
+  --text-3: #6c8295;
+
+  /* ---- 强调（电光青）与按钮（深蓝） ---- */
+  --accent: #7cc7ff;
+  --accent-strong: #a8dcff;
+  --accent-dim: rgba(124, 199, 255, 0.13);
+  --accent-glow: rgba(124, 199, 255, 0.28);
+  --on-accent: #07131d;
+  --primary: #125e9a;
+  --primary-hover: #1773bb;
+  --on-primary: #eef7fd;
+  --ok: #4fd1a5;
+  --warn: #f5b759;
+
+  /* ---- 图表色板（ECharts 从此读取） ---- */
+  --c1: #7cc7ff;
+  --c2: #38bdf8;
+  --c3: #2f6fdb;
+  --c4: #67e8f9;
+  --c5: #818cf8;
+  --c6: #5eead4;
+  --c7: #93c5fd;
+  --c8: #4f46e5;
+
+  /* ---- 字体 ---- */
+  --font-display: 'Space Grotesk', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, 'Cascadia Mono', Consolas, 'Microsoft YaHei', monospace;
+  --font-ui: var(--font-display);
+
+  /* ---- 字号阶梯 ---- */
+  --fs-xs: 12px;
+  --fs-sm: 13px;
+  --fs-base: 15px;
+  --fs-md: 17px;
+  --fs-lg: 20px;
+  --fs-xl: 26px;
+  --fs-2xl: 34px;
+  --fs-3xl: 46px;
+  --fs-hero: clamp(42px, 7.5vw, 92px);
+
+  /* ---- 间距 ---- */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
+
+  /* ---- 动效：弹簧缓动 + 景深模糊渐清 ---- */
+  --ease-spring: cubic-bezier(0.17, 1.25, 0.36, 1);
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur: 0.55s;
+
+  /* ---- 其他 ---- */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 14px 44px -14px rgba(0, 0, 0, 0.55);
+  --shadow-soft: 0 6px 22px -10px rgba(0, 0, 0, 0.4);
+  --head-h: 60px;
+}
+
+/* ---- 浅色主题：同样只用令牌，换肤不换结构 ---- */
+[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #f3f6f9;
+  --bg-soft: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #eaf0f6;
+  --surface-3: #dfe8f1;
+  --line: rgba(18, 94, 154, 0.16);
+  --line-strong: rgba(18, 94, 154, 0.36);
+  --hairline: 1px solid var(--line);
+
+  --text: #0d1c29;
+  --text-2: #3f5a70;
+  --text-3: #7c93a8;
+
+  --accent: #0b7fc9;
+  --accent-strong: #085d97;
+  --accent-dim: rgba(11, 127, 201, 0.1);
+  --accent-glow: rgba(11, 127, 201, 0.2);
+  --on-accent: #ffffff;
+  --primary: #125e9a;
+  --primary-hover: #0f4f82;
+  --on-primary: #f2f8fd;
+  --ok: #0d9f7a;
+  --warn: #b57a1d;
+
+  --c1: #0b7fc9;
+  --c2: #0891b2;
+  --c3: #2f6fdb;
+  --c4: #0e7490;
+  --c5: #6366f1;
+  --c6: #0d9488;
+  --c7: #3b82f6;
+  --c8: #4338ca;
+
+  --shadow: 0 14px 40px -18px rgba(18, 58, 90, 0.28);
+  --shadow-soft: 0 6px 20px -12px rgba(18, 58, 90, 0.22);
+}

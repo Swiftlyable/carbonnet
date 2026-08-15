@@ -1,0 +1,9 @@
+/* ==========================================================================
+   CarbonNet · dashboard.css —— 数据面板页
+   ========================================================================== */
+
+.chart-panel[style*='grid-column'] .cp-body { min-height: 300px; }
+
+@media (max-width: 960px) {
+  .chart-panel[style*='grid-column'] { grid-column: auto !important; }
+}

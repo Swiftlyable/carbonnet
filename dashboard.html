@@ -1,19 +1,19 @@
 <!doctype html>
-<!-- CarbonNet · 知识关系图 —— 缓存版本规则：每次改动任一 CSS/JS 后，把所有 ?v=N 统一加 1 -->
+<!-- CarbonNet · 数据面板 —— 缓存版本规则：每次改动任一 CSS/JS 后，把所有 ?v=N 统一加 1 -->
 <html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.siliconflow.cn; object-src 'none'">
-  <title>知识关系图 · CarbonNet 碳网图谱</title>
-  <meta name="description" content="材料 × 策略 × 文献三层力导向网络：点击文献节点进入论文详情，点击材料/策略节点进入文献库筛选。">
+  <title>数据面板 · CarbonNet 碳网图谱</title>
+  <meta name="description" content="CarbonNet 数据面板：年度发文与引用趋势、期刊分布、月度热力图、被引分布、影响力散点与研究主题 treemap。数据来自 OpenAlex。">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/tokens.css?v=1">
   <link rel="stylesheet" href="assets/css/base.css?v=1">
   <link rel="stylesheet" href="assets/css/components.css?v=1">
-  <link rel="stylesheet" href="assets/css/graph.css?v=1">
+  <link rel="stylesheet" href="assets/css/dashboard.css?v=1">
 </head>
-<body data-page="graph">
+<body data-page="dashboard">
   <a class="skip-link" href="#main">跳到正文</a>
 
   <header class="site-head">
@@ -29,9 +29,9 @@
       <nav class="site-nav" id="site-nav" aria-label="主导航">
         <a href="index.html">首页</a>
         <a href="taxonomy.html">知识脉络</a>
-        <a href="graph.html" aria-current="page">关系图</a>
+        <a href="graph.html">关系图</a>
         <a href="library.html">文献库</a>
-        <a href="dashboard.html">数据面板</a>
+        <a href="dashboard.html" aria-current="page">数据面板</a>
         <a href="about.html">关于</a>
       </nav>
       <div class="head-actions">
@@ -50,50 +50,77 @@
   <main id="main">
     <div class="container">
       <div class="page-head">
-        <p class="eyebrow" data-anim="fade">FORCE-DIRECTED KNOWLEDGE GRAPH · 三层网络</p>
-        <h1 class="page-title" data-anim="rise">知识关系图 <span class="en">Graph</span></h1>
+        <p class="eyebrow" data-anim="fade">DATA DASHBOARD · 全景统计</p>
+        <h1 class="page-title" data-anim="rise">数据面板 <span class="en">Dashboard</span></h1>
         <p class="lede" data-anim="rise" style="animation-delay:.08s">
-          <strong style="color:var(--text)">材料</strong>（内环）→ <strong style="color:var(--text)">策略</strong>（中环）→
-          <strong style="color:var(--text)">文献</strong>（外环）三层力导向网络。
-          点击文献节点进入论文详情；点击材料/策略节点进入文献库筛选；拖拽平移、滚轮缩放。
+          全部图表由浏览器从 data/papers.js 即时计算，颜色取自 CSS 令牌 —— 切换深浅主题即全站换肤。
         </p>
       </div>
 
-      <!-- 控制条 -->
-      <div class="graph-controls card" data-anim="rise" style="animation-delay:.16s">
-        <div class="ctl-row">
-          <div class="ctl-group">
-            <label>显示层级</label>
-            <button class="chip on" data-toggle="material">材料</button>
-            <button class="chip on" data-toggle="strategy">策略</button>
-            <button class="chip on" data-toggle="paper">文献</button>
-          </div>
-          <div class="ctl-group">
-            <label>斥力</label>
-            <input type="range" id="ctl-repulsion" min="0.2" max="3" step="0.1" value="1" aria-label="节点斥力">
-            <span class="ctl-val" id="val-repulsion">1.0</span>
-          </div>
-          <div class="ctl-group">
-            <label>边长</label>
-            <input type="range" id="ctl-len" min="40" max="220" step="5" value="110" aria-label="连边长度">
-            <span class="ctl-val" id="val-len">110</span>
-          </div>
-          <div class="ctl-group">
-            <label>引力</label>
-            <input type="range" id="ctl-gravity" min="0.004" max="0.06" step="0.002" value="0.018" aria-label="环层引力">
-            <span class="ctl-val" id="val-gravity">0.018</span>
-          </div>
+      <!-- KPI -->
+      <div class="kpi-grid" style="margin-bottom:var(--s4)">
+        <div class="kpi-card" data-anim="rise" style="animation-delay:.05s">
+          <div class="kpi-label">收录文献</div>
+          <div class="kpi-value" id="dk-papers">—</div>
+          <div class="kpi-note">主题门控 · OpenAlex</div>
         </div>
-        <div class="ctl-row ctl-row-2">
-          <span class="taxo-hint">单击节点导航（位移 &lt; 6px）；拖拽(&gt;6px)只平移不导航 · 手势期间冻结布局，绝不重启力导向</span>
-          <div class="ctl-actions">
-            <button class="btn btn-sm btn-ghost" id="btn-shuffle">重新布局</button>
-            <button class="btn btn-sm btn-ghost" id="btn-restore">重置视图</button>
-          </div>
+        <div class="kpi-card" data-anim="rise" style="animation-delay:.12s">
+          <div class="kpi-label">累计被引</div>
+          <div class="kpi-value" id="dk-citations">—</div>
+          <div class="kpi-note">领域影响力量级</div>
+        </div>
+        <div class="kpi-card" data-anim="rise" style="animation-delay:.19s">
+          <div class="kpi-label">篇均被引</div>
+          <div class="kpi-value" id="dk-avg">—</div>
+          <div class="kpi-note">被引 / 文献数</div>
+        </div>
+        <div class="kpi-card" data-anim="rise" style="animation-delay:.26s">
+          <div class="kpi-label">摘要覆盖率</div>
+          <div class="kpi-value" id="dk-abs">—</div>
+          <div class="kpi-note">带英文摘要的文献占比</div>
         </div>
       </div>
 
-      <div class="chart-box" id="graph-chart" data-anim="rise" style="animation-delay:.24s" role="img" aria-label="材料策略文献三层力导向网络（交互式）"></div>
+      <div class="note-bar" data-anim="fade" style="animation-delay:.2s; margin-bottom:var(--s4)">
+        <span class="nb-ico">ⓘ</span>
+        <span>数据快照：<span id="dk-fetched">—</span>（UTC）· 来源 OpenAlex · GitHub Actions 每周一自动抓取更新 ·
+          本页图表在浏览器本地即时聚合，不发任何网络请求。</span>
+      </div>
+
+      <!-- 年度趋势（通栏） -->
+      <div class="chart-panel" data-anim="rise" style="animation-delay:.24s; margin-bottom:var(--s4)">
+        <h3><span class="cn">01</span>年度发文与引用趋势</h3>
+        <p class="cp-sub">柱 = 每年文献数（左轴） · 线 = 当年文献累计被引（右轴）</p>
+        <div class="cp-body" id="chart-annual" style="height:340px"></div>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-panel" data-anim="rise" style="animation-delay:.28s">
+          <h3><span class="cn">02</span>期刊分布 Top 15</h3>
+          <p class="cp-sub">收录文献最多的来源期刊</p>
+          <div class="cp-body" id="chart-journals"></div>
+        </div>
+        <div class="chart-panel" data-anim="rise" style="animation-delay:.32s">
+          <h3><span class="cn">03</span>研究主题 Treemap</h3>
+          <p class="cp-sub">OpenAlex 概念共现规模（前 26）</p>
+          <div class="cp-body" id="chart-concepts"></div>
+        </div>
+        <div class="chart-panel" data-anim="rise" style="animation-delay:.36s">
+          <h3><span class="cn">04</span>月度热力图</h3>
+          <p class="cp-sub">年份 × 月份 发文密度</p>
+          <div class="cp-body" id="chart-heatmap"></div>
+        </div>
+        <div class="chart-panel" data-anim="rise" style="animation-delay:.4s">
+          <h3><span class="cn">05</span>被引分布</h3>
+          <p class="cp-sub">文献被引量对数分箱</p>
+          <div class="cp-body" id="chart-hist"></div>
+        </div>
+        <div class="chart-panel" data-anim="rise" style="animation-delay:.44s; grid-column:1/-1">
+          <h3><span class="cn">06</span>影响力散点（年份 × 被引）</h3>
+          <p class="cp-sub">每个点 = 一篇文献；气泡大小 = 被引量；Y 轴对数刻度</p>
+          <div class="cp-body" id="chart-scatter" style="height:340px"></div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -139,6 +166,6 @@
   <script src="assets/js/data.js?v=1"></script>
   <script src="assets/js/core.js?v=1"></script>
   <script src="assets/js/ai.js?v=1"></script>
-  <script src="assets/js/graph.js?v=1"></script>
+  <script src="assets/js/dashboard.js?v=1"></script>
 </body>
 </html>

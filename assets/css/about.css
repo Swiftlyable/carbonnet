@@ -1,0 +1,80 @@
+/* ==========================================================================
+   CarbonNet · about.css —— 关于页
+   ========================================================================== */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s4);
+  margin-bottom: var(--s6);
+}
+.about-card {
+  background: var(--surface);
+  border: var(--hairline);
+  border-radius: var(--radius);
+  padding: var(--s5);
+}
+.about-card h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-lg);
+  color: var(--text);
+  margin-bottom: var(--s3);
+}
+.about-card p { color: var(--text-2); font-size: var(--fs-sm); line-height: 1.85; }
+.about-card p + p { margin-top: var(--s2); }
+.about-card code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 1px 6px;
+  border-radius: 5px;
+}
+.about-card strong { color: var(--text); font-weight: 600; }
+.about-mono {
+  font-family: var(--font-mono) !important;
+  font-size: var(--fs-xs) !important;
+  color: var(--text-3) !important;
+  margin-top: var(--s3) !important;
+}
+.about-list { margin-top: var(--s2); }
+.about-list li {
+  color: var(--text-2);
+  font-size: var(--fs-sm);
+  line-height: 1.8;
+  padding-left: 18px;
+  position: relative;
+}
+.about-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
+.about-rules { counter-reset: rule; margin-top: var(--s2); }
+.about-rules li {
+  counter-increment: rule;
+  color: var(--text-2);
+  font-size: var(--fs-sm);
+  line-height: 1.8;
+  padding: 8px 0 8px 34px;
+  position: relative;
+  border-bottom: 1px dashed var(--line);
+}
+.about-rules li:last-child { border-bottom: 0; }
+.about-rules li::before {
+  content: 'R' counter(rule, decimal-leading-zero);
+  position: absolute;
+  left: 0; top: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+.about-rules b { color: var(--text); }
+
+@media (max-width: 900px) {
+  .about-grid { grid-template-columns: 1fr; }
+}

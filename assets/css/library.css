@@ -1,0 +1,39 @@
+/* ==========================================================================
+   CarbonNet · library.css —— 文献库页
+   ========================================================================== */
+
+.lib-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin: var(--s4) 0 var(--s3);
+  flex-wrap: wrap;
+}
+.lib-count {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+}
+.lib-count b { color: var(--accent); font-weight: 500; }
+
+.td-tag { cursor: pointer; font-size: 10px; }
+.td-title-wrap { display: flex; flex-direction: column; gap: 4px; }
+.td-snippet {
+  font-size: var(--fs-xs);
+  color: var(--text-3);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 560px;
+}
+.td-authors { font-size: var(--fs-xs); color: var(--text-2); line-height: 1.5; }
+
+/* 行错峰入场（表格行数据由 JS 生成，延迟由 animStagger 注入） */
+#lib-tbody tr { opacity: 1; }
+
+@media (max-width: 960px) {
+  .td-snippet { display: none; }
+}
