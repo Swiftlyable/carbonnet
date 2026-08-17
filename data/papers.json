@@ -5,7 +5,7 @@
   "title": "Materials for electrochemical capacitors",
   "year": 2008,
   "date": "2008-10-28",
-  "citations": 16267,
+  "citations": 16271,
   "authors": [
    {
     "name": "Patrice Simon",
@@ -74,7 +74,7 @@
   "title": "A review of electrode materials for electrochemical supercapacitors",
   "year": 2011,
   "date": "2011-07-21",
-  "citations": 9091,
+  "citations": 9092,
   "authors": [
    {
     "name": "Guoping Wang",
@@ -147,7 +147,7 @@
   "title": "Carbon-based materials as supercapacitor electrodes",
   "year": 2009,
   "date": "2009-01-01",
-  "citations": 7402,
+  "citations": 7403,
   "authors": [
    {
     "name": "Lili Zhang",
@@ -473,7 +473,7 @@
   "title": "Anomalous Increase in Carbon Capacitance at Pore Sizes Less Than 1 Nanometer",
   "year": 2006,
   "date": "2006-08-18",
-  "citations": 3976,
+  "citations": 3977,
   "authors": [
    {
     "name": "John Chmiola",
@@ -558,7 +558,7 @@
   "title": "Three-dimensional flexible and conductive interconnected graphene networks grown by chemical vapour deposition",
   "year": 2011,
   "date": "2011-04-10",
-  "citations": 3840,
+  "citations": 3842,
   "authors": [
    {
     "name": "Zongping Chen",
@@ -643,7 +643,7 @@
   "title": "Design and Mechanisms of Asymmetric Supercapacitors",
   "year": 2018,
   "date": "2018-09-11",
-  "citations": 3623,
+  "citations": 3624,
   "authors": [
    {
     "name": "Yuanlong Shao",
@@ -740,7 +740,7 @@
   "title": "Self-Assembled Graphene Hydrogel <i>via</i> a One-Step Hydrothermal Process",
   "year": 2010,
   "date": "2010-06-30",
-  "citations": 3239,
+  "citations": 3240,
   "authors": [
    {
     "name": "Yuxi Xu",
@@ -815,7 +815,7 @@
   "title": "KOH activation of carbon-based materials for energy storage",
   "year": 2012,
   "date": "2012-01-01",
-  "citations": 2704,
+  "citations": 2705,
   "authors": [
    {
     "name": "Jiacheng Wang",
@@ -1224,7 +1224,7 @@
   "title": "Flexible MXene/Carbon Nanotube Composite Paper with High Volumetric Capacitance",
   "year": 2014,
   "date": "2014-11-18",
-  "citations": 1419,
+  "citations": 1420,
   "authors": [
    {
     "name": "Meng‐Qiang Zhao",
@@ -3804,7 +3804,7 @@
   "title": "MXene-Bonded Activated Carbon as a Flexible Electrode for High-Performance Supercapacitors",
   "year": 2018,
   "date": "2018-06-11",
-  "citations": 533,
+  "citations": 534,
   "authors": [
    {
     "name": "Lanyong Yu",
@@ -4392,6 +4392,89 @@
   "pages": ""
  },
  {
+  "id": "W2965442669",
+  "doi": "https://doi.org/10.1002/aenm.201901839",
+  "title": "Versatile N‐Doped MXene Ink for Printed Electrochemical Energy Storage Application",
+  "year": 2019,
+  "date": "2019-07-30",
+  "citations": 482,
+  "authors": [
+   {
+    "name": "Lianghao Yu",
+    "institution": "Soochow University"
+   },
+   {
+    "name": "Zhaodi Fan",
+    "institution": "Soochow University"
+   },
+   {
+    "name": "Yuanlong Shao",
+    "institution": "King Abdullah University of Science and Technology"
+   },
+   {
+    "name": "Zhengnan Tian",
+    "institution": "Soochow University"
+   },
+   {
+    "name": "Jingyu Sun",
+    "institution": "Soochow University"
+   },
+   {
+    "name": "Zhongfan Liu",
+    "institution": "Peking University"
+   }
+  ],
+  "journal": "Advanced Energy Materials",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8621490001678467
+   },
+   {
+    "name": "MXenes",
+    "level": 2,
+    "score": 0.8506700992584229
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8281112313270569
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.6135217547416687
+   },
+   {
+    "name": "Energy storage",
+    "level": 3,
+    "score": 0.6079379916191101
+   },
+   {
+    "name": "Electrode",
+    "level": 2,
+    "score": 0.5986236333847046
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "MXenes",
+   "Materials science",
+   "Nanotechnology",
+   "Energy storage",
+   "Electrode",
+   "Capacitance",
+   "Electrochemistry"
+  ],
+  "abstract": "Abstract Printing is regarded as a revolutionary and feasible technique to guide the fabrication of versatile functional systems with designed architectures. 2D MXenes are nowadays attractive in printed energy storage devices. However, owing to the van der Waals interaction between the MXene layers, the restacking issues within the printed electrodes can significantly impede the ion/electrolyte transport and hence handicap the electrochemical performances. Herein, a melamine formaldehyde templating method is demonstrated to develop crumpled nitrogen‐doped MXene (MXene‐N) nanosheets. The nitrogen doping boosts the electrochemical performances of MXene via enhanced conductivity and redox activity. Accordingly, two types of MXene‐N inks are prepared throughout the optimization of the ink viscosity to fit the 2D screen printing and 3D extrusion printing, respectively. As a result, the screen printed MXene‐N microsupercapacitor delivers an areal capacitance of 70.1 mF cm −2 and outstanding mechanical robustness. Furthermore, the 3D‐printed MXene‐N based supercapacitor manifests an areal capacitance of 8.2 F cm −2 for a three‐layered electrode and readily stores a high areal energy density of 0.42 mWh cm −2 . The approach to harnessing such versatile MXene‐N inks offers distinctive insights into the printed energy storage systems with high areal energy density and large scalability.",
+  "vol": "9",
+  "issue": "34",
+  "pages": ""
+ },
+ {
   "id": "W2791634755",
   "doi": "https://doi.org/10.1002/adma.201706054",
   "title": "Scalable 2D Hierarchical Porous Carbon Nanosheets for Flexible Supercapacitors with Ultrahigh Energy Density",
@@ -4580,89 +4663,6 @@
   "vol": "17",
   "issue": "7",
   "pages": "4053-4060"
- },
- {
-  "id": "W2965442669",
-  "doi": "https://doi.org/10.1002/aenm.201901839",
-  "title": "Versatile N‐Doped MXene Ink for Printed Electrochemical Energy Storage Application",
-  "year": 2019,
-  "date": "2019-07-30",
-  "citations": 480,
-  "authors": [
-   {
-    "name": "Lianghao Yu",
-    "institution": "Soochow University"
-   },
-   {
-    "name": "Zhaodi Fan",
-    "institution": "Soochow University"
-   },
-   {
-    "name": "Yuanlong Shao",
-    "institution": "King Abdullah University of Science and Technology"
-   },
-   {
-    "name": "Zhengnan Tian",
-    "institution": "Soochow University"
-   },
-   {
-    "name": "Jingyu Sun",
-    "institution": "Soochow University"
-   },
-   {
-    "name": "Zhongfan Liu",
-    "institution": "Peking University"
-   }
-  ],
-  "journal": "Advanced Energy Materials",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8621490001678467
-   },
-   {
-    "name": "MXenes",
-    "level": 2,
-    "score": 0.8506700992584229
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8281112313270569
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.6135217547416687
-   },
-   {
-    "name": "Energy storage",
-    "level": 3,
-    "score": 0.6079379916191101
-   },
-   {
-    "name": "Electrode",
-    "level": 2,
-    "score": 0.5986236333847046
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "MXenes",
-   "Materials science",
-   "Nanotechnology",
-   "Energy storage",
-   "Electrode",
-   "Capacitance",
-   "Electrochemistry"
-  ],
-  "abstract": "Abstract Printing is regarded as a revolutionary and feasible technique to guide the fabrication of versatile functional systems with designed architectures. 2D MXenes are nowadays attractive in printed energy storage devices. However, owing to the van der Waals interaction between the MXene layers, the restacking issues within the printed electrodes can significantly impede the ion/electrolyte transport and hence handicap the electrochemical performances. Herein, a melamine formaldehyde templating method is demonstrated to develop crumpled nitrogen‐doped MXene (MXene‐N) nanosheets. The nitrogen doping boosts the electrochemical performances of MXene via enhanced conductivity and redox activity. Accordingly, two types of MXene‐N inks are prepared throughout the optimization of the ink viscosity to fit the 2D screen printing and 3D extrusion printing, respectively. As a result, the screen printed MXene‐N microsupercapacitor delivers an areal capacitance of 70.1 mF cm −2 and outstanding mechanical robustness. Furthermore, the 3D‐printed MXene‐N based supercapacitor manifests an areal capacitance of 8.2 F cm −2 for a three‐layered electrode and readily stores a high areal energy density of 0.42 mWh cm −2 . The approach to harnessing such versatile MXene‐N inks offers distinctive insights into the printed energy storage systems with high areal energy density and large scalability.",
-  "vol": "9",
-  "issue": "34",
-  "pages": ""
  },
  {
   "id": "W2564764760",
