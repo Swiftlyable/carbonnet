@@ -5,7 +5,7 @@
   "title": "Materials for electrochemical capacitors",
   "year": 2008,
   "date": "2008-10-28",
-  "citations": 16271,
+  "citations": 16295,
   "authors": [
    {
     "name": "Patrice Simon",
@@ -74,7 +74,7 @@
   "title": "A review of electrode materials for electrochemical supercapacitors",
   "year": 2011,
   "date": "2011-07-21",
-  "citations": 9092,
+  "citations": 9103,
   "authors": [
    {
     "name": "Guoping Wang",
@@ -147,7 +147,7 @@
   "title": "Carbon-based materials as supercapacitor electrodes",
   "year": 2009,
   "date": "2009-01-01",
-  "citations": 7403,
+  "citations": 7412,
   "authors": [
    {
     "name": "Lili Zhang",
@@ -215,8 +215,8 @@
   "doi": "https://doi.org/10.1126/science.1200770",
   "title": "Carbon-Based Supercapacitors Produced by Activation of Graphene",
   "year": 2011,
-  "date": "2011-05-14",
-  "citations": 6131,
+  "date": "2011-05-13",
+  "citations": 6134,
   "authors": [
    {
     "name": "Yanwu Zhu",
@@ -329,7 +329,7 @@
   "title": "Carbon materials for the electrochemical storage of energy in capacitors",
   "year": 2001,
   "date": "2001-05-01",
-  "citations": 4496,
+  "citations": 4499,
   "authors": [
    {
     "name": "Elżbieta Frąckowiak",
@@ -396,7 +396,7 @@
   "title": "Laser Scribing of High-Performance and Flexible Graphene-Based Electrochemical Capacitors",
   "year": 2012,
   "date": "2012-03-15",
-  "citations": 3995,
+  "citations": 4002,
   "authors": [
    {
     "name": "Maher F. El‐Kady",
@@ -472,8 +472,8 @@
   "doi": "https://doi.org/10.1126/science.1132195",
   "title": "Anomalous Increase in Carbon Capacitance at Pore Sizes Less Than 1 Nanometer",
   "year": 2006,
-  "date": "2006-08-18",
-  "citations": 3977,
+  "date": "2006-08-17",
+  "citations": 3984,
   "authors": [
    {
     "name": "John Chmiola",
@@ -643,7 +643,7 @@
   "title": "Design and Mechanisms of Asymmetric Supercapacitors",
   "year": 2018,
   "date": "2018-09-11",
-  "citations": 3624,
+  "citations": 3627,
   "authors": [
    {
     "name": "Yuanlong Shao",
@@ -737,7 +737,7 @@
  {
   "id": "W2029066016",
   "doi": "https://doi.org/10.1021/nn101187z",
-  "title": "Self-Assembled Graphene Hydrogel <i>via</i> a One-Step Hydrothermal Process",
+  "title": "Self-Assembled Graphene Hydrogel via a One-Step Hydrothermal Process",
   "year": 2010,
   "date": "2010-06-30",
   "citations": 3240,
@@ -815,7 +815,7 @@
   "title": "KOH activation of carbon-based materials for energy storage",
   "year": 2012,
   "date": "2012-01-01",
-  "citations": 2705,
+  "citations": 2710,
   "authors": [
    {
     "name": "Jiacheng Wang",
@@ -975,7 +975,7 @@
   "title": "Hierarchical Porous Nitrogen-Doped Carbon Nanosheets Derived from Silk for Ultrahigh-Capacity Battery Anodes and Supercapacitors",
   "year": 2015,
   "date": "2015-02-22",
-  "citations": 1531,
+  "citations": 1534,
   "authors": [
    {
     "name": "Jianhua Hou",
@@ -1121,7 +1121,7 @@
   "title": "Synthesis and Characterization of 2D Molybdenum Carbide (MXene)",
   "year": 2016,
   "date": "2016-02-17",
-  "citations": 1422,
+  "citations": 1426,
   "authors": [
    {
     "name": "Joseph Halim",
@@ -1481,7 +1481,7 @@
   "title": "Graphene for batteries, supercapacitors and beyond",
   "year": 2016,
   "date": "2016-05-24",
-  "citations": 1252,
+  "citations": 1253,
   "authors": [
    {
     "name": "Maher F. El‐Kady",
@@ -1631,7 +1631,7 @@
   "title": "Synthesis of functionalized 3D hierarchical porous carbon for high-performance supercapacitors",
   "year": 2013,
   "date": "2013-01-01",
-  "citations": 1146,
+  "citations": 1148,
   "authors": [
    {
     "name": "Long Qie",
@@ -1730,7 +1730,7 @@
   "title": "Robust and conductive two-dimensional metal−organic frameworks with exceptionally high volumetric and areal capacitance",
   "year": 2017,
   "date": "2017-12-21",
-  "citations": 1130,
+  "citations": 1131,
   "authors": [
    {
     "name": "Dawei Feng",
@@ -1938,7 +1938,7 @@
   "title": "Biomass-derived porous carbon materials with different dimensions for supercapacitor electrodes: a review",
   "year": 2019,
   "date": "2019-01-01",
-  "citations": 962,
+  "citations": 965,
   "authors": [
    {
     "name": "Zhihong Bi",
@@ -2136,7 +2136,7 @@
   "title": "High-efficient Synthesis of Graphene Oxide Based on Improved Hummers Method",
   "year": 2016,
   "date": "2016-11-03",
-  "citations": 892,
+  "citations": 894,
   "authors": [
    {
     "name": "Huitao Yu",
@@ -2204,7 +2204,7 @@
    "Yield (engineering)",
    "Sulfuric acid"
   ],
-  "abstract": "Abstract As an important precursor and derivate of graphene, graphene oxide (GO) has received wide attention in recent years. However, the synthesis of GO in an economical and efficient way remains a great challenge. Here we reported an improved NaNO 3 -free Hummers method by partly replacing KMnO 4 with K 2 FeO 4 and controlling the amount of concentrated sulfuric acid. As compared to the existing NaNO 3 -free Hummers methods, this improved routine greatly reduces the reactant consumption while keeps a high yield. The obtained GO was characterized by various techniques, and its derived graphene aerogel was demonstrated as high-performance supercapacitor electrodes. This improved synthesis shows good prospects for scalable production and applications of GO and its derivatives.",
+  "abstract": "Abstract As an important precursor and derivate of graphene, graphene oxide (GO) has received wide attention in recent years. However, the synthesis of GO in an economical and efficient way remains a great challenge. Here we reported an improved NaNO3-free Hummers method by partly replacing KMnO4with K2FeO4and controlling the amount of concentrated sulfuric acid. As compared to the existing NaNO3-free Hummers methods, this improved routine greatly reduces the reactant consumption while keeps a high yield. The obtained GO was characterized by various techniques, and its derived graphene aerogel was demonstrated as high-performance supercapacitor electrodes. This improved synthesis shows good prospects for scalable production and applications of GO and its derivatives.",
   "vol": "6",
   "issue": "1",
   "pages": "36143-36143"
@@ -2377,7 +2377,7 @@
   "title": "Supercapacitors Based on Three-Dimensional Hierarchical Graphene Aerogels with Periodic Macropores",
   "year": 2016,
   "date": "2016-01-20",
-  "citations": 717,
+  "citations": 718,
   "authors": [
    {
     "name": "Cheng Zhu",
@@ -2472,7 +2472,7 @@
   "title": "High-Performance Nanostructured Supercapacitors on a Sponge",
   "year": 2011,
   "date": "2011-10-28",
-  "citations": 716,
+  "citations": 717,
   "authors": [
    {
     "name": "Wei Chen",
@@ -2702,7 +2702,7 @@
    "Composite number",
    "Carbon fibers"
   ],
-  "abstract": "MXene/carbon composite electrodes with high loadings of MXene were prepared <italic>via</italic> electrospinning. These flexible and free-standing electrodes exhibit high areal capacitance relative to pure carbon nanofibers and MXene-coated fibers and textiles.",
+  "abstract": "MXene/carbon composite electrodes with high loadings of MXene were prepared via electrospinning. These flexible and free-standing electrodes exhibit high areal capacitance relative to pure carbon nanofibers and MXene-coated fibers and textiles.",
   "vol": "7",
   "issue": "1",
   "pages": "269-277"
@@ -2713,7 +2713,7 @@
   "title": "One-step production of O-N-S co-doped three-dimensional hierarchical porous carbons for high-performance supercapacitors",
   "year": 2018,
   "date": "2018-03-08",
-  "citations": 644,
+  "citations": 645,
   "authors": [
    {
     "name": "Gongyuan Zhao",
@@ -3169,7 +3169,7 @@
  {
   "id": "W2028211970",
   "doi": "https://doi.org/10.1021/nn506850e",
-  "title": "2D Space-Confined Synthesis of Few-Layer MoS<sub>2</sub> Anchored on Carbon Nanosheet for Lithium-Ion Battery Anode",
+  "title": "2D Space-Confined Synthesis of Few-Layer MoS2 Anchored on Carbon Nanosheet for Lithium-Ion Battery Anode",
   "year": 2015,
   "date": "2015-03-20",
   "citations": 601,
@@ -3263,7 +3263,7 @@
   "title": "Porous layer-stacking carbon derived from in-built template in biomass for high volumetric performance supercapacitors",
   "year": 2014,
   "date": "2014-12-24",
-  "citations": 600,
+  "citations": 601,
   "authors": [
    {
     "name": "Conglai Long",
@@ -3339,10 +3339,10 @@
  {
   "id": "W2736015982",
   "doi": "https://doi.org/10.1002/aenm.201700983",
-  "title": "Ultrathin and Porous Ni<sub>3</sub>S<sub>2</sub>/CoNi<sub>2</sub>S<sub>4</sub> 3D‐Network Structure for Superhigh Energy Density Asymmetric Supercapacitors",
+  "title": "Ultrathin and Porous Ni3S2/CoNi2S4 3D‐Network Structure for Superhigh Energy Density Asymmetric Supercapacitors",
   "year": 2017,
   "date": "2017-07-17",
-  "citations": 597,
+  "citations": 598,
   "authors": [
    {
     "name": "Weidong He",
@@ -3414,7 +3414,7 @@
    "Current density",
    "Cyclic voltammetry"
   ],
-  "abstract": "Abstract 3D‐networked, ultrathin, and porous Ni 3 S 2 /CoNi 2 S 4 on Ni foam (NF) is successfully designed and synthesized by a simple sulfidation process from 3D Ni–Co precursors. Interestingly, the edge site‐enriched Ni 3 S 2 /CoNi 2 S 4 /NF 3D‐network is realized by the etching‐like effect of S 2− ions, which made the surfaces of Ni 3 S 2 /CoNi 2 S 4 /NF with a ridge‐like feature. The intriguing structural/compositional/componental advantages endow 3D‐networked‐free‐standing Ni 3 S 2 /CoNi 2 S 4 /NF electrodes better electrochemical performance with specific capacitance of 2435 F g −1 at a current density of 2 A g −1 and an excellent rate capability of 80% at 20 A g −1 . The corresponding asymmetric supercapacitor achieves a high energy density of 40.0 W h kg −1 at an superhigh power density of 17.3 kW kg −1 , excellent specific capacitance (175 F g −1 at 1A g −1 ), and electrochemical cycling stability (92.8% retention after 6000 cycles) with Ni 3 S 2 /CoNi 2 S 4 /NF as the positive electrode and activated carbon/NF as the negative electrode. Moreover, the temperature dependences of cyclic voltammetry curve polarization and specific capacitances are carefully investigated, and become more obvious and higher, respectively, with the increase of test temperature. These can be attributed to the components' synergetic effect assuring rich redox reactions, high conductivity as well as highly porous but robust architectures. This work provides a general, low‐cost route to produce high performance electrode materials for portable supercapacitor applications on a large scale.",
+  "abstract": "Abstract 3D‐networked, ultrathin, and porous Ni3S2/CoNi2S4 on Ni foam (NF) is successfully designed and synthesized by a simple sulfidation process from 3D Ni–Co precursors. Interestingly, the edge site‐enriched Ni3S2/CoNi2S4/NF 3D‐network is realized by the etching‐like effect of S2− ions, which made the surfaces of Ni3S2/CoNi2S4/NF with a ridge‐like feature. The intriguing structural/compositional/componental advantages endow 3D‐networked‐free‐standing Ni3S2/CoNi2S4/NF electrodes better electrochemical performance with specific capacitance of 2435 F g−1 at a current density of 2 A g−1 and an excellent rate capability of 80% at 20 A g−1. The corresponding asymmetric supercapacitor achieves a high energy density of 40.0 W h kg−1 at an superhigh power density of 17.3 kW kg−1, excellent specific capacitance (175 F g−1 at 1A g−1), and electrochemical cycling stability (92.8% retention after 6000 cycles) with Ni3S2/CoNi2S4/NF as the positive electrode and activated carbon/NF as the negative electrode. Moreover, the temperature dependences of cyclic voltammetry curve polarization and specific capacitances are carefully investigated, and become more obvious and higher, respectively, with the increase of test temperature. These can be attributed to the components' synergetic effect assuring rich redox reactions, high conductivity as well as highly porous but robust architectures. This work provides a general, low‐cost route to produce high performance electrode materials for portable supercapacitor applications on a large scale.",
   "vol": "7",
   "issue": "21",
   "pages": ""
@@ -3425,7 +3425,7 @@
   "title": "Biomass-derived mesopore-dominant porous carbons with large specific surface area and high defect density as high performance electrode materials for Li-ion batteries and supercapacitors",
   "year": 2017,
   "date": "2017-04-20",
-  "citations": 595,
+  "citations": 596,
   "authors": [
    {
     "name": "Jin Niu",
@@ -3512,7 +3512,7 @@
   "title": "Effect of self-doped heteroatoms on the performance of biomass-derived carbon for supercapacitor applications",
   "year": 2020,
   "date": "2020-09-07",
-  "citations": 585,
+  "citations": 586,
   "authors": [
    {
     "name": "Arthi Gopalakrishnan",
@@ -3579,7 +3579,7 @@
   "title": "Review of nanostructured carbon materials for electrochemical capacitor applications: advantages and limitations of activated carbon, carbide‐derived carbon, zeolite‐templated carbon, carbon aerogels, carbon nanotubes, onion‐like carbon, and graphene",
   "year": 2013,
   "date": "2013-12-06",
-  "citations": 562,
+  "citations": 564,
   "authors": [
    {
     "name": "Wentian Gu",
@@ -3635,7 +3635,7 @@
    "Carbon fibers",
    "Energy storage"
   ],
-  "abstract": "Electric double layer capacitors, also called supercapacitors, ultracapacitors, and electrochemical capacitors, are gaining increasing popularity in high power energy storage applications. Novel carbon materials with high surface area, high electrical conductivity, as well as a range of shapes, sizes and pore size distributions are being constantly developed and tested as potential supercapacitor electrodes. This article provides an overview of the electrochemical studies on activated carbon, carbide derived carbon, zeolite‐templated carbon, carbon aerogel, carbon nanotube, onion‐like carbon, and graphene. We discuss the key performance advantages and limitations of various nanostructured carbon materials and provide an overview of the current understanding of the structure–property relationships related to the transport and adsorption of electrolyte ions on their surfaces, specific and volumetric capacitance, self‐discharge, cycle life, electrolyte stability, and others. We discuss the impact of microstructural defects, pore size distribution, pore tortuosity, chemistry and functional groups on the carbon surface, nanoscale curvature, and carbon‐electrolyte interfacial energy. Finally, we review state‐of‐the art commercial large scale applications of supercapacitors, including their use in smart grids and distributed energy storage, hybrid electric and electric vehicles, energy efficient industrial equipment, ships, wind power stations, uninterruptible power supplies, power backup, and consumer devices. WIREs Energy Environ 2014, 3:424–473. doi: 10.1002/wene.102 This article is categorized under: Fuel Cells and Hydrogen &gt; Science and Materials Energy Infrastructure &gt; Science and Materials Energy and Development &gt; Science and Materials Energy Research &amp; Innovation &gt; Science and Materials",
+  "abstract": "Electric double layer capacitors, also called supercapacitors, ultracapacitors, and electrochemical capacitors, are gaining increasing popularity in high power energy storage applications. Novel carbon materials with high surface area, high electrical conductivity, as well as a range of shapes, sizes and pore size distributions are being constantly developed and tested as potential supercapacitor electrodes. This article provides an overview of the electrochemical studies on activated carbon, carbide derived carbon, zeolite‐templated carbon, carbon aerogel, carbon nanotube, onion‐like carbon, and graphene. We discuss the key performance advantages and limitations of various nanostructured carbon materials and provide an overview of the current understanding of the structure–property relationships related to the transport and adsorption of electrolyte ions on their surfaces, specific and volumetric capacitance, self‐discharge, cycle life, electrolyte stability, and others. We discuss the impact of microstructural defects, pore size distribution, pore tortuosity, chemistry and functional groups on the carbon surface, nanoscale curvature, and carbon‐electrolyte interfacial energy. Finally, we review state‐of‐the art commercial large scale applications of supercapacitors, including their use in smart grids and distributed energy storage, hybrid electric and electric vehicles, energy efficient industrial equipment, ships, wind power stations, uninterruptible power supplies, power backup, and consumer devices. WIREs Energy Environ 2014, 3:424–473. doi: 10.1002/wene.102 This article is categorized under: Fuel Cells and Hydrogen > Science and Materials Energy Infrastructure > Science and Materials Energy and Development > Science and Materials Energy Research & Innovation > Science and Materials",
   "vol": "3",
   "issue": "5",
   "pages": "424-473"
@@ -3646,7 +3646,7 @@
   "title": "Biomass derived interconnected hierarchical micro-meso-macro- porous carbon with ultrahigh capacitance for supercapacitors",
   "year": 2019,
   "date": "2019-03-18",
-  "citations": 539,
+  "citations": 540,
   "authors": [
    {
     "name": "Yang Song",
@@ -3895,7 +3895,7 @@
   "title": "Boosting Zn‐Ion Energy Storage Capability of Hierarchically Porous Carbon by Promoting Chemical Adsorption",
   "year": 2019,
   "date": "2019-09-16",
-  "citations": 533,
+  "citations": 534,
   "authors": [
    {
     "name": "Haozhe Zhang",
@@ -3975,7 +3975,7 @@
    "Supercapacitor",
    "Carbon fibers"
   ],
-  "abstract": "Abstract The construction of advanced Zn‐ion hybrid supercapacitors (ZHSCs) with high energy density is promising but still challenging, especially at high current densities. In this work, a high‐energy and ultrastable aqueous ZHSC is demonstrated by introducing N dopants into a hierarchically porous carbon cathode for the purpose of enhancing its chemical adsorption of Zn ions. Experimental results and theoretical simulations reveal that N doping not only significantly facilitates the chemical adsorption process of Zn ions, but also greatly increases its conductivity, surface wettability, and active sites. Consequently, the as‐fabricated aqueous ZHSC based on this N‐doped porous carbon cathode displays an exceptionally high energy density of 107.3 Wh kg −1 at a high current density of 4.2 A g −1 , a superb power density of 24.9 kW kg −1 , and an ultralong‐term lifespan (99.7% retention after 20 000 cycles), substantially superior to state‐of‐the‐art ZHSCs. Particularly, such a cathode also leads to a quasi‐solid‐state device with satisfactory energy storage performance, delivering a remarkable energy density of 91.8 Wh kg −1 . The boosted energy storage strategy by tuning the chemical adsorption capability is also applicable to other carbon materials.",
+  "abstract": "Abstract The construction of advanced Zn‐ion hybrid supercapacitors (ZHSCs) with high energy density is promising but still challenging, especially at high current densities. In this work, a high‐energy and ultrastable aqueous ZHSC is demonstrated by introducing N dopants into a hierarchically porous carbon cathode for the purpose of enhancing its chemical adsorption of Zn ions. Experimental results and theoretical simulations reveal that N doping not only significantly facilitates the chemical adsorption process of Zn ions, but also greatly increases its conductivity, surface wettability, and active sites. Consequently, the as‐fabricated aqueous ZHSC based on this N‐doped porous carbon cathode displays an exceptionally high energy density of 107.3 Wh kg−1 at a high current density of 4.2 A g−1, a superb power density of 24.9 kW kg−1, and an ultralong‐term lifespan (99.7% retention after 20 000 cycles), substantially superior to state‐of‐the‐art ZHSCs. Particularly, such a cathode also leads to a quasi‐solid‐state device with satisfactory energy storage performance, delivering a remarkable energy density of 91.8 Wh kg−1. The boosted energy storage strategy by tuning the chemical adsorption capability is also applicable to other carbon materials.",
   "vol": "31",
   "issue": "44",
   "pages": "e1904948-e1904948"
@@ -4074,7 +4074,7 @@
    "Porosity",
    "Nanotechnology"
   ],
-  "abstract": "Abstract Assembly of 2D MXene sheets into a 3D macroscopic architecture is highly desirable to overcome the severe restacking problem of 2D MXene sheets and develop MXene‐based functional materials. However, unlike graphene, 3D MXene macroassembly directly from the individual 2D sheets is hard to achieve for the intrinsic property of MXene. Here a new gelation method is reported to prepare a 3D structured hydrogel from 2D MXene sheets that is assisted by graphene oxide and a suitable reductant. As a supercapacitor electrode, the hydrogel delivers a superb capacitance up to 370 F g −1 at 5 A g −1 , and more promisingly, demonstrates an exceptionally high rate performance with the capacitance of 165 F g −1 even at 1000 A g −1 . Moreover, using controllable drying processes, MXene hydrogels are transformed into different monoliths with structures ranging from a loosely organized porous aerogel to a dense solid. As a result, a 3D porous MXene aerogel shows excellent adsorption capacity to simultaneously remove various classes of organic liquids and heavy metal ions while the dense solid has excellent mechanical performance with a high Young's modulus and hardness.",
+  "abstract": "Abstract Assembly of 2D MXene sheets into a 3D macroscopic architecture is highly desirable to overcome the severe restacking problem of 2D MXene sheets and develop MXene‐based functional materials. However, unlike graphene, 3D MXene macroassembly directly from the individual 2D sheets is hard to achieve for the intrinsic property of MXene. Here a new gelation method is reported to prepare a 3D structured hydrogel from 2D MXene sheets that is assisted by graphene oxide and a suitable reductant. As a supercapacitor electrode, the hydrogel delivers a superb capacitance up to 370 F g−1 at 5 A g−1, and more promisingly, demonstrates an exceptionally high rate performance with the capacitance of 165 F g−1 even at 1000 A g−1. Moreover, using controllable drying processes, MXene hydrogels are transformed into different monoliths with structures ranging from a loosely organized porous aerogel to a dense solid. As a result, a 3D porous MXene aerogel shows excellent adsorption capacity to simultaneously remove various classes of organic liquids and heavy metal ions while the dense solid has excellent mechanical performance with a high Young's modulus and hardness.",
   "vol": "29",
   "issue": "33",
   "pages": ""
@@ -4163,6 +4163,81 @@
   "pages": "18154-18162"
  },
  {
+  "id": "W1855154356",
+  "doi": "https://doi.org/10.1002/adma.201501622",
+  "title": "Graphene‐Based Materials for Lithium‐Ion Hybrid Supercapacitors",
+  "year": 2015,
+  "date": "2015-08-21",
+  "citations": 503,
+  "authors": [
+   {
+    "name": "Yanfeng Ma",
+    "institution": "Nankai University"
+   },
+   {
+    "name": "Huicong Chang",
+    "institution": "Nankai University"
+   },
+   {
+    "name": "Miao Zhang",
+    "institution": "Nankai University"
+   },
+   {
+    "name": "Yongsheng Chen",
+    "institution": "Nankai University"
+   }
+  ],
+  "journal": "Advanced Materials",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8912489414215088
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8767642974853516
+   },
+   {
+    "name": "Graphene",
+    "level": 2,
+    "score": 0.874343991279602
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.6199697256088257
+   },
+   {
+    "name": "Lithium (medication)",
+    "level": 2,
+    "score": 0.5972732305526733
+   },
+   {
+    "name": "Electrode",
+    "level": 2,
+    "score": 0.5408151745796204
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Materials science",
+   "Graphene",
+   "Nanotechnology",
+   "Lithium (medication)",
+   "Electrode",
+   "Graphite",
+   "Energy storage"
+  ],
+  "abstract": "Lithium-ion hybrid supercapacitors (LIHSs), also called Li-ion capacitors, have attracted much attention due to the combination of the rapid charge-discharge and long cycle life of supercapacitors and the high energy-storage capacity of lithium-ion batteries. Thus, LIHSs are expected to become the ultimate power source for hybrid and all-electric vehicles in the near future. As an electrode material, graphene has many advantages, including high surface area and porous structure, high electric conductivity, and high chemical and thermal stability, etc. Compared with other electrode materials, such as activated carbon, graphite, and metal oxides, graphene-based materials with 3D open frameworks show higher effective specific surface area, better control of channels, and higher conductivity, which make them better candidates for LIHS applications. Here, the latest advances in electrode materials for LIHSs are briefly summarized, with an emphasis on graphene-based electrode materials (including 3D graphene networks) for LIHS applications. An outlook is also presented to highlight some future directions.",
+  "vol": "27",
+  "issue": "36",
+  "pages": "5296-5308"
+ },
+ {
   "id": "W2414232418",
   "doi": "https://doi.org/10.1021/acs.accounts.5b00117",
   "title": "Self-Assembled Three-Dimensional Graphene Macrostructures: Synthesis and Applications in Supercapacitors",
@@ -4234,87 +4309,12 @@
   "pages": "1666-1675"
  },
  {
-  "id": "W1855154356",
-  "doi": "https://doi.org/10.1002/adma.201501622",
-  "title": "Graphene‐Based Materials for Lithium‐Ion Hybrid Supercapacitors",
-  "year": 2015,
-  "date": "2015-08-21",
-  "citations": 501,
-  "authors": [
-   {
-    "name": "Yanfeng Ma",
-    "institution": "Nankai University"
-   },
-   {
-    "name": "Huicong Chang",
-    "institution": "Nankai University"
-   },
-   {
-    "name": "Miao Zhang",
-    "institution": "Nankai University"
-   },
-   {
-    "name": "Yongsheng Chen",
-    "institution": "Nankai University"
-   }
-  ],
-  "journal": "Advanced Materials",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8912489414215088
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8767642974853516
-   },
-   {
-    "name": "Graphene",
-    "level": 2,
-    "score": 0.874343991279602
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.6199697256088257
-   },
-   {
-    "name": "Lithium (medication)",
-    "level": 2,
-    "score": 0.5972732305526733
-   },
-   {
-    "name": "Electrode",
-    "level": 2,
-    "score": 0.5408151745796204
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Materials science",
-   "Graphene",
-   "Nanotechnology",
-   "Lithium (medication)",
-   "Electrode",
-   "Graphite",
-   "Energy storage"
-  ],
-  "abstract": "Lithium-ion hybrid supercapacitors (LIHSs), also called Li-ion capacitors, have attracted much attention due to the combination of the rapid charge-discharge and long cycle life of supercapacitors and the high energy-storage capacity of lithium-ion batteries. Thus, LIHSs are expected to become the ultimate power source for hybrid and all-electric vehicles in the near future. As an electrode material, graphene has many advantages, including high surface area and porous structure, high electric conductivity, and high chemical and thermal stability, etc. Compared with other electrode materials, such as activated carbon, graphite, and metal oxides, graphene-based materials with 3D open frameworks show higher effective specific surface area, better control of channels, and higher conductivity, which make them better candidates for LIHS applications. Here, the latest advances in electrode materials for LIHSs are briefly summarized, with an emphasis on graphene-based electrode materials (including 3D graphene networks) for LIHS applications. An outlook is also presented to highlight some future directions.",
-  "vol": "27",
-  "issue": "36",
-  "pages": "5296-5308"
- },
- {
   "id": "W2778184959",
   "doi": "https://doi.org/10.1002/aenm.201702545",
   "title": "Chemically Exfoliating Biomass into a Graphene‐like Porous Active Carbon with Rational Pore Structure, Good Conductivity, and Large Surface Area for High‐Performance Supercapacitors",
   "year": 2017,
   "date": "2017-12-29",
-  "citations": 499,
+  "citations": 500,
   "authors": [
    {
     "name": "Shiyu Lu",
@@ -4397,7 +4397,7 @@
   "title": "Versatile N‐Doped MXene Ink for Printed Electrochemical Energy Storage Application",
   "year": 2019,
   "date": "2019-07-30",
-  "citations": 482,
+  "citations": 483,
   "authors": [
    {
     "name": "Lianghao Yu",
@@ -4480,7 +4480,7 @@
   "title": "Scalable 2D Hierarchical Porous Carbon Nanosheets for Flexible Supercapacitors with Ultrahigh Energy Density",
   "year": 2018,
   "date": "2018-01-22",
-  "citations": 480,
+  "citations": 482,
   "authors": [
    {
     "name": "Lei Yao",
@@ -4670,7 +4670,7 @@
   "title": "Oxygen and nitrogen co-doped porous carbon nanosheets derived from Perilla frutescens for high volumetric performance supercapacitors",
   "year": 2016,
   "date": "2016-12-10",
-  "citations": 474,
+  "citations": 475,
   "authors": [
    {
     "name": "Bei Liu",
@@ -4746,7 +4746,7 @@
  {
   "id": "W2329520817",
   "doi": "https://doi.org/10.1021/am302077c",
-  "title": "Promising Porous Carbon Derived from Celtuce Leaves with Outstanding Supercapacitance and CO<sub>2</sub> Capture Performance",
+  "title": "Promising Porous Carbon Derived from Celtuce Leaves with Outstanding Supercapacitance and CO2 Capture Performance",
   "year": 2012,
   "date": "2012-10-25",
   "citations": 471,
@@ -4832,7 +4832,7 @@
   "title": "Design and Synthesis of Hierarchical Nanowire Composites for Electrochemical Energy Storage",
   "year": 2009,
   "date": "2009-09-28",
-  "citations": 468,
+  "citations": 469,
   "authors": [
    {
     "name": "Zheng Chen",
@@ -4922,103 +4922,12 @@
   "pages": "3420-3426"
  },
  {
-  "id": "W2592034847",
-  "doi": "https://doi.org/10.1038/srep42233",
-  "title": "3D Printed Graphene Based Energy Storage Devices",
-  "year": 2017,
-  "date": "2017-03-03",
-  "citations": 466,
-  "authors": [
-   {
-    "name": "Christopher W. Foster",
-    "institution": "Manchester Metropolitan University"
-   },
-   {
-    "name": "Michael P. Down",
-    "institution": "Manchester Metropolitan University"
-   },
-   {
-    "name": "Yan Zhang",
-    "institution": "Central South University"
-   },
-   {
-    "name": "Xiaobo Ji",
-    "institution": "Central South University"
-   },
-   {
-    "name": "Samuel J. Rowley‐Neale",
-    "institution": "Manchester Metropolitan University"
-   },
-   {
-    "name": "Graham C. Smith",
-    "institution": "University of Chester"
-   },
-   {
-    "name": "Peter Kelly",
-    "institution": "Manchester Metropolitan University"
-   },
-   {
-    "name": "Craig E. Banks",
-    "institution": "Manchester Metropolitan University"
-   }
-  ],
-  "journal": "Scientific Reports",
-  "type": "article",
-  "oa": "gold",
-  "concepts": [
-   {
-    "name": "Graphene",
-    "level": 2,
-    "score": 0.7422471046447754
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7068105936050415
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.6324812173843384
-   },
-   {
-    "name": "Electrode",
-    "level": 2,
-    "score": 0.595007061958313
-   },
-   {
-    "name": "Anode",
-    "level": 3,
-    "score": 0.594871461391449
-   },
-   {
-    "name": "Energy storage",
-    "level": 3,
-    "score": 0.5660939812660217
-   }
-  ],
-  "keywords": [
-   "Graphene",
-   "Materials science",
-   "Nanotechnology",
-   "Electrode",
-   "Anode",
-   "Energy storage",
-   "3D printing",
-   "Fabrication"
-  ],
-  "abstract": "3D printing technology provides a unique platform for rapid prototyping of numerous applications due to its ability to produce low cost 3D printed platforms. Herein, a graphene-based polylactic acid filament (graphene/PLA) has been 3D printed to fabricate a range of 3D disc electrode (3DE) configurations using a conventional RepRap fused deposition moulding (FDM) 3D printer, which requires no further modification/ex-situ curing step. To provide proof-of-concept, these 3D printed electrode architectures are characterised both electrochemically and physicochemically and are advantageously applied as freestanding anodes within Li-ion batteries and as solid-state supercapacitors. These freestanding anodes neglect the requirement for a current collector, thus offering a simplistic and cheaper alternative to traditional Li-ion based setups. Additionally, the ability of these devices' to electrochemically produce hydrogen via the hydrogen evolution reaction (HER) as an alternative to currently utilised platinum based electrodes (with in electrolysers) is also performed. The 3DE demonstrates an unexpectedly high catalytic activity towards the HER (-0.46 V vs. SCE) upon the 1000th cycle, such potential is the closest observed to the desired value of platinum at (-0.25 V vs. SCE). We subsequently suggest that 3D printing of graphene-based conductive filaments allows for the simple fabrication of energy storage devices with bespoke and conceptual designs to be realised.",
-  "vol": "7",
-  "issue": "1",
-  "pages": "42233-42233"
- },
- {
   "id": "W2567592345",
   "doi": "https://doi.org/10.1002/adma.201604569",
   "title": "Porous 3D Few‐Layer Graphene‐like Carbon for Ultrahigh‐Power Supercapacitors with Well‐Defined Structure–Performance Relationship",
   "year": 2017,
   "date": "2017-01-03",
-  "citations": 465,
+  "citations": 466,
   "authors": [
    {
     "name": "Jin Zhao",
@@ -5112,12 +5021,103 @@
   "pages": ""
  },
  {
+  "id": "W2592034847",
+  "doi": "https://doi.org/10.1038/srep42233",
+  "title": "3D Printed Graphene Based Energy Storage Devices",
+  "year": 2017,
+  "date": "2017-03-03",
+  "citations": 466,
+  "authors": [
+   {
+    "name": "Christopher W. Foster",
+    "institution": "Manchester Metropolitan University"
+   },
+   {
+    "name": "Michael P. Down",
+    "institution": "Manchester Metropolitan University"
+   },
+   {
+    "name": "Yan Zhang",
+    "institution": "Central South University"
+   },
+   {
+    "name": "Xiaobo Ji",
+    "institution": "Central South University"
+   },
+   {
+    "name": "Samuel J. Rowley‐Neale",
+    "institution": "Manchester Metropolitan University"
+   },
+   {
+    "name": "Graham C. Smith",
+    "institution": "University of Chester"
+   },
+   {
+    "name": "Peter Kelly",
+    "institution": "Manchester Metropolitan University"
+   },
+   {
+    "name": "Craig E. Banks",
+    "institution": "Manchester Metropolitan University"
+   }
+  ],
+  "journal": "Scientific Reports",
+  "type": "article",
+  "oa": "gold",
+  "concepts": [
+   {
+    "name": "Graphene",
+    "level": 2,
+    "score": 0.7422471046447754
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7068105936050415
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.6324812173843384
+   },
+   {
+    "name": "Electrode",
+    "level": 2,
+    "score": 0.595007061958313
+   },
+   {
+    "name": "Anode",
+    "level": 3,
+    "score": 0.594871461391449
+   },
+   {
+    "name": "Energy storage",
+    "level": 3,
+    "score": 0.5660939812660217
+   }
+  ],
+  "keywords": [
+   "Graphene",
+   "Materials science",
+   "Nanotechnology",
+   "Electrode",
+   "Anode",
+   "Energy storage",
+   "3D printing",
+   "Fabrication"
+  ],
+  "abstract": "3D printing technology provides a unique platform for rapid prototyping of numerous applications due to its ability to produce low cost 3D printed platforms. Herein, a graphene-based polylactic acid filament (graphene/PLA) has been 3D printed to fabricate a range of 3D disc electrode (3DE) configurations using a conventional RepRap fused deposition moulding (FDM) 3D printer, which requires no further modification/ex-situ curing step. To provide proof-of-concept, these 3D printed electrode architectures are characterised both electrochemically and physicochemically and are advantageously applied as freestanding anodes within Li-ion batteries and as solid-state supercapacitors. These freestanding anodes neglect the requirement for a current collector, thus offering a simplistic and cheaper alternative to traditional Li-ion based setups. Additionally, the ability of these devices' to electrochemically produce hydrogen via the hydrogen evolution reaction (HER) as an alternative to currently utilised platinum based electrodes (with in electrolysers) is also performed. The 3DE demonstrates an unexpectedly high catalytic activity towards the HER (-0.46 V vs. SCE) upon the 1000th cycle, such potential is the closest observed to the desired value of platinum at (-0.25 V vs. SCE). We subsequently suggest that 3D printing of graphene-based conductive filaments allows for the simple fabrication of energy storage devices with bespoke and conceptual designs to be realised.",
+  "vol": "7",
+  "issue": "1",
+  "pages": "42233-42233"
+ },
+ {
   "id": "W3006269673",
   "doi": "https://doi.org/10.1016/j.jpowsour.2020.227794",
   "title": "Recent progress of biomass-derived carbon materials for supercapacitors",
   "year": 2020,
   "date": "2020-02-12",
-  "citations": 463,
+  "citations": 464,
   "authors": [
    {
     "name": "Jiashuai Wang",
@@ -5196,7 +5196,7 @@
   "title": "Promising biomass-based activated carbons derived from willow catkins for high performance supercapacitors",
   "year": 2015,
   "date": "2015-03-10",
-  "citations": 461,
+  "citations": 462,
   "authors": [
    {
     "name": "Kai Wang",
@@ -5295,7 +5295,7 @@
   "title": "3D Printing of Freestanding MXene Architectures for Current‐Collector‐Free Supercapacitors",
   "year": 2019,
   "date": "2019-07-25",
-  "citations": 455,
+  "citations": 456,
   "authors": [
    {
     "name": "Wenji Yang",
@@ -5383,7 +5383,7 @@
    "Power density",
    "Gravimetric analysis"
   ],
-  "abstract": "Abstract Additive manufacturing (AM) technologies appear as a paradigm for scalable manufacture of electrochemical energy storage (EES) devices, where complex 3D architectures are typically required but are hard to achieve using conventional techniques. The combination of these technologies and innovative material formulations that maximize surface area accessibility and ion transport within electrodes while minimizing space are of growing interest. Herein, aqueous inks composed of atomically thin (1–3 nm) 2D Ti 3 C 2 T x with large lateral size of about 8 µm possessing ideal viscoelastic properties are formulated for extrusion‐based 3D printing of freestanding, high specific surface area architectures to determine the viability of manufacturing energy storage devices. The 3D‐printed device achieves a high areal capacitance of 2.1 F cm −2 at 1.7 mA cm −2 and a gravimetric capacitance of 242.5 F g −1 at 0.2 A g −1 with a retention of above 90% capacitance for 10 000 cycles. It also exhibits a high energy density of 0.0244 mWh cm −2 and a power density of 0.64 mW cm −2 at 4.3 mA cm −2 . It is anticipated that the sustainable printing and design approach developed in this work can be applied to fabricate high‐performance bespoke multiscale and multidimensional architectures of functional and structural materials for integrated devices in various applications.",
+  "abstract": "Abstract Additive manufacturing (AM) technologies appear as a paradigm for scalable manufacture of electrochemical energy storage (EES) devices, where complex 3D architectures are typically required but are hard to achieve using conventional techniques. The combination of these technologies and innovative material formulations that maximize surface area accessibility and ion transport within electrodes while minimizing space are of growing interest. Herein, aqueous inks composed of atomically thin (1–3 nm) 2D Ti3C2Tx with large lateral size of about 8 µm possessing ideal viscoelastic properties are formulated for extrusion‐based 3D printing of freestanding, high specific surface area architectures to determine the viability of manufacturing energy storage devices. The 3D‐printed device achieves a high areal capacitance of 2.1 F cm−2 at 1.7 mA cm−2 and a gravimetric capacitance of 242.5 F g−1 at 0.2 A g−1 with a retention of above 90% capacitance for 10 000 cycles. It also exhibits a high energy density of 0.0244 mWh cm−2 and a power density of 0.64 mW cm−2 at 4.3 mA cm−2. It is anticipated that the sustainable printing and design approach developed in this work can be applied to fabricate high‐performance bespoke multiscale and multidimensional architectures of functional and structural materials for integrated devices in various applications.",
   "vol": "31",
   "issue": "37",
   "pages": "e1902725-e1902725"
@@ -5565,7 +5565,7 @@
  {
   "id": "W2776481438",
   "doi": "https://doi.org/10.1016/j.electacta.2017.12.107",
-  "title": "KOH activation of biomass-derived nitrogen-doped carbons for supercapacitor and electrocatalytic oxygen reduction",
+  "title": "KOH activation of biomass-derived nitrogen-doped carbons for supercapacitor and electrocatalytic oxygen reduction",
   "year": 2017,
   "date": "2017-12-20",
   "citations": 446,
@@ -5651,7 +5651,7 @@
   "title": "Biomass derived carbon for supercapacitor applications: Review",
   "year": 2021,
   "date": "2021-05-14",
-  "citations": 443,
+  "citations": 445,
   "authors": [
    {
     "name": "Sunaina Saini",
@@ -5719,10 +5719,10 @@
  {
   "id": "W2997898516",
   "doi": "https://doi.org/10.1021/acsnano.9b07325",
-  "title": "3D Printing of Additive-Free 2D Ti<sub>3</sub>C<sub>2</sub>T<sub><i>x</i></sub> (MXene) Ink for Fabrication of Micro-Supercapacitors with Ultra-High Energy Densities",
+  "title": "3D Printing of Additive-Free 2D Ti3C2Tx (MXene) Ink for Fabrication of Micro-Supercapacitors with Ultra-High Energy Densities",
   "year": 2019,
   "date": "2019-12-31",
-  "citations": 435,
+  "citations": 437,
   "authors": [
    {
     "name": "Jafar Orangi",
@@ -5797,7 +5797,7 @@
   "title": "Houttuynia-derived nitrogen-doped hierarchically porous carbon for high-performance supercapacitor",
   "year": 2020,
   "date": "2020-01-08",
-  "citations": 433,
+  "citations": 436,
   "authors": [
    {
     "name": "Zhen Shang",
@@ -5904,7 +5904,7 @@
   "title": "Biomass-Derived Activated Porous Carbon from Rice Straw for a High-Energy Symmetric Supercapacitor in Aqueous and Non-aqueous Electrolytes",
   "year": 2016,
   "date": "2016-12-07",
-  "citations": 432,
+  "citations": 433,
   "authors": [
    {
     "name": "N. Sudhan",
@@ -6426,7 +6426,7 @@
   "title": "Nickel Cobalt Hydroxide @Reduced Graphene Oxide Hybrid Nanolayers for High Performance Asymmetric Supercapacitors with Remarkable Cycling Stability",
   "year": 2016,
   "date": "2016-01-08",
-  "citations": 397,
+  "citations": 399,
   "authors": [
    {
     "name": "Hongnan Ma",
@@ -6513,7 +6513,7 @@
   "title": "Ultrathin Hierarchical Porous Carbon Nanosheets for High‐Performance Supercapacitors and Redox Electrolyte Energy Storage",
   "year": 2018,
   "date": "2018-03-08",
-  "citations": 396,
+  "citations": 397,
   "authors": [
    {
     "name": "Kolleboyina Jayaramulu",
@@ -6719,7 +6719,7 @@
   "title": "Recent advances and challenges in biomass-derived porous carbon nanomaterials for supercapacitors",
   "year": 2020,
   "date": "2020-05-11",
-  "citations": 389,
+  "citations": 391,
   "authors": [
    {
     "name": "Zijiong Li",
@@ -6865,7 +6865,7 @@
   "title": "Ultralight covalent organic framework/graphene aerogels with hierarchical porosity",
   "year": 2020,
   "date": "2020-09-18",
-  "citations": 380,
+  "citations": 381,
   "authors": [
    {
     "name": "Changxia Li",
@@ -6941,10 +6941,97 @@
    "Covalent bond",
    "Fabrication"
   ],
-  "abstract": "Abstract The fabrication of macroscopic objects from covalent organic frameworks (COFs) is challenging but of great significance to fully exploit their chemical functionality and porosity. Herein, COF/reduced graphene oxide (rGO) aerogels synthesized by a hydrothermal approach are presented. The COFs grow in situ along the surface of the 2D graphene sheets, which are stacked in a 3D fashion, forming an ultralight aerogel with a hierarchical porous structure after freeze-drying, which can be compressed and expanded several times without breaking. The COF/rGO aerogels show excellent absorption capacity (uptake of &gt;200 g organic solvent/g aerogel), which can be used for removal of various organic liquids from water. Moreover, as active material of supercapacitor devices, the aerogel delivers a high capacitance of 269 F g −1 at 0.5 A g −1 and cycling stability over 5000 cycles.",
+  "abstract": "Abstract The fabrication of macroscopic objects from covalent organic frameworks (COFs) is challenging but of great significance to fully exploit their chemical functionality and porosity. Herein, COF/reduced graphene oxide (rGO) aerogels synthesized by a hydrothermal approach are presented. The COFs grow in situ along the surface of the 2D graphene sheets, which are stacked in a 3D fashion, forming an ultralight aerogel with a hierarchical porous structure after freeze-drying, which can be compressed and expanded several times without breaking. The COF/rGO aerogels show excellent absorption capacity (uptake of >200 g organic solvent/g aerogel), which can be used for removal of various organic liquids from water. Moreover, as active material of supercapacitor devices, the aerogel delivers a high capacitance of 269 F g −1 at 0.5 A g −1 and cycling stability over 5000 cycles.",
   "vol": "11",
   "issue": "1",
   "pages": "4712-4712"
+ },
+ {
+  "id": "W1060820118",
+  "doi": "https://doi.org/10.1016/j.biortech.2015.07.100",
+  "title": "Nitrogen-doped porous carbon derived from biomass waste for high-performance supercapacitor",
+  "year": 2015,
+  "date": "2015-08-01",
+  "citations": 379,
+  "authors": [
+   {
+    "name": "Guofu Ma",
+    "institution": "Northwest Normal University"
+   },
+   {
+    "name": "Qian Yang",
+    "institution": "Northwest Normal University"
+   },
+   {
+    "name": "Kanjun Sun",
+    "institution": "Lanzhou City University"
+   },
+   {
+    "name": "Hui Peng",
+    "institution": "Northwest Normal University"
+   },
+   {
+    "name": "Feitian Ran",
+    "institution": "Northwest Normal University"
+   },
+   {
+    "name": "Xiaolong Zhao",
+    "institution": "Northwest Normal University"
+   },
+   {
+    "name": "Ziqiang Lei",
+    "institution": "Northwest Normal University"
+   }
+  ],
+  "journal": "Bioresource Technology",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8061567544937134
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7222573757171631
+   },
+   {
+    "name": "Chemical engineering",
+    "level": 1,
+    "score": 0.5797837972640991
+   },
+   {
+    "name": "Electrolyte",
+    "level": 3,
+    "score": 0.5423995852470398
+   },
+   {
+    "name": "Capacitance",
+    "level": 3,
+    "score": 0.539333701133728
+   },
+   {
+    "name": "Carbon fibers",
+    "level": 3,
+    "score": 0.5212124586105347
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Materials science",
+   "Chemical engineering",
+   "Electrolyte",
+   "Capacitance",
+   "Carbon fibers",
+   "Faraday efficiency",
+   "Melamine"
+  ],
+  "abstract": "",
+  "vol": "197",
+  "issue": "",
+  "pages": "137-142"
  },
  {
   "id": "W2087022424",
@@ -7032,93 +7119,6 @@
   "vol": "7",
   "issue": "7",
   "pages": "6037-6046"
- },
- {
-  "id": "W1060820118",
-  "doi": "https://doi.org/10.1016/j.biortech.2015.07.100",
-  "title": "Nitrogen-doped porous carbon derived from biomass waste for high-performance supercapacitor",
-  "year": 2015,
-  "date": "2015-08-01",
-  "citations": 378,
-  "authors": [
-   {
-    "name": "Guofu Ma",
-    "institution": "Northwest Normal University"
-   },
-   {
-    "name": "Qian Yang",
-    "institution": "Northwest Normal University"
-   },
-   {
-    "name": "Kanjun Sun",
-    "institution": "Lanzhou City University"
-   },
-   {
-    "name": "Hui Peng",
-    "institution": "Northwest Normal University"
-   },
-   {
-    "name": "Feitian Ran",
-    "institution": "Northwest Normal University"
-   },
-   {
-    "name": "Xiaolong Zhao",
-    "institution": "Northwest Normal University"
-   },
-   {
-    "name": "Ziqiang Lei",
-    "institution": "Northwest Normal University"
-   }
-  ],
-  "journal": "Bioresource Technology",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8061567544937134
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7222573757171631
-   },
-   {
-    "name": "Chemical engineering",
-    "level": 1,
-    "score": 0.5797837972640991
-   },
-   {
-    "name": "Electrolyte",
-    "level": 3,
-    "score": 0.5423995852470398
-   },
-   {
-    "name": "Capacitance",
-    "level": 3,
-    "score": 0.539333701133728
-   },
-   {
-    "name": "Carbon fibers",
-    "level": 3,
-    "score": 0.5212124586105347
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Materials science",
-   "Chemical engineering",
-   "Electrolyte",
-   "Capacitance",
-   "Carbon fibers",
-   "Faraday efficiency",
-   "Melamine"
-  ],
-  "abstract": "",
-  "vol": "197",
-  "issue": "",
-  "pages": "137-142"
  },
  {
   "id": "W2967506265",
@@ -7214,7 +7214,7 @@
    "Energy storage",
    "Cathode"
   ],
-  "abstract": "Abstract Although current energy storage devices are limited by their own shortcomings, their merits such as superior power density and cycling stability for supercapacitors (SCs), and high energy density for batteries cannot be ignored either. Constructing hybrid SCs (HSCs) with capacitor‐type electrodes and battery‐type electrodes can combine the advantages of SCs and batteries. Herein, a zinc‐ion HSC (ZHSC) is fabricated with a porous 3D MXene (Ti 3 C 2 T x )‐reduced graphene oxide aerogel cathode and zinc foil anode for the first time. As a result, the ZHSC exhibits excellent electrochemical performance with a high specific capacitance of 128.6 F g −1 at a current density of 0.4 A g −1 and a high energy density of 34.9 Wh kg −1 at a power density of 279.9 W kg −1 . More importantly, after 75 000 charge and discharge cycles at a current density of 5 A g −1 , the capacitance retention is still above 95% of the initial capacitance. This work provides a new way of thinking for developing high‐performance energy storage devices with superior energy, power density, and ultralong cycle life.",
+  "abstract": "Abstract Although current energy storage devices are limited by their own shortcomings, their merits such as superior power density and cycling stability for supercapacitors (SCs), and high energy density for batteries cannot be ignored either. Constructing hybrid SCs (HSCs) with capacitor‐type electrodes and battery‐type electrodes can combine the advantages of SCs and batteries. Herein, a zinc‐ion HSC (ZHSC) is fabricated with a porous 3D MXene (Ti3C2Tx )‐reduced graphene oxide aerogel cathode and zinc foil anode for the first time. As a result, the ZHSC exhibits excellent electrochemical performance with a high specific capacitance of 128.6 F g−1 at a current density of 0.4 A g−1 and a high energy density of 34.9 Wh kg−1 at a power density of 279.9 W kg−1. More importantly, after 75 000 charge and discharge cycles at a current density of 5 A g−1, the capacitance retention is still above 95% of the initial capacitance. This work provides a new way of thinking for developing high‐performance energy storage devices with superior energy, power density, and ultralong cycle life.",
   "vol": "5",
   "issue": "12",
   "pages": ""
@@ -7225,7 +7225,7 @@
   "title": "Nitrogen, oxygen and sulfur co-doped hierarchical porous carbons toward high-performance supercapacitors by direct pyrolysis of kraft lignin",
   "year": 2019,
   "date": "2019-04-11",
-  "citations": 373,
+  "citations": 374,
   "authors": [
    {
     "name": "Fangyan Liu",
@@ -7316,7 +7316,7 @@
   "title": "Biomass derived carbon as binder-free electrode materials for supercapacitors",
   "year": 2019,
   "date": "2019-09-06",
-  "citations": 371,
+  "citations": 372,
   "authors": [
    {
     "name": "Yu‐Lin Wang",
@@ -7398,6 +7398,81 @@
   "pages": "706-726"
  },
  {
+  "id": "W2979846177",
+  "doi": "https://doi.org/10.1016/j.cej.2019.123150",
+  "title": "Construction of porous interface on CNTs@NiCo-LDH core-shell nanotube arrays for supercapacitor applications",
+  "year": 2019,
+  "date": "2019-10-12",
+  "citations": 369,
+  "authors": [
+   {
+    "name": "Fangfang Zhu",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Weijing Liu",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Yu Liu",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Weidong Shi",
+    "institution": "Jiangsu University"
+   }
+  ],
+  "journal": "Chemical Engineering Journal",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.9415882229804993
+   },
+   {
+    "name": "Carbon nanotube",
+    "level": 2,
+    "score": 0.8428326845169067
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8289504051208496
+   },
+   {
+    "name": "Capacitance",
+    "level": 3,
+    "score": 0.6595064401626587
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.6435378193855286
+   },
+   {
+    "name": "Porosity",
+    "level": 2,
+    "score": 0.5553657412528992
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Carbon nanotube",
+   "Materials science",
+   "Capacitance",
+   "Nanotechnology",
+   "Porosity",
+   "Energy storage",
+   "Electrochemistry"
+  ],
+  "abstract": "",
+  "vol": "383",
+  "issue": "",
+  "pages": "123150-123150"
+ },
+ {
   "id": "W2057749310",
   "doi": "https://doi.org/10.1016/j.jpowsour.2005.09.045",
   "title": "Studies on preparation and performances of carbon aerogel electrodes for the application of supercapacitor",
@@ -7475,81 +7550,6 @@
   "vol": "158",
   "issue": "1",
   "pages": "784-788"
- },
- {
-  "id": "W2979846177",
-  "doi": "https://doi.org/10.1016/j.cej.2019.123150",
-  "title": "Construction of porous interface on CNTs@NiCo-LDH core-shell nanotube arrays for supercapacitor applications",
-  "year": 2019,
-  "date": "2019-10-12",
-  "citations": 368,
-  "authors": [
-   {
-    "name": "Fangfang Zhu",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Weijing Liu",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Yu Liu",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Weidong Shi",
-    "institution": "Jiangsu University"
-   }
-  ],
-  "journal": "Chemical Engineering Journal",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.9415882229804993
-   },
-   {
-    "name": "Carbon nanotube",
-    "level": 2,
-    "score": 0.8428326845169067
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8289504051208496
-   },
-   {
-    "name": "Capacitance",
-    "level": 3,
-    "score": 0.6595064401626587
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.6435378193855286
-   },
-   {
-    "name": "Porosity",
-    "level": 2,
-    "score": 0.5553657412528992
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Carbon nanotube",
-   "Materials science",
-   "Capacitance",
-   "Nanotechnology",
-   "Porosity",
-   "Energy storage",
-   "Electrochemistry"
-  ],
-  "abstract": "",
-  "vol": "383",
-  "issue": "",
-  "pages": "123150-123150"
  },
  {
   "id": "W2070188318",
@@ -7656,7 +7656,7 @@
   "title": "In Situ Ice Template Approach to Fabricate 3D Flexible MXene Film‐Based Electrode for High Performance Supercapacitors",
   "year": 2020,
   "date": "2020-04-22",
-  "citations": 354,
+  "citations": 356,
   "authors": [
    {
     "name": "Peng Zhang",
@@ -7814,7 +7814,7 @@
   "title": "3D Printing Quasi‐Solid‐State Asymmetric Micro‐Supercapacitors with Ultrahigh Areal Energy Density",
   "year": 2018,
   "date": "2018-04-14",
-  "citations": 349,
+  "citations": 350,
   "authors": [
    {
     "name": "Kai Shen",
@@ -7882,7 +7882,7 @@
  {
   "id": "W2007584259",
   "doi": "https://doi.org/10.1039/c3nr04495e",
-  "title": "Highly conductive three-dimensional MnO <sub>2</sub> –carbon nanotube–graphene–Ni hybrid foam as a binder-free supercapacitor electrode",
+  "title": "Highly conductive three-dimensional MnO 2 –carbon nanotube–graphene–Ni hybrid foam as a binder-free supercapacitor electrode",
   "year": 2013,
   "date": "2013-10-31",
   "citations": 340,
@@ -8083,7 +8083,7 @@
   "title": "Molten salt synthesis of nitrogen-doped carbon with hierarchical pore structures for use as high-performance electrodes in supercapacitors",
   "year": 2015,
   "date": "2015-05-16",
-  "citations": 336,
+  "citations": 337,
   "authors": [
    {
     "name": "Xiang Deng",
@@ -8158,7 +8158,7 @@
   "title": "CO2-activated porous carbon derived from cattail biomass for removal of malachite green dye and application as supercapacitors",
   "year": 2017,
   "date": "2017-02-22",
-  "citations": 336,
+  "citations": 337,
   "authors": [
    {
     "name": "Miao Yu",
@@ -8233,7 +8233,7 @@
   "title": "Tailoring porosity in carbon materials for supercapacitor applications",
   "year": 2013,
   "date": "2013-11-04",
-  "citations": 335,
+  "citations": 336,
   "authors": [
    {
     "name": "Lars Borchardt",
@@ -9043,9 +9043,191 @@
   "pages": ""
  },
  {
+  "id": "W2774749033",
+  "doi": "https://doi.org/10.1016/j.apsusc.2017.11.249",
+  "title": "Three-dimensional porous activated carbon derived from loofah sponge biomass for supercapacitor applications",
+  "year": 2017,
+  "date": "2017-12-08",
+  "citations": 324,
+  "authors": [
+   {
+    "name": "Xiao-Li Su",
+    "institution": "Zhengzhou University"
+   },
+   {
+    "name": "Jing-Ran Chen",
+    "institution": "Zhengzhou University"
+   },
+   {
+    "name": "Guangping Zheng",
+    "institution": "Hong Kong Polytechnic University"
+   },
+   {
+    "name": "Jing-He Yang",
+    "institution": "Zhengzhou University"
+   },
+   {
+    "name": "Xin-Xin Guan",
+    "institution": "Nankai University"
+   },
+   {
+    "name": "Pu Liu",
+    "institution": "Zhengzhou University"
+   },
+   {
+    "name": "Xiu-Cheng Zheng",
+    "institution": "Nankai University"
+   }
+  ],
+  "journal": "Applied Surface Science",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.9688253402709961
+   },
+   {
+    "name": "Electrolyte",
+    "level": 3,
+    "score": 0.7733534574508667
+   },
+   {
+    "name": "Capacitance",
+    "level": 3,
+    "score": 0.692495584487915
+   },
+   {
+    "name": "Heteroatom",
+    "level": 3,
+    "score": 0.6605654954910278
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.6356004476547241
+   },
+   {
+    "name": "Carbon fibers",
+    "level": 3,
+    "score": 0.6091756820678711
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Electrolyte",
+   "Capacitance",
+   "Heteroatom",
+   "Materials science",
+   "Carbon fibers",
+   "Biomass (ecology)",
+   "Activated carbon"
+  ],
+  "abstract": "",
+  "vol": "436",
+  "issue": "",
+  "pages": "327-336"
+ },
+ {
+  "id": "W2771258254",
+  "doi": "https://doi.org/10.1016/j.carbon.2017.11.099",
+  "title": "Self-supporting activated carbon/carbon nanotube/reduced graphene oxide flexible electrode for high performance supercapacitor",
+  "year": 2017,
+  "date": "2017-12-06",
+  "citations": 322,
+  "authors": [
+   {
+    "name": "Xing Li",
+    "institution": "Southwest Petroleum University"
+   },
+   {
+    "name": "Yao Tang",
+    "institution": "Southwest Petroleum University"
+   },
+   {
+    "name": "Junhua Song",
+    "institution": "Battelle"
+   },
+   {
+    "name": "Wei Yang",
+    "institution": "Southwest Petroleum University"
+   },
+   {
+    "name": "Mingshan Wang",
+    "institution": "Southwest Petroleum University"
+   },
+   {
+    "name": "Chengzhou Zhu",
+    "institution": "Washington State University"
+   },
+   {
+    "name": "Wengao Zhao",
+    "institution": "Battelle"
+   },
+   {
+    "name": "Jianming Zheng",
+    "institution": "Battelle"
+   },
+   {
+    "name": "Yuehe Lin",
+    "institution": "Washington State University"
+   }
+  ],
+  "journal": "Carbon",
+  "type": "article",
+  "oa": "green",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.9079326391220093
+   },
+   {
+    "name": "Graphene",
+    "level": 2,
+    "score": 0.8781574964523315
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8406055569648743
+   },
+   {
+    "name": "Carbon nanotube",
+    "level": 2,
+    "score": 0.803095817565918
+   },
+   {
+    "name": "Electrode",
+    "level": 2,
+    "score": 0.651066780090332
+   },
+   {
+    "name": "Oxide",
+    "level": 2,
+    "score": 0.6084793210029602
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Graphene",
+   "Materials science",
+   "Carbon nanotube",
+   "Electrode",
+   "Oxide",
+   "Nanotechnology",
+   "Capacitance"
+  ],
+  "abstract": "",
+  "vol": "129",
+  "issue": "",
+  "pages": "236-244"
+ },
+ {
   "id": "W2319004470",
   "doi": "https://doi.org/10.1021/am500579c",
-  "title": "Core-Double-Shell, Carbon Nanotube@Polypyrrole@MnO<sub>2</sub> Sponge as Freestanding, Compressible Supercapacitor Electrode",
+  "title": "Core-Double-Shell, Carbon Nanotube@Polypyrrole@MnO2 Sponge as Freestanding, Compressible Supercapacitor Electrode",
   "year": 2014,
   "date": "2014-03-12",
   "citations": 321,
@@ -9150,188 +9332,6 @@
   "pages": "5228-5234"
  },
  {
-  "id": "W2771258254",
-  "doi": "https://doi.org/10.1016/j.carbon.2017.11.099",
-  "title": "Self-supporting activated carbon/carbon nanotube/reduced graphene oxide flexible electrode for high performance supercapacitor",
-  "year": 2017,
-  "date": "2017-12-06",
-  "citations": 321,
-  "authors": [
-   {
-    "name": "Xing Li",
-    "institution": "Southwest Petroleum University"
-   },
-   {
-    "name": "Yao Tang",
-    "institution": "Southwest Petroleum University"
-   },
-   {
-    "name": "Junhua Song",
-    "institution": "Battelle"
-   },
-   {
-    "name": "Wei Yang",
-    "institution": "Southwest Petroleum University"
-   },
-   {
-    "name": "Mingshan Wang",
-    "institution": "Southwest Petroleum University"
-   },
-   {
-    "name": "Chengzhou Zhu",
-    "institution": "Washington State University"
-   },
-   {
-    "name": "Wengao Zhao",
-    "institution": "Battelle"
-   },
-   {
-    "name": "Jianming Zheng",
-    "institution": "Battelle"
-   },
-   {
-    "name": "Yuehe Lin",
-    "institution": "Washington State University"
-   }
-  ],
-  "journal": "Carbon",
-  "type": "article",
-  "oa": "green",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.9079326391220093
-   },
-   {
-    "name": "Graphene",
-    "level": 2,
-    "score": 0.8781574964523315
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8406055569648743
-   },
-   {
-    "name": "Carbon nanotube",
-    "level": 2,
-    "score": 0.803095817565918
-   },
-   {
-    "name": "Electrode",
-    "level": 2,
-    "score": 0.651066780090332
-   },
-   {
-    "name": "Oxide",
-    "level": 2,
-    "score": 0.6084793210029602
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Graphene",
-   "Materials science",
-   "Carbon nanotube",
-   "Electrode",
-   "Oxide",
-   "Nanotechnology",
-   "Capacitance"
-  ],
-  "abstract": "",
-  "vol": "129",
-  "issue": "",
-  "pages": "236-244"
- },
- {
-  "id": "W2774749033",
-  "doi": "https://doi.org/10.1016/j.apsusc.2017.11.249",
-  "title": "Three-dimensional porous activated carbon derived from loofah sponge biomass for supercapacitor applications",
-  "year": 2017,
-  "date": "2017-12-08",
-  "citations": 321,
-  "authors": [
-   {
-    "name": "Xiao-Li Su",
-    "institution": "Zhengzhou University"
-   },
-   {
-    "name": "Jing-Ran Chen",
-    "institution": "Zhengzhou University"
-   },
-   {
-    "name": "Guangping Zheng",
-    "institution": "Hong Kong Polytechnic University"
-   },
-   {
-    "name": "Jing-He Yang",
-    "institution": "Zhengzhou University"
-   },
-   {
-    "name": "Xin-Xin Guan",
-    "institution": "Nankai University"
-   },
-   {
-    "name": "Pu Liu",
-    "institution": "Zhengzhou University"
-   },
-   {
-    "name": "Xiu-Cheng Zheng",
-    "institution": "Nankai University"
-   }
-  ],
-  "journal": "Applied Surface Science",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.9688253402709961
-   },
-   {
-    "name": "Electrolyte",
-    "level": 3,
-    "score": 0.7733534574508667
-   },
-   {
-    "name": "Capacitance",
-    "level": 3,
-    "score": 0.692495584487915
-   },
-   {
-    "name": "Heteroatom",
-    "level": 3,
-    "score": 0.6605654954910278
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.6356004476547241
-   },
-   {
-    "name": "Carbon fibers",
-    "level": 3,
-    "score": 0.6091756820678711
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Electrolyte",
-   "Capacitance",
-   "Heteroatom",
-   "Materials science",
-   "Carbon fibers",
-   "Biomass (ecology)",
-   "Activated carbon"
-  ],
-  "abstract": "",
-  "vol": "436",
-  "issue": "",
-  "pages": "327-336"
- },
- {
   "id": "W3003999636",
   "doi": "https://doi.org/10.1002/aenm.201903794",
   "title": "3D‐Printed Stretchable Micro‐Supercapacitor with Remarkable Areal Performance",
@@ -9405,7 +9405,7 @@
    "Nanocomposite",
    "Electrolyte"
   ],
-  "abstract": "Abstract While stretchable micro‐supercapacitors (MSCs) have been realized, they have suffered from limited areal electrochemical performance, thus greatly restricting their practical electronic application. Herein, a facile strategy of 3D printing and unidirectional freezing of a pseudoplastic nanocomposite gel composed of Ti 3 C 2 T x MXene nanosheets, manganese dioxide nanowire, silver nanowires, and fullerene to construct intrinsically stretchable MSCs with thick and honeycomb‐like porous interdigitated electrodes is introduced. The unique architecture utilizes thick electrodes and a 3D porous conductive scaffold in conjunction with interacting material properties to achieve higher loading of active materials, larger interfacial area, and faster ion transport for significantly improved areal energy and power density. Moreover, the oriented cellular scaffold with fullerene‐induced slippage cell wall structure prompts the printed electrode to withstand large deformations without breaking or exhibiting obvious performance degradation. When imbued with a polymer gel electrolyte, the 3D‐printed MSC achieves an unprecedented areal capacitance of 216.2 mF cm −2 at a scan rate of 10 mV s −1 , and remains stable when stretched up to 50% and after 1000 stretch/release cycles. This intrinsically stretchable MSC also exhibits high rate capability and outstanding areal energy density of 19.2 µWh cm −2 and power density of 58.3 mW cm −2 , outperforming all reported stretchable MSCs.",
+  "abstract": "Abstract While stretchable micro‐supercapacitors (MSCs) have been realized, they have suffered from limited areal electrochemical performance, thus greatly restricting their practical electronic application. Herein, a facile strategy of 3D printing and unidirectional freezing of a pseudoplastic nanocomposite gel composed of Ti3C2Tx MXene nanosheets, manganese dioxide nanowire, silver nanowires, and fullerene to construct intrinsically stretchable MSCs with thick and honeycomb‐like porous interdigitated electrodes is introduced. The unique architecture utilizes thick electrodes and a 3D porous conductive scaffold in conjunction with interacting material properties to achieve higher loading of active materials, larger interfacial area, and faster ion transport for significantly improved areal energy and power density. Moreover, the oriented cellular scaffold with fullerene‐induced slippage cell wall structure prompts the printed electrode to withstand large deformations without breaking or exhibiting obvious performance degradation. When imbued with a polymer gel electrolyte, the 3D‐printed MSC achieves an unprecedented areal capacitance of 216.2 mF cm−2 at a scan rate of 10 mV s−1, and remains stable when stretched up to 50% and after 1000 stretch/release cycles. This intrinsically stretchable MSC also exhibits high rate capability and outstanding areal energy density of 19.2 µWh cm−2 and power density of 58.3 mW cm−2, outperforming all reported stretchable MSCs.",
   "vol": "10",
   "issue": "14",
   "pages": ""
@@ -9488,6 +9488,101 @@
   "vol": "25",
   "issue": "",
   "pages": "193-202"
+ },
+ {
+  "id": "W4307956990",
+  "doi": "https://doi.org/10.1016/j.indcrop.2022.115863",
+  "title": "High performance hybrid supercapacitors assembled with multi-cavity nickel cobalt sulfide hollow microspheres as cathode and porous typha-derived carbon as anode",
+  "year": 2022,
+  "date": "2022-10-26",
+  "citations": 313,
+  "authors": [
+   {
+    "name": "Xiaokun Wang",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Xiaokun Wang",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Yun Pan",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Xiaohong Wang",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Xiaohong Wang",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Yaning Guo",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Chenghao Ni",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Jingbo Wu",
+    "institution": "Jiangsu University"
+   },
+   {
+    "name": "Chen Hao",
+    "institution": "Jiangsu University"
+   }
+  ],
+  "journal": "Industrial Crops and Products",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8310902118682861
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7628176808357239
+   },
+   {
+    "name": "Anode",
+    "level": 3,
+    "score": 0.7060710787773132
+   },
+   {
+    "name": "Cobalt sulfide",
+    "level": 4,
+    "score": 0.680432915687561
+   },
+   {
+    "name": "Cobalt",
+    "level": 2,
+    "score": 0.5766420960426331
+   },
+   {
+    "name": "Carbon fibers",
+    "level": 3,
+    "score": 0.5666673183441162
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Materials science",
+   "Anode",
+   "Cobalt sulfide",
+   "Cobalt",
+   "Carbon fibers",
+   "Nickel",
+   "Composite number"
+  ],
+  "abstract": "",
+  "vol": "189",
+  "issue": "",
+  "pages": "115863-115863"
  },
  {
   "id": "W3040759955",
@@ -9915,105 +10010,10 @@
    "Cathode",
    "Current density"
   ],
-  "abstract": "Abstract The performance of pseudocapacitive electrodes at fast charging rates are typically limited by the slow kinetics of Faradaic reactions and sluggish ion diffusion in the bulk structure. This is particularly problematic for thick electrodes and electrodes highly loaded with active materials. Here, a surface‐functionalized 3D‐printed graphene aerogel (SF‐3D GA) is presented that achieves not only a benchmark areal capacitance of 2195 mF cm −2 at a high current density of 100 mA cm −2 but also an ultrahigh intrinsic capacitance of 309.1 µF cm −2 even at a high mass loading of 12.8 mg cm −2 . Importantly, the kinetic analysis reveals that the capacitance of SF‐3D GA electrode is primarily (93.3%) contributed from fast kinetic processes. This is because the 3D‐printed electrode has an open structure that ensures excellent coverage of functional groups on carbon surface and facilitates the ion accessibility of these surface functional groups even at high current densities and large mass loading/electrode thickness. An asymmetric device assembled with SF‐3D GA as anode and 3D‐printed GA decorated with MnO 2 as cathode achieves a remarkable energy density of 0.65 mWh cm −2 at an ultrahigh power density of 164.5 mW cm −2 , outperforming carbon‐based supercapacitors operated at the same power density.",
+  "abstract": "Abstract The performance of pseudocapacitive electrodes at fast charging rates are typically limited by the slow kinetics of Faradaic reactions and sluggish ion diffusion in the bulk structure. This is particularly problematic for thick electrodes and electrodes highly loaded with active materials. Here, a surface‐functionalized 3D‐printed graphene aerogel (SF‐3D GA) is presented that achieves not only a benchmark areal capacitance of 2195 mF cm−2 at a high current density of 100 mA cm−2 but also an ultrahigh intrinsic capacitance of 309.1 µF cm−2 even at a high mass loading of 12.8 mg cm−2. Importantly, the kinetic analysis reveals that the capacitance of SF‐3D GA electrode is primarily (93.3%) contributed from fast kinetic processes. This is because the 3D‐printed electrode has an open structure that ensures excellent coverage of functional groups on carbon surface and facilitates the ion accessibility of these surface functional groups even at high current densities and large mass loading/electrode thickness. An asymmetric device assembled with SF‐3D GA as anode and 3D‐printed GA decorated with MnO2 as cathode achieves a remarkable energy density of 0.65 mWh cm−2 at an ultrahigh power density of 164.5 mW cm−2, outperforming carbon‐based supercapacitors operated at the same power density.",
   "vol": "32",
   "issue": "8",
   "pages": "e1906652-e1906652"
- },
- {
-  "id": "W4307956990",
-  "doi": "https://doi.org/10.1016/j.indcrop.2022.115863",
-  "title": "High performance hybrid supercapacitors assembled with multi-cavity nickel cobalt sulfide hollow microspheres as cathode and porous typha-derived carbon as anode",
-  "year": 2022,
-  "date": "2022-10-26",
-  "citations": 306,
-  "authors": [
-   {
-    "name": "Xiaokun Wang",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Xiaokun Wang",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Yun Pan",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Xiaohong Wang",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Xiaohong Wang",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Yaning Guo",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Chenghao Ni",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Jingbo Wu",
-    "institution": "Jiangsu University"
-   },
-   {
-    "name": "Chen Hao",
-    "institution": "Jiangsu University"
-   }
-  ],
-  "journal": "Industrial Crops and Products",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8310902118682861
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7628176808357239
-   },
-   {
-    "name": "Anode",
-    "level": 3,
-    "score": 0.7060710787773132
-   },
-   {
-    "name": "Cobalt sulfide",
-    "level": 4,
-    "score": 0.680432915687561
-   },
-   {
-    "name": "Cobalt",
-    "level": 2,
-    "score": 0.5766420960426331
-   },
-   {
-    "name": "Carbon fibers",
-    "level": 3,
-    "score": 0.5666673183441162
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Materials science",
-   "Anode",
-   "Cobalt sulfide",
-   "Cobalt",
-   "Carbon fibers",
-   "Nickel",
-   "Composite number"
-  ],
-  "abstract": "",
-  "vol": "189",
-  "issue": "",
-  "pages": "115863-115863"
  },
  {
   "id": "W2530192339",
@@ -10107,99 +10107,12 @@
   "pages": "70-97"
  },
  {
-  "id": "W2261596246",
-  "doi": "https://doi.org/10.1016/j.electacta.2016.02.049",
-  "title": "Hierarchical hybrids with microporous carbon spheres decorated three-dimensional graphene frameworks for capacitive applications in supercapacitor and deionization",
-  "year": 2016,
-  "date": "2016-02-13",
-  "citations": 303,
-  "authors": [
-   {
-    "name": "Xingtao Xu",
-    "institution": "East China Normal University"
-   },
-   {
-    "name": "Yong Liu",
-    "institution": "East China Normal University"
-   },
-   {
-    "name": "Miao Wang",
-    "institution": "East China Normal University"
-   },
-   {
-    "name": "Cheng Zhu",
-    "institution": "East China Normal University"
-   },
-   {
-    "name": "Ting Lu",
-    "institution": "East China Normal University"
-   },
-   {
-    "name": "Ran Zhao",
-    "institution": "East China Normal University"
-   },
-   {
-    "name": "Likun Pan",
-    "institution": "East China Normal University"
-   }
-  ],
-  "journal": "Electrochimica Acta",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.9319978952407837
-   },
-   {
-    "name": "Capacitive deionization",
-    "level": 4,
-    "score": 0.9050766229629517
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7873050570487976
-   },
-   {
-    "name": "Microporous material",
-    "level": 2,
-    "score": 0.7745280861854553
-   },
-   {
-    "name": "Graphene",
-    "level": 2,
-    "score": 0.7048196792602539
-   },
-   {
-    "name": "Capacitance",
-    "level": 3,
-    "score": 0.6770037412643433
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Capacitive deionization",
-   "Materials science",
-   "Microporous material",
-   "Graphene",
-   "Capacitance",
-   "Nanotechnology",
-   "Specific surface area"
-  ],
-  "abstract": "",
-  "vol": "193",
-  "issue": "",
-  "pages": "88-95"
- },
- {
   "id": "W2438154188",
   "doi": "https://doi.org/10.1021/acsnano.5b01244",
-  "title": "Stretchable Wire-Shaped Asymmetric Supercapacitors Based on Pristine and MnO<sub>2</sub>Coated Carbon Nanotube Fibers",
+  "title": "Stretchable Wire-Shaped Asymmetric Supercapacitors Based on Pristine and MnO2Coated Carbon Nanotube Fibers",
   "year": 2015,
   "date": "2015-05-11",
-  "citations": 303,
+  "citations": 304,
   "authors": [
    {
     "name": "Ping Xu",
@@ -10303,6 +10216,93 @@
   "vol": "9",
   "issue": "6",
   "pages": "6088-6096"
+ },
+ {
+  "id": "W2261596246",
+  "doi": "https://doi.org/10.1016/j.electacta.2016.02.049",
+  "title": "Hierarchical hybrids with microporous carbon spheres decorated three-dimensional graphene frameworks for capacitive applications in supercapacitor and deionization",
+  "year": 2016,
+  "date": "2016-02-13",
+  "citations": 303,
+  "authors": [
+   {
+    "name": "Xingtao Xu",
+    "institution": "East China Normal University"
+   },
+   {
+    "name": "Yong Liu",
+    "institution": "East China Normal University"
+   },
+   {
+    "name": "Miao Wang",
+    "institution": "East China Normal University"
+   },
+   {
+    "name": "Cheng Zhu",
+    "institution": "East China Normal University"
+   },
+   {
+    "name": "Ting Lu",
+    "institution": "East China Normal University"
+   },
+   {
+    "name": "Ran Zhao",
+    "institution": "East China Normal University"
+   },
+   {
+    "name": "Likun Pan",
+    "institution": "East China Normal University"
+   }
+  ],
+  "journal": "Electrochimica Acta",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.9319978952407837
+   },
+   {
+    "name": "Capacitive deionization",
+    "level": 4,
+    "score": 0.9050766229629517
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7873050570487976
+   },
+   {
+    "name": "Microporous material",
+    "level": 2,
+    "score": 0.7745280861854553
+   },
+   {
+    "name": "Graphene",
+    "level": 2,
+    "score": 0.7048196792602539
+   },
+   {
+    "name": "Capacitance",
+    "level": 3,
+    "score": 0.6770037412643433
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Capacitive deionization",
+   "Materials science",
+   "Microporous material",
+   "Graphene",
+   "Capacitance",
+   "Nanotechnology",
+   "Specific surface area"
+  ],
+  "abstract": "",
+  "vol": "193",
+  "issue": "",
+  "pages": "88-95"
  },
  {
   "id": "W2030800624",
@@ -10701,7 +10701,7 @@
   "title": "Additive Manufacturing of Batteries",
   "year": 2019,
   "date": "2019-10-30",
-  "citations": 293,
+  "citations": 294,
   "authors": [
    {
     "name": "Yaokun Pang",
@@ -10783,87 +10783,12 @@
   "pages": ""
  },
  {
-  "id": "W2030124799",
-  "doi": "https://doi.org/10.1021/la980785a",
-  "title": "Voltammetric Characterization of Ruthenium Oxide-Based Aerogels and Other RuO<sub>2</sub>Solids:  The Nature of Capacitance in Nanostructured Materials",
-  "year": 1999,
-  "date": "1999-01-07",
-  "citations": 286,
-  "authors": [
-   {
-    "name": "Jeffrey W. Long",
-    "institution": "United States Naval Research Laboratory"
-   },
-   {
-    "name": "Karen E. Swider",
-    "institution": "United States Naval Research Laboratory"
-   },
-   {
-    "name": "Celia I. Merzbacher",
-    "institution": "United States Naval Research Laboratory"
-   },
-   {
-    "name": "Debra R. Rolison",
-    "institution": "United States Naval Research Laboratory"
-   }
-  ],
-  "journal": "Langmuir",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Aerogel",
-    "level": 2,
-    "score": 0.9213677048683167
-   },
-   {
-    "name": "Ruthenium oxide",
-    "level": 4,
-    "score": 0.895630955696106
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7291038632392883
-   },
-   {
-    "name": "Ruthenium",
-    "level": 3,
-    "score": 0.6249547004699707
-   },
-   {
-    "name": "Chemical engineering",
-    "level": 1,
-    "score": 0.5573465824127197
-   },
-   {
-    "name": "Electrolyte",
-    "level": 3,
-    "score": 0.5470212697982788
-   }
-  ],
-  "keywords": [
-   "Aerogel",
-   "Ruthenium oxide",
-   "Materials science",
-   "Ruthenium",
-   "Chemical engineering",
-   "Electrolyte",
-   "Oxide",
-   "Electrocatalyst"
-  ],
-  "abstract": "Ruthenium dioxide is an important electrode material for applications in electrocatalysis and power sources. High surface areas are achieved in hydrous RuO 2 precipitates and in mixed ruthenium oxide−titanium oxide, (Ru−Ti)O x, aerogels (in which nanoscale domains are networked to form a highly porous structure). The electrochemical properties of (Ru−Ti)O x aerogels, RuO 2, and hydrous RuO 2 are examined by direct pressing of sub-milligram quantities of the solid onto the surface of a conductive carbon/wax composite. Voltammetric measurements in acidic electrolyte confirm a pseudocapacitive response for all the RuO x -based materials. Despite an improvement in BET surface area, as compared with other RuO 2 materials, the (Ru−Ti)O x aerogel displays a low specific capacitance, which correlates to the high degree of crystallinity of the aerogel. Nanocrystallites of rutile RuO 2, formed during thermal treatment of the sol−gel Ru/Ti precursors, deleteriously affect the specific capacitance of the material; however, all RuO x domains in the aerogel are voltammetrically addressable. The influence of proton-donating species on the observed capacitance for the (Ru−Ti)O x aerogel is evident from the dependence of the voltammetric charge in acidic electrolyte on the potential scan rate.",
-  "vol": "15",
-  "issue": "3",
-  "pages": "780-785"
- },
- {
   "id": "W2121824830",
   "doi": "https://doi.org/10.1002/cssc.201200990",
   "title": "Porous Graphitic Carbon Nanosheets Derived from Cornstalk Biomass for Advanced Supercapacitors",
   "year": 2013,
   "date": "2013-04-18",
-  "citations": 286,
+  "citations": 287,
   "authors": [
    {
     "name": "Lei Wang",
@@ -10954,7 +10879,7 @@
   "title": "Biomass-derived carbon materials with structural diversities and their applications in energy storage",
   "year": 2017,
   "date": "2017-12-27",
-  "citations": 286,
+  "citations": 287,
   "authors": [
    {
     "name": "Lili Jiang",
@@ -11018,6 +10943,81 @@
   "vol": "61",
   "issue": "2",
   "pages": "133-158"
+ },
+ {
+  "id": "W2030124799",
+  "doi": "https://doi.org/10.1021/la980785a",
+  "title": "Voltammetric Characterization of Ruthenium Oxide-Based Aerogels and Other RuO2Solids: The Nature of Capacitance in Nanostructured Materials",
+  "year": 1999,
+  "date": "1999-01-07",
+  "citations": 286,
+  "authors": [
+   {
+    "name": "Jeffrey W. Long",
+    "institution": "United States Naval Research Laboratory"
+   },
+   {
+    "name": "Karen E. Swider",
+    "institution": "United States Naval Research Laboratory"
+   },
+   {
+    "name": "Celia I. Merzbacher",
+    "institution": "United States Naval Research Laboratory"
+   },
+   {
+    "name": "Debra R. Rolison",
+    "institution": "United States Naval Research Laboratory"
+   }
+  ],
+  "journal": "Langmuir",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Aerogel",
+    "level": 2,
+    "score": 0.9213677048683167
+   },
+   {
+    "name": "Ruthenium oxide",
+    "level": 4,
+    "score": 0.895630955696106
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7291038632392883
+   },
+   {
+    "name": "Ruthenium",
+    "level": 3,
+    "score": 0.6249547004699707
+   },
+   {
+    "name": "Chemical engineering",
+    "level": 1,
+    "score": 0.5573465824127197
+   },
+   {
+    "name": "Electrolyte",
+    "level": 3,
+    "score": 0.5470212697982788
+   }
+  ],
+  "keywords": [
+   "Aerogel",
+   "Ruthenium oxide",
+   "Materials science",
+   "Ruthenium",
+   "Chemical engineering",
+   "Electrolyte",
+   "Oxide",
+   "Electrocatalyst"
+  ],
+  "abstract": "Ruthenium dioxide is an important electrode material for applications in electrocatalysis and power sources. High surface areas are achieved in hydrous RuO 2 precipitates and in mixed ruthenium oxide−titanium oxide, (Ru−Ti)O x, aerogels (in which nanoscale domains are networked to form a highly porous structure). The electrochemical properties of (Ru−Ti)O x aerogels, RuO 2, and hydrous RuO 2 are examined by direct pressing of sub-milligram quantities of the solid onto the surface of a conductive carbon/wax composite. Voltammetric measurements in acidic electrolyte confirm a pseudocapacitive response for all the RuO x -based materials. Despite an improvement in BET surface area, as compared with other RuO 2 materials, the (Ru−Ti)O x aerogel displays a low specific capacitance, which correlates to the high degree of crystallinity of the aerogel. Nanocrystallites of rutile RuO 2, formed during thermal treatment of the sol−gel Ru/Ti precursors, deleteriously affect the specific capacitance of the material; however, all RuO x domains in the aerogel are voltammetrically addressable. The influence of proton-donating species on the observed capacitance for the (Ru−Ti)O x aerogel is evident from the dependence of the voltammetric charge in acidic electrolyte on the potential scan rate.",
+  "vol": "15",
+  "issue": "3",
+  "pages": "780-785"
  },
  {
   "id": "W1979291347",
@@ -11200,7 +11200,7 @@
  {
   "id": "W2104339367",
   "doi": "https://doi.org/10.1002/cssc.201403486",
-  "title": "3 D Hierarchical Porous Carbon for Supercapacitors Prepared from Lignin through a Facile Template‐Free Method",
+  "title": "3 D Hierarchical Porous Carbon for Supercapacitors Prepared from Lignin through a Facile Template‐Free Method",
   "year": 2015,
   "date": "2015-05-27",
   "citations": 280,
@@ -11536,7 +11536,7 @@
  {
   "id": "W2579424918",
   "doi": "https://doi.org/10.1002/smll.201603102",
-  "title": "MOF‐Derived Hollow Cage Ni<i><sub>x</sub></i>Co<sub>3−</sub><i><sub>x</sub></i>O<sub>4</sub> and Their Synergy with Graphene for Outstanding Supercapacitors",
+  "title": "MOF‐Derived Hollow Cage NixCo3−xO4 and Their Synergy with Graphene for Outstanding Supercapacitors",
   "year": 2017,
   "date": "2017-01-11",
   "citations": 274,
@@ -11603,10 +11603,93 @@
    "Cobalt oxide",
    "Cobalt"
   ],
-  "abstract": "Highly optimized nickel cobalt mixed oxide has been derived from zeolite imidazole frameworks. While the pure cobalt oxide gives only 178.7 F g −1 as the specific capacitance at a current density of 1 A g −1 , the optimized Ni:Co 1:1 has given an extremely high and unprecedented specific capacitance of 1931 F g −1 at a current density of 1 A g −1 , with a capacitance retention of 69.5% after 5000 cycles in a three electrode test. This optimized Ni:Co 1:1 mixed oxide is further used to make a composite of nickel cobalt mixed oxide/graphene 3D hydrogel for enhancing the electrochemical performance by virtue of a continuous and porous graphene conductive network. The electrode made from GNi:Co 1:1 successfully achieves an even higher specific capacitance of 2870.8 F g −1 at 1 A g −1 and also shows a significant improvement in the cyclic stability with 81% capacitance retention after 5000 cycles. An asymmetric supercapacitor is also assembled using a pure graphene 3D hydrogel as the negative electrode and the GNi:Co 1:1 as the positive electrode. With a potential window of 1.5 V and binder free electrodes, the capacitor gives a high specific energy density of 50.2 Wh kg −1 at a high power density of 750 W kg −1 .",
+  "abstract": "Highly optimized nickel cobalt mixed oxide has been derived from zeolite imidazole frameworks. While the pure cobalt oxide gives only 178.7 F g−1 as the specific capacitance at a current density of 1 A g−1, the optimized Ni:Co 1:1 has given an extremely high and unprecedented specific capacitance of 1931 F g−1 at a current density of 1 A g−1, with a capacitance retention of 69.5% after 5000 cycles in a three electrode test. This optimized Ni:Co 1:1 mixed oxide is further used to make a composite of nickel cobalt mixed oxide/graphene 3D hydrogel for enhancing the electrochemical performance by virtue of a continuous and porous graphene conductive network. The electrode made from GNi:Co 1:1 successfully achieves an even higher specific capacitance of 2870.8 F g−1 at 1 A g−1 and also shows a significant improvement in the cyclic stability with 81% capacitance retention after 5000 cycles. An asymmetric supercapacitor is also assembled using a pure graphene 3D hydrogel as the negative electrode and the GNi:Co 1:1 as the positive electrode. With a potential window of 1.5 V and binder free electrodes, the capacitor gives a high specific energy density of 50.2 Wh kg−1 at a high power density of 750 W kg−1.",
   "vol": "13",
   "issue": "11",
   "pages": ""
+ },
+ {
+  "id": "W3114694474",
+  "doi": "https://doi.org/10.1016/j.carbon.2020.12.052",
+  "title": "Ultrahigh surface area biomass derived 3D hierarchical porous carbon nanosheet electrodes for high energy density supercapacitors",
+  "year": 2020,
+  "date": "2020-12-17",
+  "citations": 274,
+  "authors": [
+   {
+    "name": "Aravindha Raja Selvaraj",
+    "institution": "Pusan National University"
+   },
+   {
+    "name": "Anand Muthusamy",
+    "institution": "Pusan National University"
+   },
+   {
+    "name": "Inho Cho",
+    "institution": "Pusan National University"
+   },
+   {
+    "name": "Hee-Je Kim",
+    "institution": "Pusan National University"
+   },
+   {
+    "name": "K. Senthil",
+    "institution": "Sathyabama Institute of Science and Technology"
+   },
+   {
+    "name": "Kandasamy Prabakar",
+    "institution": "Pusan National University"
+   }
+  ],
+  "journal": "Carbon",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8839375972747803
+   },
+   {
+    "name": "Electrolyte",
+    "level": 3,
+    "score": 0.7975782155990601
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7378624677658081
+   },
+   {
+    "name": "Specific surface area",
+    "level": 3,
+    "score": 0.7205357551574707
+   },
+   {
+    "name": "Gravimetric analysis",
+    "level": 2,
+    "score": 0.7196723222732544
+   },
+   {
+    "name": "Capacitance",
+    "level": 3,
+    "score": 0.6352905035018921
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Electrolyte",
+   "Materials science",
+   "Specific surface area",
+   "Gravimetric analysis",
+   "Capacitance",
+   "Chemical engineering",
+   "Electrochemistry"
+  ],
+  "abstract": "",
+  "vol": "174",
+  "issue": "",
+  "pages": "463-474"
  },
  {
   "id": "W2510146252",
@@ -11690,89 +11773,6 @@
   "vol": "27",
   "issue": "",
   "pages": "627-637"
- },
- {
-  "id": "W3114694474",
-  "doi": "https://doi.org/10.1016/j.carbon.2020.12.052",
-  "title": "Ultrahigh surface area biomass derived 3D hierarchical porous carbon nanosheet electrodes for high energy density supercapacitors",
-  "year": 2020,
-  "date": "2020-12-17",
-  "citations": 272,
-  "authors": [
-   {
-    "name": "Aravindha Raja Selvaraj",
-    "institution": "Pusan National University"
-   },
-   {
-    "name": "Anand Muthusamy",
-    "institution": "Pusan National University"
-   },
-   {
-    "name": "Inho Cho",
-    "institution": "Pusan National University"
-   },
-   {
-    "name": "Hee-Je Kim",
-    "institution": "Pusan National University"
-   },
-   {
-    "name": "K. Senthil",
-    "institution": "Sathyabama Institute of Science and Technology"
-   },
-   {
-    "name": "Kandasamy Prabakar",
-    "institution": "Pusan National University"
-   }
-  ],
-  "journal": "Carbon",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8839375972747803
-   },
-   {
-    "name": "Electrolyte",
-    "level": 3,
-    "score": 0.7975782155990601
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7378624677658081
-   },
-   {
-    "name": "Specific surface area",
-    "level": 3,
-    "score": 0.7205357551574707
-   },
-   {
-    "name": "Gravimetric analysis",
-    "level": 2,
-    "score": 0.7196723222732544
-   },
-   {
-    "name": "Capacitance",
-    "level": 3,
-    "score": 0.6352905035018921
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Electrolyte",
-   "Materials science",
-   "Specific surface area",
-   "Gravimetric analysis",
-   "Capacitance",
-   "Chemical engineering",
-   "Electrochemistry"
-  ],
-  "abstract": "",
-  "vol": "174",
-  "issue": "",
-  "pages": "463-474"
  },
  {
   "id": "W2924724085",
@@ -12042,7 +12042,7 @@
  {
   "id": "W1979189818",
   "doi": "https://doi.org/10.1021/am302280b",
-  "title": "Flexible All-Solid-State Asymmetric Supercapacitors Based on Free-Standing Carbon Nanotube/Graphene and Mn<sub>3</sub>O<sub>4</sub>Nanoparticle/Graphene Paper Electrodes",
+  "title": "Flexible All-Solid-State Asymmetric Supercapacitors Based on Free-Standing Carbon Nanotube/Graphene and Mn 3 O 4 Nanoparticle/Graphene Paper Electrodes",
   "year": 2012,
   "date": "2012-11-20",
   "citations": 270,
@@ -12120,7 +12120,7 @@
   "title": "Biowaste-based porous carbon for supercapacitor: The influence of preparation processes on structure and performance",
   "year": 2018,
   "date": "2018-09-24",
-  "citations": 267,
+  "citations": 268,
   "authors": [
    {
     "name": "Mingyuan Song",
@@ -12200,6 +12200,113 @@
   "vol": "535",
   "issue": "",
   "pages": "276-286"
+ },
+ {
+  "id": "W2810748486",
+  "doi": "https://doi.org/10.1016/j.ensm.2018.06.026",
+  "title": "Design and understanding of dendritic mixed-metal hydroxide nanosheets@N-doped carbon nanotube array electrode for high-performance asymmetric supercapacitors",
+  "year": 2018,
+  "date": "2018-06-30",
+  "citations": 264,
+  "authors": [
+   {
+    "name": "Qiaobao Zhang",
+    "institution": "Georgia Institute of Technology"
+   },
+   {
+    "name": "Zaichun Liu",
+    "institution": "Nanjing Tech University"
+   },
+   {
+    "name": "Bote Zhao",
+    "institution": "Georgia Institute of Technology"
+   },
+   {
+    "name": "Yong Cheng",
+    "institution": "Xiamen University"
+   },
+   {
+    "name": "Lei Zhang",
+    "institution": "Georgia Institute of Technology"
+   },
+   {
+    "name": "Hong‐Hui Wu",
+    "institution": "University of Nebraska–Lincoln"
+   },
+   {
+    "name": "Ming‐Sheng Wang",
+    "institution": "Xiamen University"
+   },
+   {
+    "name": "Shuge Dai",
+    "institution": "Zhengzhou University"
+   },
+   {
+    "name": "Kaili Zhang",
+    "institution": "City University of Hong Kong"
+   },
+   {
+    "name": "Dong Ding",
+    "institution": "Georgia Institute of Technology"
+   },
+   {
+    "name": "Yuping Wu",
+    "institution": "Nanjing Tech University"
+   },
+   {
+    "name": "Meilin Liu",
+    "institution": "Georgia Institute of Technology"
+   }
+  ],
+  "journal": "Energy storage materials",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8814703226089478
+   },
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8470267057418823
+   },
+   {
+    "name": "Electrode",
+    "level": 2,
+    "score": 0.6454433798789978
+   },
+   {
+    "name": "Carbon nanotube",
+    "level": 2,
+    "score": 0.5947238802909851
+   },
+   {
+    "name": "Mesoporous material",
+    "level": 3,
+    "score": 0.5874217748641968
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.5864798426628113
+   }
+  ],
+  "keywords": [
+   "Materials science",
+   "Supercapacitor",
+   "Electrode",
+   "Carbon nanotube",
+   "Mesoporous material",
+   "Nanotechnology",
+   "Nanotube",
+   "Energy storage"
+  ],
+  "abstract": "",
+  "vol": "16",
+  "issue": "",
+  "pages": "632-645"
  },
  {
   "id": "W2752321933",
@@ -12384,186 +12491,12 @@
   "pages": "36-45"
  },
  {
-  "id": "W2810748486",
-  "doi": "https://doi.org/10.1016/j.ensm.2018.06.026",
-  "title": "Design and understanding of dendritic mixed-metal hydroxide nanosheets@N-doped carbon nanotube array electrode for high-performance asymmetric supercapacitors",
-  "year": 2018,
-  "date": "2018-06-30",
-  "citations": 263,
-  "authors": [
-   {
-    "name": "Qiaobao Zhang",
-    "institution": "Georgia Institute of Technology"
-   },
-   {
-    "name": "Zaichun Liu",
-    "institution": "Nanjing Tech University"
-   },
-   {
-    "name": "Bote Zhao",
-    "institution": "Georgia Institute of Technology"
-   },
-   {
-    "name": "Yong Cheng",
-    "institution": "Xiamen University"
-   },
-   {
-    "name": "Lei Zhang",
-    "institution": "Georgia Institute of Technology"
-   },
-   {
-    "name": "Hong‐Hui Wu",
-    "institution": "University of Nebraska–Lincoln"
-   },
-   {
-    "name": "Ming‐Sheng Wang",
-    "institution": "Xiamen University"
-   },
-   {
-    "name": "Shuge Dai",
-    "institution": "Zhengzhou University"
-   },
-   {
-    "name": "Kaili Zhang",
-    "institution": "City University of Hong Kong"
-   },
-   {
-    "name": "Dong Ding",
-    "institution": "Georgia Institute of Technology"
-   },
-   {
-    "name": "Yuping Wu",
-    "institution": "Nanjing Tech University"
-   },
-   {
-    "name": "Meilin Liu",
-    "institution": "Georgia Institute of Technology"
-   }
-  ],
-  "journal": "Energy storage materials",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8814703226089478
-   },
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8470267057418823
-   },
-   {
-    "name": "Electrode",
-    "level": 2,
-    "score": 0.6454433798789978
-   },
-   {
-    "name": "Carbon nanotube",
-    "level": 2,
-    "score": 0.5947238802909851
-   },
-   {
-    "name": "Mesoporous material",
-    "level": 3,
-    "score": 0.5874217748641968
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.5864798426628113
-   }
-  ],
-  "keywords": [
-   "Materials science",
-   "Supercapacitor",
-   "Electrode",
-   "Carbon nanotube",
-   "Mesoporous material",
-   "Nanotechnology",
-   "Nanotube",
-   "Energy storage"
-  ],
-  "abstract": "",
-  "vol": "16",
-  "issue": "",
-  "pages": "632-645"
- },
- {
-  "id": "W2045272498",
-  "doi": "https://doi.org/10.1016/j.jpowsour.2013.01.080",
-  "title": "Fabrication of porous carbon nanofibers with adjustable pore sizes as electrodes for supercapacitors",
-  "year": 2013,
-  "date": "2013-02-05",
-  "citations": 263,
-  "authors": [
-   {
-    "name": "Chau Tran",
-    "institution": "Drexel University"
-   },
-   {
-    "name": "Vibha Kalra",
-    "institution": "Drexel University"
-   }
-  ],
-  "journal": "Journal of Power Sources",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Polyacrylonitrile",
-    "level": 3,
-    "score": 0.9342608451843262
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8653644919395447
-   },
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.7344576120376587
-   },
-   {
-    "name": "Carbon nanofiber",
-    "level": 3,
-    "score": 0.6338979601860046
-   },
-   {
-    "name": "Nanofiber",
-    "level": 2,
-    "score": 0.6266441941261292
-   },
-   {
-    "name": "Carbonization",
-    "level": 3,
-    "score": 0.6214962601661682
-   }
-  ],
-  "keywords": [
-   "Polyacrylonitrile",
-   "Materials science",
-   "Supercapacitor",
-   "Carbon nanofiber",
-   "Nanofiber",
-   "Carbonization",
-   "Mesoporous material",
-   "Specific surface area"
-  ],
-  "abstract": "",
-  "vol": "235",
-  "issue": "",
-  "pages": "289-296"
- },
- {
   "id": "W2884163446",
   "doi": "https://doi.org/10.1039/c8ta04080j",
   "title": "Surface modification of biomass-derived hard carbon by grafting porous carbon nanosheets for high-performance supercapacitors",
   "year": 2018,
   "date": "2018-01-01",
-  "citations": 262,
+  "citations": 263,
   "authors": [
    {
     "name": "Shian Dong",
@@ -12649,12 +12582,79 @@
   "pages": "15954-15960"
  },
  {
+  "id": "W2045272498",
+  "doi": "https://doi.org/10.1016/j.jpowsour.2013.01.080",
+  "title": "Fabrication of porous carbon nanofibers with adjustable pore sizes as electrodes for supercapacitors",
+  "year": 2013,
+  "date": "2013-02-05",
+  "citations": 263,
+  "authors": [
+   {
+    "name": "Chau Tran",
+    "institution": "Drexel University"
+   },
+   {
+    "name": "Vibha Kalra",
+    "institution": "Drexel University"
+   }
+  ],
+  "journal": "Journal of Power Sources",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Polyacrylonitrile",
+    "level": 3,
+    "score": 0.9342608451843262
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8653644919395447
+   },
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.7344576120376587
+   },
+   {
+    "name": "Carbon nanofiber",
+    "level": 3,
+    "score": 0.6338979601860046
+   },
+   {
+    "name": "Nanofiber",
+    "level": 2,
+    "score": 0.6266441941261292
+   },
+   {
+    "name": "Carbonization",
+    "level": 3,
+    "score": 0.6214962601661682
+   }
+  ],
+  "keywords": [
+   "Polyacrylonitrile",
+   "Materials science",
+   "Supercapacitor",
+   "Carbon nanofiber",
+   "Nanofiber",
+   "Carbonization",
+   "Mesoporous material",
+   "Specific surface area"
+  ],
+  "abstract": "",
+  "vol": "235",
+  "issue": "",
+  "pages": "289-296"
+ },
+ {
   "id": "W2888309936",
   "doi": "https://doi.org/10.1016/j.cej.2018.08.142",
   "title": "Hierarchical structure electrodes of NiO ultrathin nanosheets anchored to NiCo2O4 on carbon cloth with excellent cycle stability for asymmetric supercapacitors",
   "year": 2018,
   "date": "2018-08-25",
-  "citations": 261,
+  "citations": 262,
   "authors": [
    {
     "name": "Yu Ouyang",
@@ -12738,6 +12738,168 @@
   "vol": "355",
   "issue": "",
   "pages": "416-427"
+ },
+ {
+  "id": "W2976119549",
+  "doi": "https://doi.org/10.1021/acssuschemeng.9b03568",
+  "title": "Conversion of Biomass Waste into High Performance Supercapacitor Electrodes for Real-Time Supercapacitor Applications",
+  "year": 2019,
+  "date": "2019-09-25",
+  "citations": 260,
+  "authors": [
+   {
+    "name": "M. Vijayakumar",
+    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
+   },
+   {
+    "name": "Ammaiyappan Bharathi Sankar",
+    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
+   },
+   {
+    "name": "Duggirala Sri Rohita",
+    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
+   },
+   {
+    "name": "Tata N. Rao",
+    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
+   },
+   {
+    "name": "Mani Karthik",
+    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
+   }
+  ],
+  "journal": "ACS Sustainable Chemistry & Engineering",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.94725501537323
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7029850482940674
+   },
+   {
+    "name": "Electrolyte",
+    "level": 3,
+    "score": 0.6975545883178711
+   },
+   {
+    "name": "Capacitance",
+    "level": 3,
+    "score": 0.6572465300559998
+   },
+   {
+    "name": "Energy storage",
+    "level": 3,
+    "score": 0.6358131170272827
+   },
+   {
+    "name": "Power density",
+    "level": 3,
+    "score": 0.5354255437850952
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Materials science",
+   "Electrolyte",
+   "Capacitance",
+   "Energy storage",
+   "Power density",
+   "Electrode",
+   "Current collector"
+  ],
+  "abstract": "Sustainable conversion of biomass waste into an economic and high performance electrical energy storage device receives excellent scientific and technological interest. The high manufacturing cost and low energy density are the major obstacles for supercapacitor developers. To overcome these obstacles, the present study delineates the fabrication of higher energy density, faster charging, and excellent durable supercapacitor electrodes derived from industrial waste cotton used as a sustainable and economic carbon resource. The obtained supercapacitor electrode exhibits excellent volumetric capacitance of 87 F cm –3 at 1 A g –1, and it delivers higher volumetric energy density of 30.94 W h L –1 owing to the simultaneous achievement of high loading of active mass (9 mg cm –2 ) and maximum voltage window of 3.2 V. Besides, the supercapacitor electrodes showed an excellent durability up to 15000 charge–discharge cycles at 4 A g –1 even at higher voltage of 3.2 V. It can be ascribed that a large electrolyte ion accessible surface area (1893 m 2 g –1 ) with an interconnected porous network of activated carbon fibers can enhance the rapid electrolyte ion transport even at high current load. Very interestingly, good capacitance retention at high current with high voltage clearly demonstrates the presence of the optimum pore size of the carbon electrode which can match with the electrolyte ion size for rapid capacitive response. Furthermore, integration of a solar powered supercapacitor as a self-powering energy harvest and energy storage device is designed, and it powers the commercial solar lantern. This work provides a simple and feasible synthetic strategy of converting sustainable biomass waste into economic and high performance supercapacitor electrodes for real-time supercapacitor applications.",
+  "vol": "7",
+  "issue": "20",
+  "pages": "17175-17185"
+ },
+ {
+  "id": "W2998352055",
+  "doi": "https://doi.org/10.1016/j.electacta.2019.135588",
+  "title": "A new biomass derived rod-like porous carbon from tea-waste as inexpensive and sustainable energy material for advanced supercapacitor application",
+  "year": 2019,
+  "date": "2019-12-30",
+  "citations": 260,
+  "authors": [
+   {
+    "name": "Abrar Khan",
+    "institution": "Beijing University of Chemical Technology"
+   },
+   {
+    "name": "Raja Arumugam Senthil",
+    "institution": "Beijing University of Chemical Technology"
+   },
+   {
+    "name": "Junqing Pan",
+    "institution": "Beijing University of Chemical Technology"
+   },
+   {
+    "name": "Sedahmed Osman",
+    "institution": "Beijing University of Chemical Technology"
+   },
+   {
+    "name": "Yanzhi Sun",
+    "institution": "Beijing University of Chemical Technology"
+   },
+   {
+    "name": "Xin Shu",
+    "institution": "Beijing University of Chemical Technology"
+   }
+  ],
+  "journal": "Electrochimica Acta",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8207951188087463
+   },
+   {
+    "name": "Carbonization",
+    "level": 3,
+    "score": 0.7002776265144348
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.6919925212860107
+   },
+   {
+    "name": "Carbon fibers",
+    "level": 3,
+    "score": 0.6816543340682983
+   },
+   {
+    "name": "Chemical engineering",
+    "level": 1,
+    "score": 0.5738764405250549
+   },
+   {
+    "name": "Porosity",
+    "level": 2,
+    "score": 0.5390282273292542
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Carbonization",
+   "Materials science",
+   "Carbon fibers",
+   "Chemical engineering",
+   "Porosity",
+   "Biomass (ecology)",
+   "Electrolyte"
+  ],
+  "abstract": "",
+  "vol": "335",
+  "issue": "",
+  "pages": "135588-135588"
  },
  {
   "id": "W945359128",
@@ -12892,168 +13054,6 @@
   "vol": "2",
   "issue": "28",
   "pages": "10889-10889"
- },
- {
-  "id": "W2976119549",
-  "doi": "https://doi.org/10.1021/acssuschemeng.9b03568",
-  "title": "Conversion of Biomass Waste into High Performance Supercapacitor Electrodes for Real-Time Supercapacitor Applications",
-  "year": 2019,
-  "date": "2019-09-25",
-  "citations": 259,
-  "authors": [
-   {
-    "name": "M. Vijayakumar",
-    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
-   },
-   {
-    "name": "Ammaiyappan Bharathi Sankar",
-    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
-   },
-   {
-    "name": "Duggirala Sri Rohita",
-    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
-   },
-   {
-    "name": "Tata N. Rao",
-    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
-   },
-   {
-    "name": "Mani Karthik",
-    "institution": "International Advanced Research Centre for Powder Metallurgy and New Materials"
-   }
-  ],
-  "journal": "ACS Sustainable Chemistry & Engineering",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.94725501537323
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7029850482940674
-   },
-   {
-    "name": "Electrolyte",
-    "level": 3,
-    "score": 0.6975545883178711
-   },
-   {
-    "name": "Capacitance",
-    "level": 3,
-    "score": 0.6572465300559998
-   },
-   {
-    "name": "Energy storage",
-    "level": 3,
-    "score": 0.6358131170272827
-   },
-   {
-    "name": "Power density",
-    "level": 3,
-    "score": 0.5354255437850952
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Materials science",
-   "Electrolyte",
-   "Capacitance",
-   "Energy storage",
-   "Power density",
-   "Electrode",
-   "Current collector"
-  ],
-  "abstract": "Sustainable conversion of biomass waste into an economic and high performance electrical energy storage device receives excellent scientific and technological interest. The high manufacturing cost and low energy density are the major obstacles for supercapacitor developers. To overcome these obstacles, the present study delineates the fabrication of higher energy density, faster charging, and excellent durable supercapacitor electrodes derived from industrial waste cotton used as a sustainable and economic carbon resource. The obtained supercapacitor electrode exhibits excellent volumetric capacitance of 87 F cm –3 at 1 A g –1, and it delivers higher volumetric energy density of 30.94 W h L –1 owing to the simultaneous achievement of high loading of active mass (9 mg cm –2 ) and maximum voltage window of 3.2 V. Besides, the supercapacitor electrodes showed an excellent durability up to 15000 charge–discharge cycles at 4 A g –1 even at higher voltage of 3.2 V. It can be ascribed that a large electrolyte ion accessible surface area (1893 m 2 g –1 ) with an interconnected porous network of activated carbon fibers can enhance the rapid electrolyte ion transport even at high current load. Very interestingly, good capacitance retention at high current with high voltage clearly demonstrates the presence of the optimum pore size of the carbon electrode which can match with the electrolyte ion size for rapid capacitive response. Furthermore, integration of a solar powered supercapacitor as a self-powering energy harvest and energy storage device is designed, and it powers the commercial solar lantern. This work provides a simple and feasible synthetic strategy of converting sustainable biomass waste into economic and high performance supercapacitor electrodes for real-time supercapacitor applications.",
-  "vol": "7",
-  "issue": "20",
-  "pages": "17175-17185"
- },
- {
-  "id": "W2998352055",
-  "doi": "https://doi.org/10.1016/j.electacta.2019.135588",
-  "title": "A new biomass derived rod-like porous carbon from tea-waste as inexpensive and sustainable energy material for advanced supercapacitor application",
-  "year": 2019,
-  "date": "2019-12-30",
-  "citations": 259,
-  "authors": [
-   {
-    "name": "Abrar Khan",
-    "institution": "Beijing University of Chemical Technology"
-   },
-   {
-    "name": "Raja Arumugam Senthil",
-    "institution": "Beijing University of Chemical Technology"
-   },
-   {
-    "name": "Junqing Pan",
-    "institution": "Beijing University of Chemical Technology"
-   },
-   {
-    "name": "Sedahmed Osman",
-    "institution": "Beijing University of Chemical Technology"
-   },
-   {
-    "name": "Yanzhi Sun",
-    "institution": "Beijing University of Chemical Technology"
-   },
-   {
-    "name": "Xin Shu",
-    "institution": "Beijing University of Chemical Technology"
-   }
-  ],
-  "journal": "Electrochimica Acta",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8207951188087463
-   },
-   {
-    "name": "Carbonization",
-    "level": 3,
-    "score": 0.7002776265144348
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.6919925212860107
-   },
-   {
-    "name": "Carbon fibers",
-    "level": 3,
-    "score": 0.6816543340682983
-   },
-   {
-    "name": "Chemical engineering",
-    "level": 1,
-    "score": 0.5738764405250549
-   },
-   {
-    "name": "Porosity",
-    "level": 2,
-    "score": 0.5390282273292542
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Carbonization",
-   "Materials science",
-   "Carbon fibers",
-   "Chemical engineering",
-   "Porosity",
-   "Biomass (ecology)",
-   "Electrolyte"
-  ],
-  "abstract": "",
-  "vol": "335",
-  "issue": "",
-  "pages": "135588-135588"
  },
  {
   "id": "W3014781744",
@@ -13382,7 +13382,7 @@
    "Electrolyte",
    "Chemical engineering"
   ],
-  "abstract": "A facile approach to synthesize porous disordered carbon layers as energy storage units coating on graphene sheets to form interconnected frameworks by one‐step pyrolysis of the mixture of graphene oxide/polyaniline and KOH is presented. As effective energy storage units, these porous carbon layers play an important role in enhancing the electrochemical performances. The obtained porous carbon material exhibits a high specific surface area (2927 m 2 g −1 ), hierarchical interconnected pores, moderate pore volume (1.78 cm 3 g −1 ), short ion diffusion paths, and a high nitrogen level (6 at%). It displays both unparalleled gravimetric (481 F g −1 ) and outstanding volumetric capacitance (212 F cm −3 ) in an aqueous electrolyte. More importantly, the assembled symmetrical supercapacitor delivers not only high gravimetric (25.7 Wh kg −1 based on total mass of electroactive materials) but also high volumetric energy densities (11.3 Wh L −1 ) in an aqueous electrolyte. Furthermore, the assembled asymmetric supercapacitor yields a maximum energy density up to 88 Wh kg −1 , which is, to the best of our knowledge, the highest value so far reported for carbon//MnO 2 asymmetric supercapacitors in aqueous electrolytes. Therefore, this novel carbon material holds great promise for potential applications in energy‐related technological fields.",
+  "abstract": "A facile approach to synthesize porous disordered carbon layers as energy storage units coating on graphene sheets to form interconnected frameworks by one‐step pyrolysis of the mixture of graphene oxide/polyaniline and KOH is presented. As effective energy storage units, these porous carbon layers play an important role in enhancing the electrochemical performances. The obtained porous carbon material exhibits a high specific surface area (2927 m2 g−1), hierarchical interconnected pores, moderate pore volume (1.78 cm3 g−1), short ion diffusion paths, and a high nitrogen level (6 at%). It displays both unparalleled gravimetric (481 F g−1) and outstanding volumetric capacitance (212 F cm−3) in an aqueous electrolyte. More importantly, the assembled symmetrical supercapacitor delivers not only high gravimetric (25.7 Wh kg−1 based on total mass of electroactive materials) but also high volumetric energy densities (11.3 Wh L−1) in an aqueous electrolyte. Furthermore, the assembled asymmetric supercapacitor yields a maximum energy density up to 88 Wh kg−1, which is, to the best of our knowledge, the highest value so far reported for carbon//MnO2 asymmetric supercapacitors in aqueous electrolytes. Therefore, this novel carbon material holds great promise for potential applications in energy‐related technological fields.",
   "vol": "4",
   "issue": "13",
   "pages": ""
@@ -13479,8 +13479,8 @@
   "doi": "https://doi.org/10.1016/j.cclet.2023.109007",
   "title": "Activation of biomass-derived porous carbon for supercapacitors: A review",
   "year": 2023,
-  "date": "2023-08-31",
-  "citations": 249,
+  "date": "2023-08-30",
+  "citations": 251,
   "authors": [
    {
     "name": "Zixuan Guo",
@@ -13579,7 +13579,7 @@
   "title": "Activated porous carbon prepared from paulownia flower for high performance supercapacitor electrodes",
   "year": 2015,
   "date": "2015-01-03",
-  "citations": 249,
+  "citations": 250,
   "authors": [
    {
     "name": "Jiuli Chang",
@@ -13758,7 +13758,7 @@
    "Capacitive sensing",
    "Chemical engineering"
   ],
-  "abstract": "Abstract Supercapacitors with fast charge/discharge rate and long cycling stability (&gt;50 000 cycles) are attractive for energy storage and mobile power supply. In this paper, a facile strategy is developed to fabricate an Fe 2 O 3 /FeS‐decorated N, S‐codoped hierarchical porous carbon hybrid. Its microstructure and compositions can be readily controlled through adjusting the hydrothermal reaction between waxberry and iron sulfate. The constructed supercapacitors with the as‐prepared carbon materials from this reaction are able to exhibit outstanding capacitive performance with a superfast charge/discharge rate (&lt;1 s), ultralong cycle life (&gt;50 000 cycles, 80 A g −1 ), ultrahigh volumetric capacitance (1320.4 F cm −3 , 0.1 A g −1 ), and high energy density (100.9 W h kg −1 , 221.9 W h L −1 ). The outstanding performance makes it one of the best biomass‐derived supercapacitors. The superior capacitive behavior is likely to arise from the N and S codoping on the surface/edge/skeleton of the carbon microspheres and nanosheet composites coupled with the fast redox reaction of Fe 2 O 3 /FeS. Overall, this research presents a new avenue for developing the next generation of sustainable high‐performance energy storage device.",
+  "abstract": "Abstract Supercapacitors with fast charge/discharge rate and long cycling stability (>50 000 cycles) are attractive for energy storage and mobile power supply. In this paper, a facile strategy is developed to fabricate an Fe2O3/FeS‐decorated N, S‐codoped hierarchical porous carbon hybrid. Its microstructure and compositions can be readily controlled through adjusting the hydrothermal reaction between waxberry and iron sulfate. The constructed supercapacitors with the as‐prepared carbon materials from this reaction are able to exhibit outstanding capacitive performance with a superfast charge/discharge rate (<1 s), ultralong cycle life (>50 000 cycles, 80 A g−1), ultrahigh volumetric capacitance (1320.4 F cm−3, 0.1 A g−1), and high energy density (100.9 W h kg−1, 221.9 W h L−1). The outstanding performance makes it one of the best biomass‐derived supercapacitors. The superior capacitive behavior is likely to arise from the N and S codoping on the surface/edge/skeleton of the carbon microspheres and nanosheet composites coupled with the fast redox reaction of Fe2O3/FeS. Overall, this research presents a new avenue for developing the next generation of sustainable high‐performance energy storage device.",
   "vol": "8",
   "issue": "11",
   "pages": ""
@@ -13851,79 +13851,12 @@
   "pages": "280-288"
  },
  {
-  "id": "W2312230476",
-  "doi": "https://doi.org/10.1021/am502077p",
-  "title": "Self-Assembled Three-Dimensional Hierarchical Graphene/Polypyrrole Nanotube Hybrid Aerogel and Its Application for Supercapacitors",
-  "year": 2014,
-  "date": "2014-05-29",
-  "citations": 246,
-  "authors": [
-   {
-    "name": "Shibing Ye",
-    "institution": "Fudan University"
-   },
-   {
-    "name": "Jiachun Feng",
-    "institution": "Fudan University"
-   }
-  ],
-  "journal": "ACS Applied Materials & Interfaces",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.9278748035430908
-   },
-   {
-    "name": "Graphene",
-    "level": 2,
-    "score": 0.9054898023605347
-   },
-   {
-    "name": "Polypyrrole",
-    "level": 4,
-    "score": 0.8456603288650513
-   },
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8161734342575073
-   },
-   {
-    "name": "Aerogel",
-    "level": 2,
-    "score": 0.712522566318512
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.6587592959403992
-   }
-  ],
-  "keywords": [
-   "Materials science",
-   "Graphene",
-   "Polypyrrole",
-   "Supercapacitor",
-   "Aerogel",
-   "Nanotechnology",
-   "Oxide",
-   "Nanotube"
-  ],
-  "abstract": "A three-dimensional hierarchical graphene/polypyrrole aerogel (GPA) has been fabricated using graphene oxide (GO) and already synthesized one-dimensional hollow polypyrrole nanotubes (PNTs) as the feedstock. The amphiphilic GO is helpful in effectively promoting the dispersion of well-defined PNTs to result in a stable, homogeneous GO/PNT complex solution, while the PNTs not only provide a large accessible surface area for fast transport of hydrate ions but also act as spacers to prevent the restacking of graphene sheets. By a simple one-step reduction self-assembly process, hierarchically structured, low-density, highly compressible GPAs are easily obtained, which favorably combine the advantages of graphene and PNTs. The supercapacitor electrodes based on such materials exhibit excellent electrochemical performance, including a high specific capacitance up to 253 F g(-1), good rate performance, and outstanding cycle stability. Moreover, this method may be feasible to prepare other graphene-based hybrid aerogels with structure-controllable nanostructures in large scale, thereby holding enormous potential in many application fields.",
-  "vol": "6",
-  "issue": "12",
-  "pages": "9671-9679"
- },
- {
   "id": "W4286517180",
   "doi": "https://doi.org/10.1016/j.jcis.2022.07.105",
   "title": "Nanosheet-assembled porous MnCo2O4.5 microflowers as electrode material for hybrid supercapacitors and lithium-ion batteries",
   "year": 2022,
   "date": "2022-07-21",
-  "citations": 246,
+  "citations": 247,
   "authors": [
    {
     "name": "Yafei Liu",
@@ -14009,9 +13942,76 @@
   "pages": "815-826"
  },
  {
+  "id": "W2312230476",
+  "doi": "https://doi.org/10.1021/am502077p",
+  "title": "Self-Assembled Three-Dimensional Hierarchical Graphene/Polypyrrole Nanotube Hybrid Aerogel and Its Application for Supercapacitors",
+  "year": 2014,
+  "date": "2014-05-29",
+  "citations": 246,
+  "authors": [
+   {
+    "name": "Shibing Ye",
+    "institution": "Fudan University"
+   },
+   {
+    "name": "Jiachun Feng",
+    "institution": "Fudan University"
+   }
+  ],
+  "journal": "ACS Applied Materials & Interfaces",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.9278748035430908
+   },
+   {
+    "name": "Graphene",
+    "level": 2,
+    "score": 0.9054898023605347
+   },
+   {
+    "name": "Polypyrrole",
+    "level": 4,
+    "score": 0.8456603288650513
+   },
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8161734342575073
+   },
+   {
+    "name": "Aerogel",
+    "level": 2,
+    "score": 0.712522566318512
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.6587592959403992
+   }
+  ],
+  "keywords": [
+   "Materials science",
+   "Graphene",
+   "Polypyrrole",
+   "Supercapacitor",
+   "Aerogel",
+   "Nanotechnology",
+   "Oxide",
+   "Nanotube"
+  ],
+  "abstract": "A three-dimensional hierarchical graphene/polypyrrole aerogel (GPA) has been fabricated using graphene oxide (GO) and already synthesized one-dimensional hollow polypyrrole nanotubes (PNTs) as the feedstock. The amphiphilic GO is helpful in effectively promoting the dispersion of well-defined PNTs to result in a stable, homogeneous GO/PNT complex solution, while the PNTs not only provide a large accessible surface area for fast transport of hydrate ions but also act as spacers to prevent the restacking of graphene sheets. By a simple one-step reduction self-assembly process, hierarchically structured, low-density, highly compressible GPAs are easily obtained, which favorably combine the advantages of graphene and PNTs. The supercapacitor electrodes based on such materials exhibit excellent electrochemical performance, including a high specific capacitance up to 253 F g(-1), good rate performance, and outstanding cycle stability. Moreover, this method may be feasible to prepare other graphene-based hybrid aerogels with structure-controllable nanostructures in large scale, thereby holding enormous potential in many application fields.",
+  "vol": "6",
+  "issue": "12",
+  "pages": "9671-9679"
+ },
+ {
   "id": "W2031138992",
   "doi": "https://doi.org/10.1021/la903947c",
-  "title": "Mesoporous MnO<sub>2</sub>/Carbon Aerogel Composites as Promising Electrode Materials for High-Performance Supercapacitors",
+  "title": "Mesoporous MnO2/Carbon Aerogel Composites as Promising Electrode Materials for High-Performance Supercapacitors",
   "year": 2010,
   "date": "2010-01-12",
   "citations": 246,
@@ -14090,6 +14090,77 @@
   "vol": "26",
   "issue": "4",
   "pages": "2209-2213"
+ },
+ {
+  "id": "W2341941600",
+  "doi": "https://doi.org/10.1021/acsnano.5b02075",
+  "title": "Carbon Nanotube-Based Supercapacitors with Excellent ac Line Filtering and Rate Capability via Improved Interfacial Impedance",
+  "year": 2015,
+  "date": "2015-06-05",
+  "citations": 246,
+  "authors": [
+   {
+    "name": "Yverick Rangom",
+    "institution": "University of Waterloo"
+   },
+   {
+    "name": "Xiaowu Tang",
+    "institution": "University of Waterloo"
+   },
+   {
+    "name": "Linda F. Nazar",
+    "institution": "University of Waterloo"
+   }
+  ],
+  "journal": "ACS Nano",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.8683457374572754
+   },
+   {
+    "name": "Carbon nanotube",
+    "level": 2,
+    "score": 0.8237481713294983
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.7483636140823364
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.5927531719207764
+   },
+   {
+    "name": "Electrical impedance",
+    "level": 2,
+    "score": 0.561712384223938
+   },
+   {
+    "name": "Line (geometry)",
+    "level": 2,
+    "score": 0.4637634754180908
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Carbon nanotube",
+   "Materials science",
+   "Nanotechnology",
+   "Electrical impedance",
+   "Line (geometry)",
+   "Capacitance",
+   "Electrode"
+  ],
+  "abstract": "We report the fabrication of high-performance, self-standing composite sp(2)-carbon supercapacitor electrodes using single-walled carbon nanotubes (CNTs) as conductive binder. The 3-D mesoporous mesh architecture of CNT-based composite electrodes grants unimpaired ionic transport throughout relatively thick films and allows superior performance compared to graphene-based devices at an ac line frequency of 120 Hz. Metrics of 601 μF/cm(2) with a -81° phase angle and a rate capability (RC) time constant of 199 μs are obtained for thin carbon films. The free-standing carbon films were obtained from a chlorosulfonic acid dispersion and interfaced to stainless steel current collectors with various surface treatments. CNT electrodes were able to cycle at 200 V/s and beyond, still showing a characteristic parallelepipedic cyclic votammetry shape at 1 kV/s. Current densities are measured in excess of 6400 A/g, and the electrodes retain more than 98% capacity after 1 million cycles. These promising results are attributed to a reduction of series resistance in the film through the CNT conductive network and especially to the surface treatment of the stainless steel current collector.",
+  "vol": "9",
+  "issue": "7",
+  "pages": "7248-7255"
  },
  {
   "id": "W2952434667",
@@ -14181,77 +14252,6 @@
   "vol": "63",
   "issue": "",
   "pages": "103836-103836"
- },
- {
-  "id": "W2341941600",
-  "doi": "https://doi.org/10.1021/acsnano.5b02075",
-  "title": "Carbon Nanotube-Based Supercapacitors with Excellent ac Line Filtering and Rate Capability <i>via</i> Improved Interfacial Impedance",
-  "year": 2015,
-  "date": "2015-06-05",
-  "citations": 245,
-  "authors": [
-   {
-    "name": "Yverick Rangom",
-    "institution": "University of Waterloo"
-   },
-   {
-    "name": "Xiaowu Tang",
-    "institution": "University of Waterloo"
-   },
-   {
-    "name": "Linda F. Nazar",
-    "institution": "University of Waterloo"
-   }
-  ],
-  "journal": "ACS Nano",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.8683457374572754
-   },
-   {
-    "name": "Carbon nanotube",
-    "level": 2,
-    "score": 0.8237481713294983
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.7483636140823364
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.5927531719207764
-   },
-   {
-    "name": "Electrical impedance",
-    "level": 2,
-    "score": 0.561712384223938
-   },
-   {
-    "name": "Line (geometry)",
-    "level": 2,
-    "score": 0.4637634754180908
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Carbon nanotube",
-   "Materials science",
-   "Nanotechnology",
-   "Electrical impedance",
-   "Line (geometry)",
-   "Capacitance",
-   "Electrode"
-  ],
-  "abstract": "We report the fabrication of high-performance, self-standing composite sp(2)-carbon supercapacitor electrodes using single-walled carbon nanotubes (CNTs) as conductive binder. The 3-D mesoporous mesh architecture of CNT-based composite electrodes grants unimpaired ionic transport throughout relatively thick films and allows superior performance compared to graphene-based devices at an ac line frequency of 120 Hz. Metrics of 601 μF/cm(2) with a -81° phase angle and a rate capability (RC) time constant of 199 μs are obtained for thin carbon films. The free-standing carbon films were obtained from a chlorosulfonic acid dispersion and interfaced to stainless steel current collectors with various surface treatments. CNT electrodes were able to cycle at 200 V/s and beyond, still showing a characteristic parallelepipedic cyclic votammetry shape at 1 kV/s. Current densities are measured in excess of 6400 A/g, and the electrodes retain more than 98% capacity after 1 million cycles. These promising results are attributed to a reduction of series resistance in the film through the CNT conductive network and especially to the surface treatment of the stainless steel current collector.",
-  "vol": "9",
-  "issue": "7",
-  "pages": "7248-7255"
  },
  {
   "id": "W2152060892",
@@ -14756,7 +14756,7 @@
   "title": "Impact-resistant supercapacitor by hydrogel-infused lattice",
   "year": 2024,
   "date": "2024-08-01",
-  "citations": 63,
+  "citations": 64,
   "authors": [
    {
     "name": "Shixiang Zhou",
@@ -14847,7 +14847,7 @@
   "title": "Electrochemically Exfoliated Graphene Additive‐Free Inks for 3D Printing Customizable Monolithic Integrated Micro‐Supercapacitors on a Large Scale",
   "year": 2024,
   "date": "2024-02-07",
-  "citations": 61,
+  "citations": 63,
   "authors": [
    {
     "name": "Longlong Zhang",
@@ -14938,7 +14938,7 @@
   "title": "Metal and covalent organic frameworks (MOFs and COFs): A comprehensive overview of their synthesis, characterization and enhanced supercapacitor performance",
   "year": 2025,
   "date": "2025-05-15",
-  "citations": 54,
+  "citations": 55,
   "authors": [
    {
     "name": "Daniel M. Teffu",
@@ -15192,7 +15192,7 @@
    "Zinc",
    "Supercapacitor"
   ],
-  "abstract": "Abstract Hybrid zinc‐ion capacitors combine the energy storage capabilities of zinc‐ion batteries with the high‐power output of supercapacitors. However, the limited cycle life and narrow electrochemical window of hybrid zinc‐ion capacitors currently restrict their potential applications. Herein, a hybrid zinc‐ion capacitor is fabricated on laser‐induced graphene (LIG) based on in situ electropolymerization of organic compound poly(8‐amino‐2‐naphthol). The electropolymerized long‐conjugated chain polymers on the 3D conductive framework of LIG can enhance reaction kinetics, suppress the dissolution of organic compounds, and boost capacity. Simultaneously, hydrogen bonds form between polymer chains, aiding in proton transport. The assembled Zn//carbon cloth/LIG/poly(8‐amino‐2‐naphthol) hybrid zinc‐ion capacitors possess a high specific capacity of 308 mAh g −1 at 0.1 mA cm −2 , which is twice as much as that of the batteries without LIG. Additionally, these hybrid capacitors can stably endure 10 000 cycles at a current density of 5 mA cm −2 .",
+  "abstract": "Abstract Hybrid zinc‐ion capacitors combine the energy storage capabilities of zinc‐ion batteries with the high‐power output of supercapacitors. However, the limited cycle life and narrow electrochemical window of hybrid zinc‐ion capacitors currently restrict their potential applications. Herein, a hybrid zinc‐ion capacitor is fabricated on laser‐induced graphene (LIG) based on in situ electropolymerization of organic compound poly(8‐amino‐2‐naphthol). The electropolymerized long‐conjugated chain polymers on the 3D conductive framework of LIG can enhance reaction kinetics, suppress the dissolution of organic compounds, and boost capacity. Simultaneously, hydrogen bonds form between polymer chains, aiding in proton transport. The assembled Zn//carbon cloth/LIG/poly(8‐amino‐2‐naphthol) hybrid zinc‐ion capacitors possess a high specific capacity of 308 mAh g−1 at 0.1 mA cm−2, which is twice as much as that of the batteries without LIG. Additionally, these hybrid capacitors can stably endure 10 000 cycles at a current density of 5 mA cm−2.",
   "vol": "34",
   "issue": "34",
   "pages": ""
@@ -15285,6 +15285,73 @@
   "pages": ""
  },
  {
+  "id": "W4407381198",
+  "doi": "https://doi.org/10.1002/advs.202411951",
+  "title": "Recent Advances in 3D Printed Electrodes – Bridging the Nano to Mesoscale",
+  "year": 2025,
+  "date": "2025-02-11",
+  "citations": 44,
+  "authors": [
+   {
+    "name": "William J. Scheideler",
+    "institution": "Dartmouth College"
+   },
+   {
+    "name": "Jisun Im",
+    "institution": "University of Warwick"
+   }
+  ],
+  "journal": "Advanced Science",
+  "type": "article",
+  "oa": "gold",
+  "concepts": [
+   {
+    "name": "3D printing",
+    "level": 2,
+    "score": 0.7139096260070801
+   },
+   {
+    "name": "Stereolithography",
+    "level": 2,
+    "score": 0.7136033177375793
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.7036073207855225
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.6564208269119263
+   },
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.5899450182914734
+   },
+   {
+    "name": "Electrode",
+    "level": 2,
+    "score": 0.5066757798194885
+   }
+  ],
+  "keywords": [
+   "3D printing",
+   "Stereolithography",
+   "Nanotechnology",
+   "Materials science",
+   "Supercapacitor",
+   "Electrode",
+   "Nanocomposite",
+   "Computer science"
+  ],
+  "abstract": "3D architected electrodes offer inherent physicochemical advantages for energy storage, conversion, and sensing. 3D printing methods such as stereolithography and two photon polymerization are uniquely capable of fabricating these architected electrodes with a high degree of geometric complexity impossible to achieve with other methods at the mesoscale (10 µm-1 mm). The material set for 3D printing traditionally is focused on structural materials rather than functional materials suitable for electronic and electrochemical applications. In this review the fundamental challenges are considered for transforming 3D printed materials into conductive, multifunctional electrodes suitable for electrical and electrochemical devices by printing nanocomposites, infusing molecular precursors and post-processing these structures via carbonization. To understand the design of 3D electrodes toward their use in both sensors and electrochemical devices such as catalysts, this review summarizes recent advances in hierarchical design of porous metastructures, the engineering of mass transport and electronic transport in 3D structures, and the application of high-throughput materials design by machine learning and artificial intelligence. These emerging approaches to 3D electrode design and architecture promise to expand the capabilities of additive manufacturing beyond structural materials and bring its advantages to bear on modern devices such as sensors, batteries, supercapacitors, and electrocatalysts.",
+  "vol": "12",
+  "issue": "9",
+  "pages": "e2411951-e2411951"
+ },
+ {
   "id": "W4402377407",
   "doi": "https://doi.org/10.1002/adfm.202413343",
   "title": "Advanced MXene/Graphene Oxide/Lignosulfonate Inks for 3D Printing Thick Electrodes with Vertically Aligned Pores to Dually Boost Mass Loading and Areal Capacitance",
@@ -15360,79 +15427,12 @@
   "pages": ""
  },
  {
-  "id": "W4407381198",
-  "doi": "https://doi.org/10.1002/advs.202411951",
-  "title": "Recent Advances in 3D Printed Electrodes – Bridging the Nano to Mesoscale",
-  "year": 2025,
-  "date": "2025-02-11",
-  "citations": 40,
-  "authors": [
-   {
-    "name": "William J. Scheideler",
-    "institution": "Dartmouth College"
-   },
-   {
-    "name": "Jisun Im",
-    "institution": "University of Warwick"
-   }
-  ],
-  "journal": "Advanced Science",
-  "type": "article",
-  "oa": "gold",
-  "concepts": [
-   {
-    "name": "3D printing",
-    "level": 2,
-    "score": 0.7139096260070801
-   },
-   {
-    "name": "Stereolithography",
-    "level": 2,
-    "score": 0.7136033177375793
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.7036073207855225
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.6564208269119263
-   },
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.5899450182914734
-   },
-   {
-    "name": "Electrode",
-    "level": 2,
-    "score": 0.5066757798194885
-   }
-  ],
-  "keywords": [
-   "3D printing",
-   "Stereolithography",
-   "Nanotechnology",
-   "Materials science",
-   "Supercapacitor",
-   "Electrode",
-   "Nanocomposite",
-   "Computer science"
-  ],
-  "abstract": "3D architected electrodes offer inherent physicochemical advantages for energy storage, conversion, and sensing. 3D printing methods such as stereolithography and two photon polymerization are uniquely capable of fabricating these architected electrodes with a high degree of geometric complexity impossible to achieve with other methods at the mesoscale (10 µm-1 mm). The material set for 3D printing traditionally is focused on structural materials rather than functional materials suitable for electronic and electrochemical applications. In this review the fundamental challenges are considered for transforming 3D printed materials into conductive, multifunctional electrodes suitable for electrical and electrochemical devices by printing nanocomposites, infusing molecular precursors and post-processing these structures via carbonization. To understand the design of 3D electrodes toward their use in both sensors and electrochemical devices such as catalysts, this review summarizes recent advances in hierarchical design of porous metastructures, the engineering of mass transport and electronic transport in 3D structures, and the application of high-throughput materials design by machine learning and artificial intelligence. These emerging approaches to 3D electrode design and architecture promise to expand the capabilities of additive manufacturing beyond structural materials and bring its advantages to bear on modern devices such as sensors, batteries, supercapacitors, and electrocatalysts.",
-  "vol": "12",
-  "issue": "9",
-  "pages": "e2411951-e2411951"
- },
- {
   "id": "W4400984612",
   "doi": "https://doi.org/10.1002/smll.202404506",
-  "title": "Flexible Hybrid Supercapacitor Achieving 2.2 V with NiCo <sub>2</sub> S <sub>4</sub> /Polyaniline/MnO <sub>2</sub> and N, S‐Co‐Doped Carbon Nanofibers for Ultra‐High Energy Density",
+  "title": "Flexible Hybrid Supercapacitor Achieving 2.2 V with NiCo 2 S 4 /Polyaniline/MnO 2 and N, S‐Co‐Doped Carbon Nanofibers for Ultra‐High Energy Density",
   "year": 2024,
   "date": "2024-07-25",
-  "citations": 40,
+  "citations": 42,
   "authors": [
    {
     "name": "Zahra Karami",
@@ -15511,7 +15511,7 @@
   "title": "Microdrop InkJet printed supercapacitors of graphene/graphene oxide ink for flexible electronics",
   "year": 2024,
   "date": "2024-08-02",
-  "citations": 38,
+  "citations": 39,
   "authors": [
    {
     "name": "Ahmed M. Bayoumy",
@@ -15523,7 +15523,7 @@
    },
    {
     "name": "Mohamed Ahmed Belal",
-    "institution": "Egypt-Japan University of Science and Technology"
+    "institution": ""
    },
    {
     "name": "M. Ezzat",
@@ -15539,7 +15539,7 @@
    },
    {
     "name": "Ahmed Abd El‐Moneim",
-    "institution": "Egypt-Japan University of Science and Technology"
+    "institution": ""
    }
   ],
   "journal": "Journal of Power Sources",
@@ -15663,7 +15663,7 @@
   "title": "High-areal-capacitance electrode constructed by lignin-based microporous carbon nanofibers for supercapacitors",
   "year": 2024,
   "date": "2024-04-10",
-  "citations": 33,
+  "citations": 34,
   "authors": [
    {
     "name": "Chang Ma",
@@ -15824,158 +15824,12 @@
   "pages": "34-45"
  },
  {
-  "id": "W4396592261",
-  "doi": "https://doi.org/10.1002/adfm.202405143",
-  "title": "Let it Flow: Emergence of Liquid Metals",
-  "year": 2024,
-  "date": "2024-05-02",
-  "citations": 25,
-  "authors": [
-   {
-    "name": "Michael D. Bartlett",
-    "institution": "Virginia Tech"
-   },
-   {
-    "name": "Michael D. Dickey",
-    "institution": "North Carolina State University"
-   },
-   {
-    "name": "Aaron T. Ohta",
-    "institution": "University of Hawaiʻi at Mānoa"
-   },
-   {
-    "name": "Kourosh Kalantar‐Zadeh",
-    "institution": "The University of Sydney"
-   }
-  ],
-  "journal": "Advanced Functional Materials",
-  "type": "article",
-  "oa": "bronze",
-  "concepts": [
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.8064544200897217
-   },
-   {
-    "name": "Liquid metal",
-    "level": 2,
-    "score": 0.7586532831192017
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.6177123785018921
-   },
-   {
-    "name": "Fluidics",
-    "level": 2,
-    "score": 0.573188304901123
-   },
-   {
-    "name": "Electronics",
-    "level": 2,
-    "score": 0.4424518048763275
-   },
-   {
-    "name": "Metal",
-    "level": 2,
-    "score": 0.4267214238643646
-   }
-  ],
-  "keywords": [
-   "Materials science",
-   "Liquid metal",
-   "Nanotechnology",
-   "Fluidics",
-   "Electronics",
-   "Metal",
-   "Composite material",
-   "Metallurgy"
-  ],
-  "abstract": "Liquid metals—that is, metals with low melting points—have fascinating and unique properties. Gallium is one of the most popular liquid metals because it melts near room temperature, has low toxicity, effectively zero vapor pressure, and can be combined with other metals to form alloys. The term “liquid metal” can be more broadly defined to include metals that melt at temperatures that are easy to access under common laboratory conditions. Room-temperature liquid metals open unique possibilities to leverage the soft, fluidic characteristics of liquids while simultaneously taking advantage of properties like high surface energy and thin oxide layers, high electrical and thermal conductivity, and other metallic characteristics that are typically reserved for rigid, solid materials. This liquid-metallic combination has resulted in remarkable properties, unusual behaviors, and new materials and devices that cannot be created with typical fluids or common metals alone. Interest in liquid metals has grown over the last decade due to the interest in applications that take advantage of their properties. For example, liquid metals can be used as conductors and components in soft and stretchable electronics. Likewise, they can be used for soft biomedical devices, energy harvesting devices, and e-textiles. Liquid metals can help catalyze reactions in unique ways and have interfacial properties that can be exploited for a variety of applications, such as actuators, batteries, and substrates for the deposition of thin films. The versatility of liquid metals presents many opportunities for future materials, devices, and systems, and represents an exciting paradigm for both scientific exploration and the creation of novel technologies. The special issue on Liquid Metals for Functional Materials consists of 49 manuscripts with 37 research articles and 12 reviews across a wide breadth of the liquid metal field. The work focuses on the latest advancements from fundamental properties to applied concepts, as broadly classified as Energy and Electrochemistry, Biomedical and Healthcare, Catalysts and Reactions, Composites and Multiphase Materials, Electronics and Conductors, Fabrication and Patterning, and Interfacial Properties. This collection highlights the multidisciplinary nature of liquid metal research and provides a platform to showcase our current understanding and outline future directions. We sincerely thank Dr. Joseph Krumpfer and Dr. Esther Levy, whose dedication to this special issue energized this effort and led to the exciting collection of papers presented in this special issue. Below, we will briefly highlight the contents of the special issue through the lens of several of the key subtopics in the field. Liquid metals offer promising potential in future energy storage and harvesting. Their electrical conductivity, deformability, compatibility with electrochemistry, lithium dissolution capability, and the possibility of creating porous composites make them ideal materials for efficient ion and electron exchanges. The addition of small metallic components can significantly alter the electrochemical behavior of liquid metals. In a work published in this special issue, Tang and co-workers showed the modulation of electrochemical properties by studying fractals that are formed from liquid metal alloys (adfm.202301348). In another work, Li and co-workers presented mixtures of MXene with EGaIn for energy-harvesting (adfm.202307830). Additionally, Boley and co-workers created a galvanic cell by mechanically rupturing surface oxide of liquid metals to convert chemical energy to electrical energy (adfm.202309177). Quality of electrical conductivity and stretchability are important factors in textile-based electronics with embedded supercapacitors, which are carefully investigated in another work by So and co-workers (adfm.202310318). An interesting paper by Deng and co-workers presented the application of liquid metals for forming elastomer seals in stretchable lithium-ion storage units (adfm.202309861). Finally, the special issue includes a review by Yan and co-workers on advances in energy storage based on liquid metal systems (adfm.202309706). The low toxicity of gallium-based liquid metals makes them suitable for medical applications. The use of liquid metals in these areas has been growing in popularity, and this issue features several papers that review recent biomedicine-related liquid metal works. For example, one paper by Seo and co-workers summarized the use of low-melting-point metals for biomedical applications (adfm.202307708). One paper by Park and co-workers reviewed the usage of gallium-based liquid metals for bioelectronics (adfm.202307990) while another paper by Lim and co-workers reviewed healthcare-related applications of liquid metals in wearables and soft robotics (adfm.202309989). Additionally, Wei and co-workers reviewed liquid metal-based biosensors (adfm.202308173). In more specific applications, Truong and co-workers created silver-gallium amalgamated particles that show antibacterial properties and show promise as a spray-coating on implantable devices (adfm.202310539). In another work by Markvicka and co-workers, composites of elastomers and liquid metals were developed with acoustic properties that improve the image quality of wearable ultrasound devices for long-term patient monitoring (adfm.202308954). Additionally, liquid-metal electrodes and particles were used by Kim and co-workers to create soft biosensors capable of detecting ascorbic and uric acid, dopamine, and glucose (adfm.202311696). Currently, a significant portion of global greenhouse emissions and energy consumption stems from industrial-scale chemical reactions used in the production of ammonia, fuel, hydrogen, polymers, and other chemicals. Progress in enhancing catalysis and reaction rates using solid materials has been limited. Exploring the untapped properties of liquid metals holds great promise for introducing new paradigms in these chemical processes. Researchers offered several interesting works in this special issue on catalysts and reactions using liquid metals. Here, Daeneke and co-workers showed a delicate liquid metal system with incorporated copper for electrocatalytic oxidation of ethanol (adfm.202304248). Kalantar-Zadeh and co-workers demonstrated that liquid metal can be used as the reservoir for zinc metal for sourcing it into the synthesis metal–organic frameworks (adfm.202300969). While another study put forward by Yarema and co-workers presented an approach to use liquid metal to create Pd-Zn nanocrystals (adfm.202309018). In another seminal manuscript, Sitti and co-workers utilized liquid metal initiated polymerization to create hydrogel composites (adfm.202308238). A liquid metal reaction media was also used by Zavabeti and co-workers for the creation of atomically thin bismuth oxides that enabled strong piezoelectric systems (adfm.202307348). O'Mullane and co-workers showed that liquid metals have a potential use in plasma-assisted carbon dioxide reduction by incorporating liquid metal droplets (adfm.202307846). The capabilities of liquid metals are not just limited to inorganic systems. Miyako and co-workers showed that liquid metal catalysts can also be effectively used in immunostimulants (adfm.202305886). Liquid metal can be combined with diverse components such as polymers, metals, carbon-based materials, or other organic or inorganic materials to create composites and multiphase systems. This can create novel composites with enhanced functional or mechanical properties relative to solid-based inclusions or other phases can be added into liquid metal to provide new properties not native to liquid metal. These concepts were well captured in the special issue. One review by Kramer-Bottiglio and co-workers focused on multiphase composites containing liquid metal and other (x) fillers for unique combinations of properties (adfm.202309529) while another review by Lee and co-workers showed how adding particles into liquid metal can create magnetic liquid metal (adfm.202311153). A third review by Tee and co-workers discussed liquid metal composites for wearable electronics (adfm.202400284). Additionally, a set of papers presented liquid-metal polymer composites with different functionalities. One work by Bartlett and co-workers showed how liquid-metal droplets in elastomers could create electrically conductive reversible adhesives for soft electronics (adfm.202304101), while another by Li and co-workers showed hydrogel composites with high toughness and conductivity (adfm.202308113). This polymer composite architecture also enabled thermally stable soft materials for high-temperature applications as presented by Majidi and co-workers (adfm.202309725) while Zhou and co-workers used liquid metal droplets as cross-links to enable recyclable conductive composites (adfm.202308032). The high deformability of liquid metal wires was also used in conjunction with a magnetic soft composite by Park and co-workers to create artificial muscles (adfm.202302895). Like solid metals, liquid metals have a high electrical conductivity, making them suitable as conductors in electronics, but with the added properties of liquids, such as discretization into droplets. One review by Hussain and co-workers examined liquid-metal droplets and their use for electronics such as sensors, switches, transistors, actuators, and more (adfm.202308116). Liquid metals are also especially suitable for soft, flexible, and stretchable electronics. Toward this, Zhang and co-workers created a soft, lightweight composite with networks of liquid-metal fibers (adfm.202308128) while Zhang and co-workers developed liquid-metal composite materials that show increased conductivity with applied strain (adfm.202310225). In another contribution, Zheng and co-workers demonstrated a permeable and stretchable liquid-metal fibers for sensors and other electronics (adfm.202308120). Bartlett and co-workers presented a liquid metal-based conductive adhesive for integration of soft electronics and rigid devices (adfm.202313567) while Hjort and co-workers presented a laser engraving methodology for creating liquid metal-based interconnects (adfm.202309707). Other papers in this issue describe the use of liquid metals in specific electronic devices. One review presented by Park and co-workers examined liquid-metal systems that respond to a variety of stimuli, and that can be used for electronics such as wearable sensors (adfm.202308703). The compliant nature of liquid metal was used by Lacour and co-workers to make sensors that can measure softness (adfm.202308698). A liquid-metal inductive sensor was created by Jeong and co-workers that is capable of distinguishing between various stimuli on a finger (adfm.202305776), and a wearable liquid-metal antenna was directly printed by Hashimoto and co-workers (adfm.202311219). Liquid metals can be patterned into useful shapes such as circuits, antennas, and wires to create soft and stretchable analogs to existing electronic devices. Relative to conventional metals, such as copper or aluminum, the fluidic nature of liquid metal allows it to be patterned in unique ways, including injection and 3D printing. In many cases, patterning is facilitated by the thin, solid oxide layer that forms rapidly on the surface of liquid metals in the presence of oxygen. This solid oxide “skin” allows the liquid metal to retain shapes that would normally be impossible with liquids due to surface tension. This special issue offers several interesting works on the fabrication and patterning of liquid metals. Liquid metals were 3D printed in ceramics by Yang and co-workers for use in microwave absorption (adfm.202307499). In another example, Syed and co-workers separated the oxide layer from the liquid metal to enable the fabrication of gas sensors (adfm.202309342). Park and co-workers also took advantage of the ability to use liquid metal particles to pattern stretchable electronics (adfm.202309660). The particles can be used to make thermally conductive composites as demonstrated by Lee and co-workers (adfm.202306698) or be cast as a film and subsequently merged together to form conductive traces as presented by Dickey and co-workers (adfm.202308574). Liquid metals have remarkable interfacial properties. For example, they have the largest interfacial tension of any liquid at room temperature, with values nearly an order of magnitude larger than that of water. Yet, the surface tension effectively can be lowered to near zero by using electrochemical oxidation. This phenomenon, as well as several others, can be used to control the flow and shape of liquid metal, as reviewed by Wang and co-workers in this special issue (adfm.202309614). In addition, studies by Daniels and co-workers provide new insights into this electrochemical phenomenon by carefully measuring the tension as a function of electrical potential (adfm.202311501) or by confining the metal to porous tubes as demonstrated by Khan and co-workers (adfm.202307919). Another interesting property of liquid metals is that they can react to form surface oxides on their surface. Herein, Tabor and co-workers enhance the mechanical strength of the skin by depositing thin silica layers on the oxide (adfm.202308167). Further, Elbourne and co-workers evaluated the structure of the oxide on liquid metal droplets (adfm.202310147) while Koo and co-workers utilized the oxide-coated liquid metal to form more stable solar cells (adfm.202311597). We are grateful for all the authors, reviewers, and editors who made this special issue possible. We hope this special issue will help highlight the challenges and exciting opportunities for the development and utilization of liquid metal in diverse applications. M.D.B., M.D.D., A.T.O., and K.K-Z. contributed equally to this work. The authors declare no conflict of interest Michael D. Bartlett is an associate professor and John R. Jones III Faculty Fellow of Mechanical Engineering at Virginia Tech. He received his B.S.E. from the University of Michigan, Ph.D. from the University of Massachusetts Amherst, and was a postdoctoral fellow at Carnegie Mellon University. Michael leads the Soft Materials and Structures Lab, which investigates multifunctional soft materials and composites with highly controllable mechanical and functional properties for the creation of soft electronics and robotics based on liquid metal, switchable and intelligent adhesives, and adaptive materials. Michael Dickey is the Camille and Henry Dreyfus Professor in the Department of Chemical & Biomolecular Engineering at NC State University. He received a B.S. in chemical engineering from Georgia Institute of Technology (1999) and a Ph.D. from the University of Texas (2006) under the guidance of Professor Grant Willson. From 2006 to 2008, he was a post-doctoral fellow in the lab of Professor George Whitesides at Harvard University. He completed a sabbatical at Microsoft in 2016 and EPFL in 2023. Michael's research interests include soft matter (liquid metals, gels, polymers) for soft and stretchable devices (electronics, energy harvesters, and soft robotics). Aaron Ohta is a professor in the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. He received his B.S. degree from the University of Hawaii at Manoa, his M.S. degree from the University of California, Los Angeles, and his Ph.D. degree from the University of California, Berkeley, all in electrical engineering. Aaron's research interests include reconfigurable circuits and systems using liquid metals and other materials, microfluidics, and microelectromechanical systems (MEMS). Kourosh Kalantar-Zadeh is a professor and Head of School of Chemical and Biomolecular Engineering at the University of Sydney. He is involved in research in the fields of analytical chemistry, materials sciences, gastroenterology, electronics, and sensors. Professor Kalantar-Zadeh is best known for his works on ingestible sensors, liquid metals, and 2D semiconductors. He led his group to the invention of an ingestible chemical sensor: human gas sensing capsule, one of the breakthroughs in the field of medical devices. He has received several international awards for his scientific contributions including the 2017 IEEE Sensor Council Achievement, and 2020 Robert Boyle Prize of RSC.",
-  "vol": "34",
-  "issue": "31",
-  "pages": ""
- },
- {
-  "id": "W4403693941",
-  "doi": "https://doi.org/10.1016/j.electacta.2024.145275",
-  "title": "Novel pseudocapacitive one-dimensional copper pyrophosphate (Cu2P2O7) nanofibers for asymmetric supercapacitor",
-  "year": 2024,
-  "date": "2024-10-23",
-  "citations": 24,
-  "authors": [
-   {
-    "name": "Nutan V. Mangate",
-    "institution": "Visvesvaraya National Institute of Technology"
-   },
-   {
-    "name": "Sushama M. Giripunje",
-    "institution": "Visvesvaraya National Institute of Technology"
-   },
-   {
-    "name": "Subhash B. Kondawar",
-    "institution": "Rashtrasant Tukadoji Maharaj Nagpur University"
-   }
-  ],
-  "journal": "Electrochimica Acta",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.88288414478302
-   },
-   {
-    "name": "Pyrophosphate",
-    "level": 3,
-    "score": 0.6819465160369873
-   },
-   {
-    "name": "Copper",
-    "level": 2,
-    "score": 0.6313233375549316
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.5523260831832886
-   },
-   {
-    "name": "Nanofiber",
-    "level": 2,
-    "score": 0.546103298664093
-   },
-   {
-    "name": "Nanotechnology",
-    "level": 1,
-    "score": 0.4817045331001282
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Pyrophosphate",
-   "Copper",
-   "Materials science",
-   "Nanofiber",
-   "Nanotechnology",
-   "Chemical engineering",
-   "Electrochemistry"
-  ],
-  "abstract": "",
-  "vol": "508",
-  "issue": "",
-  "pages": "145275-145275"
- },
- {
   "id": "W7131294469",
   "doi": "https://doi.org/10.1002/asia.70640",
   "title": "Carbon Fiber–Garnet Sand Reinforced Multifunctional Electrically Conductive Concrete for Supercapacitive Energy Storage",
   "year": 2026,
   "date": "2026-02-01",
-  "citations": 23,
+  "citations": 26,
   "authors": [
    {
     "name": "Karnan Manickavasakam",
@@ -16059,6 +15913,152 @@
   "vol": "21",
   "issue": "4",
   "pages": "e70640-e70640"
+ },
+ {
+  "id": "W4403693941",
+  "doi": "https://doi.org/10.1016/j.electacta.2024.145275",
+  "title": "Novel pseudocapacitive one-dimensional copper pyrophosphate (Cu2P2O7) nanofibers for asymmetric supercapacitor",
+  "year": 2024,
+  "date": "2024-10-23",
+  "citations": 26,
+  "authors": [
+   {
+    "name": "Nutan V. Mangate",
+    "institution": "Visvesvaraya National Institute of Technology"
+   },
+   {
+    "name": "Sushama M. Giripunje",
+    "institution": "Visvesvaraya National Institute of Technology"
+   },
+   {
+    "name": "Subhash B. Kondawar",
+    "institution": "Rashtrasant Tukadoji Maharaj Nagpur University"
+   }
+  ],
+  "journal": "Electrochimica Acta",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.88288414478302
+   },
+   {
+    "name": "Pyrophosphate",
+    "level": 3,
+    "score": 0.6819465160369873
+   },
+   {
+    "name": "Copper",
+    "level": 2,
+    "score": 0.6313233375549316
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.5523260831832886
+   },
+   {
+    "name": "Nanofiber",
+    "level": 2,
+    "score": 0.546103298664093
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.4817045331001282
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Pyrophosphate",
+   "Copper",
+   "Materials science",
+   "Nanofiber",
+   "Nanotechnology",
+   "Chemical engineering",
+   "Electrochemistry"
+  ],
+  "abstract": "",
+  "vol": "508",
+  "issue": "",
+  "pages": "145275-145275"
+ },
+ {
+  "id": "W4396592261",
+  "doi": "https://doi.org/10.1002/adfm.202405143",
+  "title": "Let it Flow: Emergence of Liquid Metals",
+  "year": 2024,
+  "date": "2024-05-02",
+  "citations": 25,
+  "authors": [
+   {
+    "name": "Michael D. Bartlett",
+    "institution": "Virginia Tech"
+   },
+   {
+    "name": "Michael D. Dickey",
+    "institution": "North Carolina State University"
+   },
+   {
+    "name": "Aaron T. Ohta",
+    "institution": "University of Hawaiʻi at Mānoa"
+   },
+   {
+    "name": "Kourosh Kalantar‐Zadeh",
+    "institution": "The University of Sydney"
+   }
+  ],
+  "journal": "Advanced Functional Materials",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.8064544200897217
+   },
+   {
+    "name": "Liquid metal",
+    "level": 2,
+    "score": 0.7586532831192017
+   },
+   {
+    "name": "Nanotechnology",
+    "level": 1,
+    "score": 0.6177123785018921
+   },
+   {
+    "name": "Fluidics",
+    "level": 2,
+    "score": 0.573188304901123
+   },
+   {
+    "name": "Electronics",
+    "level": 2,
+    "score": 0.4424518048763275
+   },
+   {
+    "name": "Metal",
+    "level": 2,
+    "score": 0.4267214238643646
+   }
+  ],
+  "keywords": [
+   "Materials science",
+   "Liquid metal",
+   "Nanotechnology",
+   "Fluidics",
+   "Electronics",
+   "Metal",
+   "Composite material",
+   "Metallurgy"
+  ],
+  "abstract": "Liquid metals—that is, metals with low melting points—have fascinating and unique properties. Gallium is one of the most popular liquid metals because it melts near room temperature, has low toxicity, effectively zero vapor pressure, and can be combined with other metals to form alloys. The term “liquid metal” can be more broadly defined to include metals that melt at temperatures that are easy to access under common laboratory conditions. Room-temperature liquid metals open unique possibilities to leverage the soft, fluidic characteristics of liquids while simultaneously taking advantage of properties like high surface energy and thin oxide layers, high electrical and thermal conductivity, and other metallic characteristics that are typically reserved for rigid, solid materials. This liquid-metallic combination has resulted in remarkable properties, unusual behaviors, and new materials and devices that cannot be created with typical fluids or common metals alone. Interest in liquid metals has grown over the last decade due to the interest in applications that take advantage of their properties. For example, liquid metals can be used as conductors and components in soft and stretchable electronics. Likewise, they can be used for soft biomedical devices, energy harvesting devices, and e-textiles. Liquid metals can help catalyze reactions in unique ways and have interfacial properties that can be exploited for a variety of applications, such as actuators, batteries, and substrates for the deposition of thin films. The versatility of liquid metals presents many opportunities for future materials, devices, and systems, and represents an exciting paradigm for both scientific exploration and the creation of novel technologies. The special issue on Liquid Metals for Functional Materials consists of 49 manuscripts with 37 research articles and 12 reviews across a wide breadth of the liquid metal field. The work focuses on the latest advancements from fundamental properties to applied concepts, as broadly classified as Energy and Electrochemistry, Biomedical and Healthcare, Catalysts and Reactions, Composites and Multiphase Materials, Electronics and Conductors, Fabrication and Patterning, and Interfacial Properties. This collection highlights the multidisciplinary nature of liquid metal research and provides a platform to showcase our current understanding and outline future directions. We sincerely thank Dr. Joseph Krumpfer and Dr. Esther Levy, whose dedication to this special issue energized this effort and led to the exciting collection of papers presented in this special issue. Below, we will briefly highlight the contents of the special issue through the lens of several of the key subtopics in the field. Liquid metals offer promising potential in future energy storage and harvesting. Their electrical conductivity, deformability, compatibility with electrochemistry, lithium dissolution capability, and the possibility of creating porous composites make them ideal materials for efficient ion and electron exchanges. The addition of small metallic components can significantly alter the electrochemical behavior of liquid metals. In a work published in this special issue, Tang and co-workers showed the modulation of electrochemical properties by studying fractals that are formed from liquid metal alloys (adfm.202301348). In another work, Li and co-workers presented mixtures of MXene with EGaIn for energy-harvesting (adfm.202307830). Additionally, Boley and co-workers created a galvanic cell by mechanically rupturing surface oxide of liquid metals to convert chemical energy to electrical energy (adfm.202309177). Quality of electrical conductivity and stretchability are important factors in textile-based electronics with embedded supercapacitors, which are carefully investigated in another work by So and co-workers (adfm.202310318). An interesting paper by Deng and co-workers presented the application of liquid metals for forming elastomer seals in stretchable lithium-ion storage units (adfm.202309861). Finally, the special issue includes a review by Yan and co-workers on advances in energy storage based on liquid metal systems (adfm.202309706). The low toxicity of gallium-based liquid metals makes them suitable for medical applications. The use of liquid metals in these areas has been growing in popularity, and this issue features several papers that review recent biomedicine-related liquid metal works. For example, one paper by Seo and co-workers summarized the use of low-melting-point metals for biomedical applications (adfm.202307708). One paper by Park and co-workers reviewed the usage of gallium-based liquid metals for bioelectronics (adfm.202307990) while another paper by Lim and co-workers reviewed healthcare-related applications of liquid metals in wearables and soft robotics (adfm.202309989). Additionally, Wei and co-workers reviewed liquid metal-based biosensors (adfm.202308173). In more specific applications, Truong and co-workers created silver-gallium amalgamated particles that show antibacterial properties and show promise as a spray-coating on implantable devices (adfm.202310539). In another work by Markvicka and co-workers, composites of elastomers and liquid metals were developed with acoustic properties that improve the image quality of wearable ultrasound devices for long-term patient monitoring (adfm.202308954). Additionally, liquid-metal electrodes and particles were used by Kim and co-workers to create soft biosensors capable of detecting ascorbic and uric acid, dopamine, and glucose (adfm.202311696). Currently, a significant portion of global greenhouse emissions and energy consumption stems from industrial-scale chemical reactions used in the production of ammonia, fuel, hydrogen, polymers, and other chemicals. Progress in enhancing catalysis and reaction rates using solid materials has been limited. Exploring the untapped properties of liquid metals holds great promise for introducing new paradigms in these chemical processes. Researchers offered several interesting works in this special issue on catalysts and reactions using liquid metals. Here, Daeneke and co-workers showed a delicate liquid metal system with incorporated copper for electrocatalytic oxidation of ethanol (adfm.202304248). Kalantar-Zadeh and co-workers demonstrated that liquid metal can be used as the reservoir for zinc metal for sourcing it into the synthesis metal–organic frameworks (adfm.202300969). While another study put forward by Yarema and co-workers presented an approach to use liquid metal to create Pd-Zn nanocrystals (adfm.202309018). In another seminal manuscript, Sitti and co-workers utilized liquid metal initiated polymerization to create hydrogel composites (adfm.202308238). A liquid metal reaction media was also used by Zavabeti and co-workers for the creation of atomically thin bismuth oxides that enabled strong piezoelectric systems (adfm.202307348). O'Mullane and co-workers showed that liquid metals have a potential use in plasma-assisted carbon dioxide reduction by incorporating liquid metal droplets (adfm.202307846). The capabilities of liquid metals are not just limited to inorganic systems. Miyako and co-workers showed that liquid metal catalysts can also be effectively used in immunostimulants (adfm.202305886). Liquid metal can be combined with diverse components such as polymers, metals, carbon-based materials, or other organic or inorganic materials to create composites and multiphase systems. This can create novel composites with enhanced functional or mechanical properties relative to solid-based inclusions or other phases can be added into liquid metal to provide new properties not native to liquid metal. These concepts were well captured in the special issue. One review by Kramer-Bottiglio and co-workers focused on multiphase composites containing liquid metal and other (x) fillers for unique combinations of properties (adfm.202309529) while another review by Lee and co-workers showed how adding particles into liquid metal can create magnetic liquid metal (adfm.202311153). A third review by Tee and co-workers discussed liquid metal composites for wearable electronics (adfm.202400284). Additionally, a set of papers presented liquid-metal polymer composites with different functionalities. One work by Bartlett and co-workers showed how liquid-metal droplets in elastomers could create electrically conductive reversible adhesives for soft electronics (adfm.202304101), while another by Li and co-workers showed hydrogel composites with high toughness and conductivity (adfm.202308113). This polymer composite architecture also enabled thermally stable soft materials for high-temperature applications as presented by Majidi and co-workers (adfm.202309725) while Zhou and co-workers used liquid metal droplets as cross-links to enable recyclable conductive composites (adfm.202308032). The high deformability of liquid metal wires was also used in conjunction with a magnetic soft composite by Park and co-workers to create artificial muscles (adfm.202302895). Like solid metals, liquid metals have a high electrical conductivity, making them suitable as conductors in electronics, but with the added properties of liquids, such as discretization into droplets. One review by Hussain and co-workers examined liquid-metal droplets and their use for electronics such as sensors, switches, transistors, actuators, and more (adfm.202308116). Liquid metals are also especially suitable for soft, flexible, and stretchable electronics. Toward this, Zhang and co-workers created a soft, lightweight composite with networks of liquid-metal fibers (adfm.202308128) while Zhang and co-workers developed liquid-metal composite materials that show increased conductivity with applied strain (adfm.202310225). In another contribution, Zheng and co-workers demonstrated a permeable and stretchable liquid-metal fibers for sensors and other electronics (adfm.202308120). Bartlett and co-workers presented a liquid metal-based conductive adhesive for integration of soft electronics and rigid devices (adfm.202313567) while Hjort and co-workers presented a laser engraving methodology for creating liquid metal-based interconnects (adfm.202309707). Other papers in this issue describe the use of liquid metals in specific electronic devices. One review presented by Park and co-workers examined liquid-metal systems that respond to a variety of stimuli, and that can be used for electronics such as wearable sensors (adfm.202308703). The compliant nature of liquid metal was used by Lacour and co-workers to make sensors that can measure softness (adfm.202308698). A liquid-metal inductive sensor was created by Jeong and co-workers that is capable of distinguishing between various stimuli on a finger (adfm.202305776), and a wearable liquid-metal antenna was directly printed by Hashimoto and co-workers (adfm.202311219). Liquid metals can be patterned into useful shapes such as circuits, antennas, and wires to create soft and stretchable analogs to existing electronic devices. Relative to conventional metals, such as copper or aluminum, the fluidic nature of liquid metal allows it to be patterned in unique ways, including injection and 3D printing. In many cases, patterning is facilitated by the thin, solid oxide layer that forms rapidly on the surface of liquid metals in the presence of oxygen. This solid oxide “skin” allows the liquid metal to retain shapes that would normally be impossible with liquids due to surface tension. This special issue offers several interesting works on the fabrication and patterning of liquid metals. Liquid metals were 3D printed in ceramics by Yang and co-workers for use in microwave absorption (adfm.202307499). In another example, Syed and co-workers separated the oxide layer from the liquid metal to enable the fabrication of gas sensors (adfm.202309342). Park and co-workers also took advantage of the ability to use liquid metal particles to pattern stretchable electronics (adfm.202309660). The particles can be used to make thermally conductive composites as demonstrated by Lee and co-workers (adfm.202306698) or be cast as a film and subsequently merged together to form conductive traces as presented by Dickey and co-workers (adfm.202308574). Liquid metals have remarkable interfacial properties. For example, they have the largest interfacial tension of any liquid at room temperature, with values nearly an order of magnitude larger than that of water. Yet, the surface tension effectively can be lowered to near zero by using electrochemical oxidation. This phenomenon, as well as several others, can be used to control the flow and shape of liquid metal, as reviewed by Wang and co-workers in this special issue (adfm.202309614). In addition, studies by Daniels and co-workers provide new insights into this electrochemical phenomenon by carefully measuring the tension as a function of electrical potential (adfm.202311501) or by confining the metal to porous tubes as demonstrated by Khan and co-workers (adfm.202307919). Another interesting property of liquid metals is that they can react to form surface oxides on their surface. Herein, Tabor and co-workers enhance the mechanical strength of the skin by depositing thin silica layers on the oxide (adfm.202308167). Further, Elbourne and co-workers evaluated the structure of the oxide on liquid metal droplets (adfm.202310147) while Koo and co-workers utilized the oxide-coated liquid metal to form more stable solar cells (adfm.202311597). We are grateful for all the authors, reviewers, and editors who made this special issue possible. We hope this special issue will help highlight the challenges and exciting opportunities for the development and utilization of liquid metal in diverse applications. M.D.B., M.D.D., A.T.O., and K.K-Z. contributed equally to this work. The authors declare no conflict of interest Michael D. Bartlett is an associate professor and John R. Jones III Faculty Fellow of Mechanical Engineering at Virginia Tech. He received his B.S.E. from the University of Michigan, Ph.D. from the University of Massachusetts Amherst, and was a postdoctoral fellow at Carnegie Mellon University. Michael leads the Soft Materials and Structures Lab, which investigates multifunctional soft materials and composites with highly controllable mechanical and functional properties for the creation of soft electronics and robotics based on liquid metal, switchable and intelligent adhesives, and adaptive materials. Michael Dickey is the Camille and Henry Dreyfus Professor in the Department of Chemical & Biomolecular Engineering at NC State University. He received a B.S. in chemical engineering from Georgia Institute of Technology (1999) and a Ph.D. from the University of Texas (2006) under the guidance of Professor Grant Willson. From 2006 to 2008, he was a post-doctoral fellow in the lab of Professor George Whitesides at Harvard University. He completed a sabbatical at Microsoft in 2016 and EPFL in 2023. Michael's research interests include soft matter (liquid metals, gels, polymers) for soft and stretchable devices (electronics, energy harvesters, and soft robotics). Aaron Ohta is a professor in the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. He received his B.S. degree from the University of Hawaii at Manoa, his M.S. degree from the University of California, Los Angeles, and his Ph.D. degree from the University of California, Berkeley, all in electrical engineering. Aaron's research interests include reconfigurable circuits and systems using liquid metals and other materials, microfluidics, and microelectromechanical systems (MEMS). Kourosh Kalantar-Zadeh is a professor and Head of School of Chemical and Biomolecular Engineering at the University of Sydney. He is involved in research in the fields of analytical chemistry, materials sciences, gastroenterology, electronics, and sensors. Professor Kalantar-Zadeh is best known for his works on ingestible sensors, liquid metals, and 2D semiconductors. He led his group to the invention of an ingestible chemical sensor: human gas sensing capsule, one of the breakthroughs in the field of medical devices. He has received several international awards for his scientific contributions including the 2017 IEEE Sensor Council Achievement, and 2020 Robert Boyle Prize of RSC.",
+  "vol": "34",
+  "issue": "31",
+  "pages": ""
  },
  {
   "id": "W4392623555",
@@ -16153,7 +16153,7 @@
   "title": "Sulfur-Doped CoNi Layered Double Hydroxide/Carbon Nanofiber Composite Films for Flexible Supercapacitors",
   "year": 2024,
   "date": "2024-04-30",
-  "citations": 20,
+  "citations": 21,
   "authors": [
    {
     "name": "Wei Song",
@@ -16310,6 +16310,101 @@
   "pages": "234312-234312"
  },
  {
+  "id": "W4413490429",
+  "doi": "https://doi.org/10.1016/j.cej.2025.167546",
+  "title": "The construction of high-performance asymmetric supercapacitors by Bi-MOF-derived carbon skeleton with in situ activated Bi2O3/C and B-rGO/amorphous NiCoB",
+  "year": 2025,
+  "date": "2025-08-25",
+  "citations": 19,
+  "authors": [
+   {
+    "name": "Xin Sun",
+    "institution": "State Ethnic Affairs Commission"
+   },
+   {
+    "name": "Wu Shang",
+    "institution": "State Ethnic Affairs Commission"
+   },
+   {
+    "name": "Lihua Chen",
+    "institution": "State Ethnic Affairs Commission"
+   },
+   {
+    "name": "Qiyue Tong",
+    "institution": "State Ethnic Affairs Commission"
+   },
+   {
+    "name": "Lulu Han",
+    "institution": "Lanzhou University"
+   },
+   {
+    "name": "Pengfei Wan",
+    "institution": "Lanzhou University"
+   },
+   {
+    "name": "Yuzhi Sun",
+    "institution": "State Ethnic Affairs Commission"
+   },
+   {
+    "name": "Lihong V. Wang",
+    "institution": "State Ethnic Affairs Commission"
+   },
+   {
+    "name": "Quanlu Yang",
+    "institution": "Lanzhou University"
+   }
+  ],
+  "journal": "Chemical Engineering Journal",
+  "type": "article",
+  "oa": "closed",
+  "concepts": [
+   {
+    "name": "Supercapacitor",
+    "level": 4,
+    "score": 0.7655861377716064
+   },
+   {
+    "name": "Activated carbon",
+    "level": 3,
+    "score": 0.7193774580955505
+   },
+   {
+    "name": "In situ",
+    "level": 2,
+    "score": 0.7057485580444336
+   },
+   {
+    "name": "Amorphous solid",
+    "level": 2,
+    "score": 0.6510699987411499
+   },
+   {
+    "name": "Materials science",
+    "level": 0,
+    "score": 0.5912623405456543
+   },
+   {
+    "name": "Chemical engineering",
+    "level": 1,
+    "score": 0.548117995262146
+   }
+  ],
+  "keywords": [
+   "Supercapacitor",
+   "Activated carbon",
+   "In situ",
+   "Amorphous solid",
+   "Materials science",
+   "Chemical engineering",
+   "Carbon fibers",
+   "Carbon skeleton"
+  ],
+  "abstract": "",
+  "vol": "522",
+  "issue": "",
+  "pages": "167546-167546"
+ },
+ {
   "id": "W4401502617",
   "doi": "https://doi.org/10.1016/j.ceramint.2024.08.187",
   "title": "Hierarchically decorated ZnO/CoO nanoparticles on carbon fabric for high energy–density and flexible supercapacitors",
@@ -16401,104 +16496,9 @@
   "pages": "43324-43333"
  },
  {
-  "id": "W4413490429",
-  "doi": "https://doi.org/10.1016/j.cej.2025.167546",
-  "title": "The construction of high-performance asymmetric supercapacitors by Bi-MOF-derived carbon skeleton with in situ activated Bi2O3/C and B-rGO/amorphous NiCoB",
-  "year": 2025,
-  "date": "2025-08-25",
-  "citations": 17,
-  "authors": [
-   {
-    "name": "Xin Sun",
-    "institution": "State Ethnic Affairs Commission"
-   },
-   {
-    "name": "Wu Shang",
-    "institution": "State Ethnic Affairs Commission"
-   },
-   {
-    "name": "Lihua Chen",
-    "institution": "State Ethnic Affairs Commission"
-   },
-   {
-    "name": "Qiyue Tong",
-    "institution": "State Ethnic Affairs Commission"
-   },
-   {
-    "name": "Lulu Han",
-    "institution": "Lanzhou University"
-   },
-   {
-    "name": "Pengfei Wan",
-    "institution": "Lanzhou University"
-   },
-   {
-    "name": "Yuzhi Sun",
-    "institution": "State Ethnic Affairs Commission"
-   },
-   {
-    "name": "Lihong V. Wang",
-    "institution": "State Ethnic Affairs Commission"
-   },
-   {
-    "name": "Quanlu Yang",
-    "institution": "Lanzhou University"
-   }
-  ],
-  "journal": "Chemical Engineering Journal",
-  "type": "article",
-  "oa": "closed",
-  "concepts": [
-   {
-    "name": "Supercapacitor",
-    "level": 4,
-    "score": 0.7655861377716064
-   },
-   {
-    "name": "Activated carbon",
-    "level": 3,
-    "score": 0.7193774580955505
-   },
-   {
-    "name": "In situ",
-    "level": 2,
-    "score": 0.7057485580444336
-   },
-   {
-    "name": "Amorphous solid",
-    "level": 2,
-    "score": 0.6510699987411499
-   },
-   {
-    "name": "Materials science",
-    "level": 0,
-    "score": 0.5912623405456543
-   },
-   {
-    "name": "Chemical engineering",
-    "level": 1,
-    "score": 0.548117995262146
-   }
-  ],
-  "keywords": [
-   "Supercapacitor",
-   "Activated carbon",
-   "In situ",
-   "Amorphous solid",
-   "Materials science",
-   "Chemical engineering",
-   "Carbon fibers",
-   "Carbon skeleton"
-  ],
-  "abstract": "",
-  "vol": "522",
-  "issue": "",
-  "pages": "167546-167546"
- },
- {
   "id": "W4401903844",
   "doi": "https://doi.org/10.1021/acsaem.4c01679",
-  "title": "High-Performance Flexible Asymmetric Supercapacitor Based on Nanostructured MnO<sub>2</sub> and Bi<sub>2</sub>O<sub>3</sub> Decorated 3D Carbon Nanotube Sponge in an Aqueous Gel-Electrolyte",
+  "title": "High-Performance Flexible Asymmetric Supercapacitor Based on Nanostructured MnO2 and Bi2O3 Decorated 3D Carbon Nanotube Sponge in an Aqueous Gel-Electrolyte",
   "year": 2024,
   "date": "2024-08-27",
   "citations": 16,
@@ -16676,23 +16676,23 @@
   "authors": [
    {
     "name": "Lakshmana Kumar Bommineedi",
-    "institution": "Visvesvaraya National Institute of Technology"
+    "institution": ""
    },
    {
     "name": "Tushar B. Deshmukh",
-    "institution": "Visvesvaraya National Institute of Technology"
+    "institution": ""
    },
    {
     "name": "Avinash C. Mendhe",
-    "institution": "Kyung Hee University"
+    "institution": ""
    },
    {
     "name": "Sachin R. Rondiya",
-    "institution": "Indian Institute of Science Bangalore"
+    "institution": ""
    },
    {
     "name": "Babasaheb R. Sankapal",
-    "institution": "Visvesvaraya National Institute of Technology"
+    "institution": ""
    }
   ],
   "journal": "Carbon Trends",
@@ -16751,7 +16751,7 @@
   "title": "Compressible CNT Ink-Wrapped Thermoplastic Polyurethane Sponge for Piezoresistive Sensing and Solar Steam Generation",
   "year": 2024,
   "date": "2024-12-04",
-  "citations": 5,
+  "citations": 6,
   "authors": [
    {
     "name": "Bingqiang Yan",
